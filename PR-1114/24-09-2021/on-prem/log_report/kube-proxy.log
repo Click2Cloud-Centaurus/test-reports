@@ -1,0 +1,365 @@
+I0924 12:41:16.038760    6057 registry.go:154] Registering EvenPodsSpread predicate and priority function
+I0924 12:41:16.038929    6057 registry.go:154] Registering EvenPodsSpread predicate and priority function
+I0924 12:41:16.076862    6057 registry.go:154] Registering EvenPodsSpread predicate and priority function
+I0924 12:41:16.076931    6057 registry.go:154] Registering EvenPodsSpread predicate and priority function
+I0924 12:41:16.102327    6057 flags.go:33] FLAG: --add-dir-header="false"
+I0924 12:41:16.102410    6057 flags.go:33] FLAG: --alsologtostderr="false"
+I0924 12:41:16.102422    6057 flags.go:33] FLAG: --application-metrics-count-limit="100"
+I0924 12:41:16.102439    6057 flags.go:33] FLAG: --azure-container-registry-config=""
+I0924 12:41:16.102452    6057 flags.go:33] FLAG: --bind-address="0.0.0.0"
+I0924 12:41:16.102465    6057 flags.go:33] FLAG: --boot-id-file="/proc/sys/kernel/random/boot_id"
+I0924 12:41:16.102476    6057 flags.go:33] FLAG: --cleanup="false"
+I0924 12:41:16.102489    6057 flags.go:33] FLAG: --cleanup-ipvs="true"
+I0924 12:41:16.102498    6057 flags.go:33] FLAG: --cloud-provider-gce-lb-src-cidrs="130.211.0.0/22,209.85.152.0/22,209.85.204.0/22,35.191.0.0/16"
+I0924 12:41:16.102515    6057 flags.go:33] FLAG: --cluster-cidr=""
+I0924 12:41:16.102524    6057 flags.go:33] FLAG: --config="/tmp/kube-proxy.yaml"
+I0924 12:41:16.102534    6057 flags.go:33] FLAG: --config-sync-period="15m0s"
+I0924 12:41:16.102547    6057 flags.go:33] FLAG: --conntrack-max-per-core="32768"
+I0924 12:41:16.102560    6057 flags.go:33] FLAG: --conntrack-min="131072"
+I0924 12:41:16.102570    6057 flags.go:33] FLAG: --conntrack-tcp-timeout-close-wait="1h0m0s"
+I0924 12:41:16.102580    6057 flags.go:33] FLAG: --conntrack-tcp-timeout-established="24h0m0s"
+I0924 12:41:16.102590    6057 flags.go:33] FLAG: --container-hints="/etc/cadvisor/container_hints.json"
+I0924 12:41:16.102601    6057 flags.go:33] FLAG: --containerd="/run/containerd/containerd.sock"
+I0924 12:41:16.102612    6057 flags.go:33] FLAG: --containerd-namespace="k8s.io"
+I0924 12:41:16.102621    6057 flags.go:33] FLAG: --default-not-ready-toleration-seconds="300"
+I0924 12:41:16.102631    6057 flags.go:33] FLAG: --default-unreachable-toleration-seconds="300"
+I0924 12:41:16.102641    6057 flags.go:33] FLAG: --docker="unix:///var/run/docker.sock"
+I0924 12:41:16.102658    6057 flags.go:33] FLAG: --docker-env-metadata-whitelist=""
+I0924 12:41:16.102669    6057 flags.go:33] FLAG: --docker-only="false"
+I0924 12:41:16.102679    6057 flags.go:33] FLAG: --docker-root="/var/lib/docker"
+I0924 12:41:16.102689    6057 flags.go:33] FLAG: --docker-tls="false"
+I0924 12:41:16.102698    6057 flags.go:33] FLAG: --docker-tls-ca="ca.pem"
+I0924 12:41:16.102707    6057 flags.go:33] FLAG: --docker-tls-cert="cert.pem"
+I0924 12:41:16.102717    6057 flags.go:33] FLAG: --docker-tls-key="key.pem"
+I0924 12:41:16.102727    6057 flags.go:33] FLAG: --enable-load-reader="false"
+I0924 12:41:16.102736    6057 flags.go:33] FLAG: --event-storage-age-limit="default=0"
+I0924 12:41:16.102746    6057 flags.go:33] FLAG: --event-storage-event-limit="default=0"
+I0924 12:41:16.102756    6057 flags.go:33] FLAG: --feature-gates=""
+I0924 12:41:16.102770    6057 flags.go:33] FLAG: --global-housekeeping-interval="1m0s"
+I0924 12:41:16.102780    6057 flags.go:33] FLAG: --healthz-bind-address="0.0.0.0:10256"
+I0924 12:41:16.102791    6057 flags.go:33] FLAG: --healthz-port="10256"
+I0924 12:41:16.102801    6057 flags.go:33] FLAG: --help="false"
+I0924 12:41:16.102811    6057 flags.go:33] FLAG: --hostname-override=""
+I0924 12:41:16.102820    6057 flags.go:33] FLAG: --housekeeping-interval="10s"
+I0924 12:41:16.102830    6057 flags.go:33] FLAG: --iptables-masquerade-bit="14"
+I0924 12:41:16.102839    6057 flags.go:33] FLAG: --iptables-min-sync-period="0s"
+I0924 12:41:16.102849    6057 flags.go:33] FLAG: --iptables-sync-period="30s"
+I0924 12:41:16.102862    6057 flags.go:33] FLAG: --ipvs-exclude-cidrs="[]"
+I0924 12:41:16.102889    6057 flags.go:33] FLAG: --ipvs-min-sync-period="0s"
+I0924 12:41:16.102899    6057 flags.go:33] FLAG: --ipvs-scheduler=""
+I0924 12:41:16.102932    6057 flags.go:33] FLAG: --ipvs-strict-arp="false"
+I0924 12:41:16.102943    6057 flags.go:33] FLAG: --ipvs-sync-period="30s"
+I0924 12:41:16.102953    6057 flags.go:33] FLAG: --kube-api-burst="10"
+I0924 12:41:16.102962    6057 flags.go:33] FLAG: --kube-api-content-type="application/vnd.kubernetes.protobuf"
+I0924 12:41:16.102974    6057 flags.go:33] FLAG: --kube-api-qps="5"
+I0924 12:41:16.102988    6057 flags.go:33] FLAG: --kubeconfig=""
+I0924 12:41:16.102997    6057 flags.go:33] FLAG: --log-backtrace-at=":0"
+I0924 12:41:16.103014    6057 flags.go:33] FLAG: --log-cadvisor-usage="false"
+I0924 12:41:16.103025    6057 flags.go:33] FLAG: --log-dir=""
+I0924 12:41:16.103034    6057 flags.go:33] FLAG: --log-file=""
+I0924 12:41:16.103043    6057 flags.go:33] FLAG: --log-file-max-size="1800"
+I0924 12:41:16.103053    6057 flags.go:33] FLAG: --log-flush-frequency="5s"
+I0924 12:41:16.103063    6057 flags.go:33] FLAG: --logtostderr="true"
+I0924 12:41:16.103072    6057 flags.go:33] FLAG: --machine-id-file="/etc/machine-id,/var/lib/dbus/machine-id"
+I0924 12:41:16.103084    6057 flags.go:33] FLAG: --masquerade-all="false"
+I0924 12:41:16.103100    6057 flags.go:33] FLAG: --master="https://master:6443"
+I0924 12:41:16.103111    6057 flags.go:33] FLAG: --metrics-bind-address="127.0.0.1:10249"
+I0924 12:41:16.103121    6057 flags.go:33] FLAG: --metrics-port="10249"
+I0924 12:41:16.103131    6057 flags.go:33] FLAG: --nodeport-addresses="[]"
+I0924 12:41:16.103146    6057 flags.go:33] FLAG: --oom-score-adj="-999"
+I0924 12:41:16.103156    6057 flags.go:33] FLAG: --profiling="false"
+I0924 12:41:16.103166    6057 flags.go:33] FLAG: --proxy-mode=""
+I0924 12:41:16.103179    6057 flags.go:33] FLAG: --proxy-port-range=""
+I0924 12:41:16.103191    6057 flags.go:33] FLAG: --resource-container="/kube-proxy"
+I0924 12:41:16.103201    6057 flags.go:33] FLAG: --skip-headers="false"
+I0924 12:41:16.103211    6057 flags.go:33] FLAG: --skip-log-headers="false"
+I0924 12:41:16.103221    6057 flags.go:33] FLAG: --stderrthreshold="2"
+I0924 12:41:16.103230    6057 flags.go:33] FLAG: --storage-driver-buffer-duration="1m0s"
+I0924 12:41:16.103240    6057 flags.go:33] FLAG: --storage-driver-db="cadvisor"
+I0924 12:41:16.103250    6057 flags.go:33] FLAG: --storage-driver-host="localhost:8086"
+I0924 12:41:16.103260    6057 flags.go:33] FLAG: --storage-driver-password="root"
+I0924 12:41:16.103270    6057 flags.go:33] FLAG: --storage-driver-secure="false"
+I0924 12:41:16.103279    6057 flags.go:33] FLAG: --storage-driver-table="stats"
+I0924 12:41:16.103289    6057 flags.go:33] FLAG: --storage-driver-user="root"
+I0924 12:41:16.103298    6057 flags.go:33] FLAG: --tenant-server-kubeconfig=""
+I0924 12:41:16.103311    6057 flags.go:33] FLAG: --udp-timeout="250ms"
+I0924 12:41:16.103322    6057 flags.go:33] FLAG: --update-machine-info-interval="5m0s"
+I0924 12:41:16.103332    6057 flags.go:33] FLAG: --v="3"
+I0924 12:41:16.103342    6057 flags.go:33] FLAG: --version="false"
+I0924 12:41:16.103356    6057 flags.go:33] FLAG: --vmodule=""
+I0924 12:41:16.103366    6057 flags.go:33] FLAG: --write-config-to=""
+I0924 12:41:16.104977    6057 feature_gate.go:216] feature gates: &{map[AllAlpha:false BalanceAttachedNodeVolumes:false BoundServiceAccountTokenVolume:false CSIInlineVolume:false CSIMigration:false CSIMigrationAWS:false CSIMigrationAzureDisk:false CSIMigrationAzureFile:false CSIMigrationGCE:false CSIMigrationOpenStack:false CSINodeInfo:false CustomCPUCFSQuotaPeriod:false CustomResourceDefaulting:false DebugContainers:false DynamicAuditing:false ExpandCSIVolumes:false ExperimentalCriticalPodAnnotation:false HyperVContainer:false InPlacePodVerticalScaling:false LocalStorageCapacityIsolationFSQuotaMonitoring:false MandatoryArktosNetwork:true MountContainers:false NonPreemptingPriority:false PerNetworkServiceIPAlloc:false ProcMountType:false QOSReserved:false QPSDoubleGCController:false QPSDoubleRSController:false RemainingItemCount:false RemoveSelfLink:false RequestManagement:false ResourceLimitsPriorityFunction:false SCTPSupport:false ServerSideApply:false ServiceLoadBalancerFinalizer:false ServiceNodeExclusion:false TTLAfterFinished:false VolumePVCDataSource:false VolumeSnapshotDataSource:false WinDSR:false WinOverlay:false WindowsGMSA:false WorkloadInfoDefaulting:false]}
+I0924 12:41:16.114134    6057 iptables.go:610] couldn't get iptables-restore version; assuming it doesn't support --wait
+I0924 12:41:16.153177    6057 server_others.go:120] TenantPartitionKubeConfig not set. fall back to scale-up cluster.
+W0924 12:41:16.153318    6057 server_others.go:273] Flag proxy-mode="" unknown, assuming iptables proxy
+W0924 12:41:16.179502    6057 node.go:114] Failed to retrieve node info: nodes "master" not found
+I0924 12:41:16.179560    6057 server_others.go:167] Using iptables Proxier.
+W0924 12:41:16.179760    6057 proxier.go:317] invalid nodeIP, initializing kube-proxy with 127.0.0.1 as nodeIP
+W0924 12:41:16.179775    6057 proxier.go:322] clusterCIDR not specified, unable to distinguish between internal and external traffic
+I0924 12:41:16.179804    6057 proxier.go:358] minSyncPeriod: 0s, syncPeriod: 30s, burstSyncs: 2
+I0924 12:41:16.183183    6057 server.go:539] Version: v0.8.0
+I0924 12:41:16.199826    6057 server.go:555] Running in resource-only container "/kube-proxy"
+I0924 12:41:16.201245    6057 healthcheck.go:309] Starting goroutine for healthz on 0.0.0.0:10256
+I0924 12:41:16.201646    6057 server.go:675] getConntrackMax: using scaled conntrack-max-per-core
+I0924 12:41:16.201876    6057 conntrack.go:52] Setting nf_conntrack_max to 786432
+I0924 12:41:16.202184    6057 apiserverconfigmanager.go:100] NewAPIServerConfigManagerWithInformer instance pointer 0x0
+I0924 12:41:16.202294    6057 config.go:187] Starting service config controller
+I0924 12:41:16.202363    6057 controller_utils.go:1082] Waiting for caches to sync for service config controller
+I0924 12:41:16.202452    6057 config.go:96] Starting endpoints config controller
+I0924 12:41:16.202509    6057 controller_utils.go:1082] Waiting for caches to sync for endpoints config controller
+I0924 12:41:16.213785    6057 apiserverconfigmanager.go:185] Api server end points [[{Addresses:[{IP:192.168.2.110 Hostname: NodeName:<nil> TargetRef:nil}] NotReadyAddresses:[] Ports:[{Name:https Port:6443 Protocol:TCP}] ServiceGroupId:1}]]
+I0924 12:41:16.213906    6057 apiserverconfigmanager.go:192] Set first update api server to time 2021-09-24 12:41:46.213898054 +0000 UTC m=+30.350546759
+I0924 12:41:16.214016    6057 bounded_frequency_runner.go:170] sync-runner Loop running
+I0924 12:41:16.214047    6057 apiserverconfigmanager.go:155] Starting api server config manager
+I0924 12:41:16.214631    6057 reflector.go:218] Starting reflector *v1.Endpoints (15m0s) from k8s.io/client-go/informers/factory.go:145
+I0924 12:41:16.214699    6057 reflector.go:293] ListAndWatch *v1.Endpoints. filter bounds []. name k8s.io/client-go/informers/factory.go:145. Watch page size 0. resync period 15m0s
+I0924 12:41:16.221254    6057 reflector.go:218] Starting reflector *v1.Service (15m0s) from k8s.io/client-go/informers/factory.go:145
+I0924 12:41:16.221411    6057 reflector.go:293] ListAndWatch *v1.Service. filter bounds []. name k8s.io/client-go/informers/factory.go:145. Watch page size 0. resync period 15m0s
+I0924 12:41:16.226830    6057 endpoints.go:279] Setting endpoints for "system/default/kubernetes:https" to [192.168.2.110:6443]
+I0924 12:41:16.329112    6057 apiserverconfigmanager.go:166] Caches are synced for api server end points. [map[1:{Addresses:[{IP:192.168.2.110 Hostname: NodeName:<nil> TargetRef:nil}] NotReadyAddresses:[] Ports:[{Name:https Port:6443 Protocol:TCP}] ServiceGroupId:1}]]
+I0924 12:41:16.329462    6057 controller_utils.go:1089] Caches are synced for endpoints config controller
+I0924 12:41:16.329604    6057 config.go:103] Calling handler.OnEndpointsSynced()
+I0924 12:41:16.329514    6057 controller_utils.go:1089] Caches are synced for service config controller
+I0924 12:41:16.329864    6057 config.go:194] Calling handler.OnServiceSynced()
+I0924 12:41:16.330183    6057 proxier.go:680] Not syncing iptables until Services and Endpoints have been received from master
+I0924 12:41:16.330465    6057 service.go:358] Adding new service port "system/default/kubernetes:https" at 10.0.0.1:443/TCP
+I0924 12:41:16.330566    6057 proxier.go:702] Syncing iptables rules
+I0924 12:41:16.847904    6057 service.go:358] Adding new service port "system/kube-system/kube-dns:dns" at 10.0.0.10:53/UDP
+I0924 12:41:16.847997    6057 service.go:358] Adding new service port "system/kube-system/kube-dns:dns-tcp" at 10.0.0.10:53/TCP
+I0924 12:41:16.848054    6057 proxier.go:702] Syncing iptables rules
+I0924 12:41:16.917332    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:41:32.216536    6057 service.go:358] Adding new service port "system/kube-system/kube-dns-default:dns" at 10.0.0.147:53/UDP
+I0924 12:41:32.216665    6057 service.go:358] Adding new service port "system/kube-system/kube-dns-default:dns-tcp" at 10.0.0.147:53/TCP
+I0924 12:41:32.216719    6057 service.go:358] Adding new service port "system/kube-system/kube-dns-default:metrics" at 10.0.0.147:9153/TCP
+I0924 12:41:32.216843    6057 proxier.go:702] Syncing iptables rules
+I0924 12:41:32.362965    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:41:32.517876    6057 service.go:358] Adding new service port "system/default/kubernetes-default:https" at 10.0.0.161:443/TCP
+I0924 12:41:32.517979    6057 proxier.go:702] Syncing iptables rules
+I0924 12:41:32.631570    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:41:32.708062    6057 proxier.go:702] Syncing iptables rules
+I0924 12:41:32.796907    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:41:32.797182    6057 proxier.go:702] Syncing iptables rules
+I0924 12:41:32.998250    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:41:47.446838    6057 endpoints.go:159] No change on endpoints map[]
+I0924 12:41:47.576089    6057 endpoints.go:159] No change on endpoints map[]
+I0924 12:41:48.389010    6057 endpoints.go:159] No change on endpoints map[]
+I0924 12:41:48.389093    6057 endpoints.go:159] No change on endpoints map[]
+I0924 12:42:02.998846    6057 proxier.go:702] Syncing iptables rules
+I0924 12:42:03.113121    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:42:33.224872    6057 proxier.go:702] Syncing iptables rules
+I0924 12:42:34.369857    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:43:04.428492    6057 proxier.go:702] Syncing iptables rules
+I0924 12:43:05.274249    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:43:35.331572    6057 proxier.go:702] Syncing iptables rules
+I0924 12:43:36.069452    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:44:06.077790    6057 proxier.go:702] Syncing iptables rules
+I0924 12:44:07.725339    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:44:37.982095    6057 proxier.go:702] Syncing iptables rules
+I0924 12:44:40.568229    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:45:10.654408    6057 proxier.go:702] Syncing iptables rules
+I0924 12:45:12.751601    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:45:42.822041    6057 proxier.go:702] Syncing iptables rules
+I0924 12:45:43.816539    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:46:13.883795    6057 proxier.go:702] Syncing iptables rules
+I0924 12:46:15.007843    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:46:45.026084    6057 proxier.go:702] Syncing iptables rules
+I0924 12:46:46.429279    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:47:16.443156    6057 proxier.go:702] Syncing iptables rules
+I0924 12:47:18.880417    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:47:49.285785    6057 proxier.go:702] Syncing iptables rules
+I0924 12:47:50.634935    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:48:20.794199    6057 proxier.go:702] Syncing iptables rules
+I0924 12:48:22.535724    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:48:52.582073    6057 proxier.go:702] Syncing iptables rules
+I0924 12:48:57.391168    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:49:27.391835    6057 proxier.go:702] Syncing iptables rules
+I0924 12:49:28.010465    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:49:58.269355    6057 proxier.go:702] Syncing iptables rules
+I0924 12:49:59.422393    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:50:29.442348    6057 proxier.go:702] Syncing iptables rules
+I0924 12:50:30.354554    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:51:00.429318    6057 proxier.go:702] Syncing iptables rules
+I0924 12:51:01.549554    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:51:31.549803    6057 proxier.go:702] Syncing iptables rules
+I0924 12:51:32.415645    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:52:02.462035    6057 proxier.go:702] Syncing iptables rules
+I0924 12:52:03.925166    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:52:34.019844    6057 proxier.go:702] Syncing iptables rules
+I0924 12:52:34.889341    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:53:04.987955    6057 proxier.go:702] Syncing iptables rules
+I0924 12:53:05.732231    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:53:35.732750    6057 proxier.go:702] Syncing iptables rules
+I0924 12:53:37.309578    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:54:07.312762    6057 proxier.go:702] Syncing iptables rules
+I0924 12:54:07.750047    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:54:37.750621    6057 proxier.go:702] Syncing iptables rules
+I0924 12:54:37.947239    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:55:07.947723    6057 proxier.go:702] Syncing iptables rules
+I0924 12:55:08.039485    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:55:38.039991    6057 proxier.go:702] Syncing iptables rules
+I0924 12:55:38.138144    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:56:08.219064    6057 proxier.go:702] Syncing iptables rules
+I0924 12:56:09.314234    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:56:16.290613    6057 endpoints.go:159] No change on endpoints map[]
+I0924 12:56:16.290801    6057 endpoints.go:279] Setting endpoints for "system/default/kubernetes:https" to [192.168.2.110:6443]
+I0924 12:56:16.290971    6057 endpoints.go:279] Setting endpoints for "system/default/kubernetes:https" to [192.168.2.110:6443]
+I0924 12:56:16.291016    6057 endpoints.go:159] No change on endpoints map[system/default/kubernetes:https:[192.168.2.110:6443]]
+I0924 12:56:16.291552    6057 endpoints.go:159] No change on endpoints map[]
+I0924 12:56:39.318012    6057 proxier.go:702] Syncing iptables rules
+I0924 12:56:40.031944    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:57:10.479965    6057 proxier.go:702] Syncing iptables rules
+I0924 12:57:11.418026    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:57:41.418609    6057 proxier.go:702] Syncing iptables rules
+I0924 12:57:41.779306    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:58:11.786934    6057 proxier.go:702] Syncing iptables rules
+I0924 12:58:12.458547    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:58:42.458876    6057 proxier.go:702] Syncing iptables rules
+I0924 12:58:43.454458    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:59:13.615487    6057 proxier.go:702] Syncing iptables rules
+I0924 12:59:14.582175    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 12:59:44.621587    6057 proxier.go:702] Syncing iptables rules
+I0924 12:59:45.440734    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:00:15.471796    6057 proxier.go:702] Syncing iptables rules
+I0924 13:00:16.426638    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:00:46.426916    6057 proxier.go:702] Syncing iptables rules
+I0924 13:00:46.848341    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:01:16.945600    6057 proxier.go:702] Syncing iptables rules
+I0924 13:01:17.892943    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:01:47.965443    6057 proxier.go:702] Syncing iptables rules
+I0924 13:01:48.743933    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:02:18.744418    6057 proxier.go:702] Syncing iptables rules
+I0924 13:02:20.018576    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:02:50.127445    6057 proxier.go:702] Syncing iptables rules
+I0924 13:02:52.206599    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:03:22.208239    6057 proxier.go:702] Syncing iptables rules
+I0924 13:03:22.979791    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:03:52.984799    6057 proxier.go:702] Syncing iptables rules
+I0924 13:03:54.158142    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:04:24.172830    6057 proxier.go:702] Syncing iptables rules
+I0924 13:04:25.284222    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:04:55.326281    6057 proxier.go:702] Syncing iptables rules
+I0924 13:04:56.746122    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:05:26.748518    6057 proxier.go:702] Syncing iptables rules
+I0924 13:05:27.453705    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:05:57.595533    6057 proxier.go:702] Syncing iptables rules
+I0924 13:05:58.432834    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:06:28.433091    6057 proxier.go:702] Syncing iptables rules
+I0924 13:06:28.517765    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:06:58.587942    6057 proxier.go:702] Syncing iptables rules
+I0924 13:06:59.334350    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:07:29.335034    6057 proxier.go:702] Syncing iptables rules
+I0924 13:07:29.398843    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:07:59.399532    6057 proxier.go:702] Syncing iptables rules
+I0924 13:07:59.536552    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:08:29.537199    6057 proxier.go:702] Syncing iptables rules
+I0924 13:08:29.620967    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:08:59.621615    6057 proxier.go:702] Syncing iptables rules
+I0924 13:09:00.422295    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:09:30.426165    6057 proxier.go:702] Syncing iptables rules
+I0924 13:09:31.711046    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:10:01.719190    6057 proxier.go:702] Syncing iptables rules
+I0924 13:10:02.342434    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:10:32.374950    6057 proxier.go:702] Syncing iptables rules
+I0924 13:10:34.013122    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:11:04.014717    6057 proxier.go:702] Syncing iptables rules
+I0924 13:11:04.796811    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:11:16.302520    6057 endpoints.go:279] Setting endpoints for "system/default/kubernetes:https" to [192.168.2.110:6443]
+I0924 13:11:16.302700    6057 endpoints.go:279] Setting endpoints for "system/default/kubernetes:https" to [192.168.2.110:6443]
+I0924 13:11:16.302746    6057 endpoints.go:159] No change on endpoints map[system/default/kubernetes:https:[192.168.2.110:6443]]
+I0924 13:11:16.302822    6057 endpoints.go:159] No change on endpoints map[]
+I0924 13:11:16.302869    6057 endpoints.go:159] No change on endpoints map[]
+I0924 13:11:34.797666    6057 proxier.go:702] Syncing iptables rules
+I0924 13:11:35.960125    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:12:05.983455    6057 proxier.go:702] Syncing iptables rules
+I0924 13:12:07.050923    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:12:37.087996    6057 proxier.go:702] Syncing iptables rules
+I0924 13:12:39.038009    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:13:09.072805    6057 proxier.go:702] Syncing iptables rules
+I0924 13:13:10.443606    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:13:40.633258    6057 proxier.go:702] Syncing iptables rules
+I0924 13:13:41.766751    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:14:11.864153    6057 proxier.go:702] Syncing iptables rules
+I0924 13:14:12.662989    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:14:42.692089    6057 proxier.go:702] Syncing iptables rules
+I0924 13:14:44.009853    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:15:14.106345    6057 proxier.go:702] Syncing iptables rules
+I0924 13:15:15.350661    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:15:45.390977    6057 proxier.go:702] Syncing iptables rules
+I0924 13:15:46.856923    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:16:16.945131    6057 proxier.go:702] Syncing iptables rules
+I0924 13:16:17.940338    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:16:47.962831    6057 proxier.go:702] Syncing iptables rules
+I0924 13:16:49.631879    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:17:19.645016    6057 proxier.go:702] Syncing iptables rules
+I0924 13:17:21.263161    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:17:51.273471    6057 proxier.go:702] Syncing iptables rules
+I0924 13:17:52.553025    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:18:22.632670    6057 proxier.go:702] Syncing iptables rules
+I0924 13:18:24.392911    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:18:54.394927    6057 proxier.go:702] Syncing iptables rules
+I0924 13:18:55.250945    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:19:25.251304    6057 proxier.go:702] Syncing iptables rules
+I0924 13:19:25.446561    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:19:55.898304    6057 proxier.go:702] Syncing iptables rules
+I0924 13:19:57.088627    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:20:27.088710    6057 proxier.go:702] Syncing iptables rules
+I0924 13:20:27.180403    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:20:57.180886    6057 proxier.go:702] Syncing iptables rules
+I0924 13:20:57.256053    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:21:27.256610    6057 proxier.go:702] Syncing iptables rules
+I0924 13:21:27.322242    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:21:57.322709    6057 proxier.go:702] Syncing iptables rules
+I0924 13:21:57.396074    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:22:27.410740    6057 proxier.go:702] Syncing iptables rules
+I0924 13:22:29.198618    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:22:59.263842    6057 proxier.go:702] Syncing iptables rules
+I0924 13:23:01.324510    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:23:31.329648    6057 proxier.go:702] Syncing iptables rules
+I0924 13:23:32.388481    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:24:02.388689    6057 proxier.go:702] Syncing iptables rules
+I0924 13:24:04.042817    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:24:34.058070    6057 proxier.go:702] Syncing iptables rules
+I0924 13:24:36.252434    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:25:06.253265    6057 proxier.go:702] Syncing iptables rules
+I0924 13:25:07.258124    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:25:37.337500    6057 proxier.go:702] Syncing iptables rules
+I0924 13:25:41.137059    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:26:11.180791    6057 proxier.go:702] Syncing iptables rules
+I0924 13:26:12.266689    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:26:16.402604    6057 endpoints.go:159] No change on endpoints map[]
+I0924 13:26:16.402721    6057 endpoints.go:159] No change on endpoints map[]
+I0924 13:26:16.402960    6057 endpoints.go:279] Setting endpoints for "system/default/kubernetes:https" to [192.168.2.110:6443]
+I0924 13:26:16.403281    6057 endpoints.go:279] Setting endpoints for "system/default/kubernetes:https" to [192.168.2.110:6443]
+I0924 13:26:16.403340    6057 endpoints.go:159] No change on endpoints map[system/default/kubernetes:https:[192.168.2.110:6443]]
+I0924 13:26:42.266945    6057 proxier.go:702] Syncing iptables rules
+I0924 13:26:44.692827    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:27:14.812205    6057 proxier.go:702] Syncing iptables rules
+I0924 13:27:16.061196    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:27:46.065687    6057 proxier.go:702] Syncing iptables rules
+I0924 13:27:46.361872    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:28:16.372266    6057 proxier.go:702] Syncing iptables rules
+I0924 13:28:17.615386    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:28:47.625626    6057 proxier.go:702] Syncing iptables rules
+I0924 13:28:48.913377    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:29:19.057065    6057 proxier.go:702] Syncing iptables rules
+I0924 13:29:20.186949    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:29:50.208357    6057 proxier.go:702] Syncing iptables rules
+I0924 13:29:50.817224    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:30:20.991407    6057 proxier.go:702] Syncing iptables rules
+I0924 13:30:22.121071    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:30:52.121480    6057 proxier.go:702] Syncing iptables rules
+I0924 13:30:53.170445    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:31:23.171771    6057 proxier.go:702] Syncing iptables rules
+I0924 13:31:24.287410    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:31:54.287985    6057 proxier.go:702] Syncing iptables rules
+I0924 13:31:55.163883    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:32:25.164215    6057 proxier.go:702] Syncing iptables rules
+I0924 13:32:25.509094    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:32:55.509554    6057 proxier.go:702] Syncing iptables rules
+I0924 13:32:55.637497    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:33:25.672941    6057 proxier.go:702] Syncing iptables rules
+I0924 13:33:25.788835    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:33:55.789244    6057 proxier.go:702] Syncing iptables rules
+I0924 13:33:55.849268    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s
+I0924 13:34:25.849709    6057 proxier.go:702] Syncing iptables rules
+I0924 13:34:25.921099    6057 bounded_frequency_runner.go:221] sync-runner: ran, next possible in 0s, periodic in 30s

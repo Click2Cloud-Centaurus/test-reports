@@ -1,0 +1,1589 @@
+Oct  6 05:18:13 amittestubuntu1804 keyboard-setup.sh[544]: cannot open file /run/tmpkbd.DT80fg
+Oct  6 05:18:13 amittestubuntu1804 systemd-modules-load[577]: Inserted module 'iscsi_tcp'
+Oct  6 05:18:13 amittestubuntu1804 systemd-modules-load[577]: Inserted module 'ib_iser'
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Create list of required static device nodes for the current kernel.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Mounted POSIX Message Queue File System.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Uncomplicated firewall.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Load Kernel Modules.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Mounted Kernel Debug File System.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Mounted Huge Pages File System.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Remount Root and Kernel File Systems.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started LVM2 metadata daemon.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Load/Save Random Seed...
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Mounting Kernel Configuration File System...
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Apply Kernel Variables...
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Mounting FUSE Control File System...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] Linux version 5.4.0-1053-gcp (buildd@lcy01-amd64-007) (gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)) #57~18.04.1-Ubuntu SMP Sun Sep 12 22:52:33 UTC 2021 (Ubuntu 5.4.0-1053.57~18.04.1-gcp 5.4.140)
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Create Static Device Nodes in /dev...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-1053-gcp root=LABEL=cloudimg-rootfs ro console=ttyS0
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] KERNEL supported cpus:
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000]   Intel GenuineIntel
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000]   AMD AuthenticAMD
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000]   Hygon HygonGenuine
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000]   Centaur CentaurHauls
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000]   zhaoxin   Shanghai  
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started udev Coldplug all Devices.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Load/Save Random Seed.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Mounted Kernel Configuration File System.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Apply Kernel Variables.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Mounted FUSE Control File System.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] BIOS-provided physical RAM map:
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x0000000000000fff] reserved
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Create Static Device Nodes in /dev.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000001000-0x0000000000054fff] usable
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000055000-0x000000000005ffff] reserved
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000060000-0x0000000000097fff] usable
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000098000-0x000000000009ffff] reserved
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000be8eefff] usable
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] BIOS-e820: [mem 0x00000000be8ef000-0x00000000beb6efff] reserved
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting udev Kernel Device Manager...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] BIOS-e820: [mem 0x00000000beb6f000-0x00000000beb7efff] ACPI data
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] BIOS-e820: [mem 0x00000000beb7f000-0x00000000bebfefff] ACPI NVS
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] BIOS-e820: [mem 0x00000000bebff000-0x00000000bffdffff] usable
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started udev Kernel Device Manager.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] BIOS-e820: [mem 0x00000000bffe0000-0x00000000bfffffff] reserved
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000103fffffff] usable
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] NX (Execute Disable) protection: active
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] efi: EFI v2.70 by EDK II
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] efi:  TPMFinalLog=0xbebf7000  ACPI=0xbeb7e000  ACPI 2.0=0xbeb7e014  SMBIOS=0xbe9cd000  MEMATTR=0xbd5d6118  TPMEventLog=0xbd569018 
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Flush Journal to Persistent Storage.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] secureboot: Secure boot disabled
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Set the console keyboard layout.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] SMBIOS 2.4 present.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] DMI: Google Google Compute Engine/Google Compute Engine, BIOS Google 01/01/2011
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] Hypervisor detected: KVM
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] kvm-clock: cpu 0, msr 103c201001, primary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000000] kvm-clock: using sched offset of 9464957767 cycles
+Oct  6 05:18:13 amittestubuntu1804 systemd-udevd[617]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000005] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000015] tsc: Detected 2199.998 MHz processor
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000100] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000101] e820: remove [mem 0x000a0000-0x000fffff] usable
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000108] last_pfn = 0x1040000 max_arch_pfn = 0x400000000
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000147] MTRR default type: write-back
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000148] MTRR fixed ranges enabled:
+Oct  6 05:18:13 amittestubuntu1804 systemd-udevd[644]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000149]   00000-9FFFF write-back
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000151]   A0000-FFFFF uncachable
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000151] MTRR variable ranges enabled:
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000152]   0 base 0000C0000000 mask 3FFFC0000000 uncachable
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Found device /dev/ttyS0.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000153]   1 disabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000153]   2 disabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000154]   3 disabled
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000154]   4 disabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000155]   5 disabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000155]   6 disabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000155]   7 disabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000168] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.000178] last_pfn = 0xbffe0 max_arch_pfn = 0x400000000
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.014950] check: Scanning 1 areas for low memory corruption
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.014995] Using GB pages for direct mapping
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015330] secureboot: Secure boot disabled
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Reached target Local Encrypted Volumes.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015335] RAMDISK: [mem 0x3b09b000-0x3d48ffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015345] ACPI: Early table checksum verification disabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015354] ACPI: RSDP 0x00000000BEB7E014 000024 (v02 Google)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015358] ACPI: XSDT 0x00000000BEB7D0E8 00005C (v01 Google GOOGFACP 00000001      01000013)
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Reached target Local File Systems (Pre).
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015364] ACPI: FACP 0x00000000BEB78000 0000F4 (v02 Google GOOGFACP 00000001 GOOG 00000001)
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Found device PersistentDisk UEFI.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015371] ACPI: DSDT 0x00000000BEB79000 0018BA (v01 Google GOOGDSDT 00000001 GOOG 00000001)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015375] ACPI: FACS 0x00000000BEBF2000 000040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015379] ACPI: SSDT 0x00000000BEB7C000 000316 (v02 GOOGLE Tpm2Tabl 00001000 INTL 20160527)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015383] ACPI: TPM2 0x00000000BEB7B000 000034 (v04 GOOGLE          00000001 GOOG 00000001)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015387] ACPI: SRAT 0x00000000BEB77000 0001A8 (v03 Google GOOGSRAT 00000001 GOOG 00000001)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015391] ACPI: APIC 0x00000000BEB76000 0000E6 (v05 Google GOOGAPIC 00000001 GOOG 00000001)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015394] ACPI: SSDT 0x00000000BEB75000 000ECE (v01 Google GOOGSSDT 00000001 GOOG 00000001)
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting File System Check on /dev/disk/by-label/UEFI...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015398] ACPI: WAET 0x00000000BEB74000 000028 (v01 Google GOOGWAET 00000001 GOOG 00000001)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015401] ACPI: Reserving FACP table memory at [mem 0xbeb78000-0xbeb780f3]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015403] ACPI: Reserving DSDT table memory at [mem 0xbeb79000-0xbeb7a8b9]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015403] ACPI: Reserving FACS table memory at [mem 0xbebf2000-0xbebf203f]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015404] ACPI: Reserving SSDT table memory at [mem 0xbeb7c000-0xbeb7c315]
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started File System Check Daemon to report status.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015405] ACPI: Reserving TPM2 table memory at [mem 0xbeb7b000-0xbeb7b033]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015407] ACPI: Reserving SRAT table memory at [mem 0xbeb77000-0xbeb771a7]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015408] ACPI: Reserving APIC table memory at [mem 0xbeb76000-0xbeb760e5]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015409] ACPI: Reserving SSDT table memory at [mem 0xbeb75000-0xbeb75ecd]
+Oct  6 05:18:13 amittestubuntu1804 systemd-fsck[721]: fsck.fat 4.1 (2017-01-24)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015410] ACPI: Reserving WAET table memory at [mem 0xbeb74000-0xbeb74027]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015430] ACPI: Local APIC address 0xfee00000
+Oct  6 05:18:13 amittestubuntu1804 systemd-fsck[721]: /dev/sda15: 11 files, 8921/213716 clusters
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015524] SRAT: PXM 0 -> APIC 0x00 -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015525] SRAT: PXM 0 -> APIC 0x01 -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015526] SRAT: PXM 0 -> APIC 0x02 -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015527] SRAT: PXM 0 -> APIC 0x03 -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015527] SRAT: PXM 0 -> APIC 0x04 -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015528] SRAT: PXM 0 -> APIC 0x05 -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015529] SRAT: PXM 0 -> APIC 0x06 -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started File System Check on /dev/disk/by-label/UEFI.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015530] SRAT: PXM 0 -> APIC 0x07 -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015530] SRAT: PXM 0 -> APIC 0x08 -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Mounting /boot/efi...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015531] SRAT: PXM 0 -> APIC 0x09 -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015532] SRAT: PXM 0 -> APIC 0x0a -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015533] SRAT: PXM 0 -> APIC 0x0b -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015533] SRAT: PXM 0 -> APIC 0x0c -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015534] SRAT: PXM 0 -> APIC 0x0d -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015535] SRAT: PXM 0 -> APIC 0x0e -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Mounted /boot/efi.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015536] SRAT: PXM 0 -> APIC 0x0f -> Node 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015539] ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0x0009ffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015540] ACPI: SRAT: Node 0 PXM 0 [mem 0x00100000-0xbfffffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015541] ACPI: SRAT: Node 0 PXM 0 [mem 0x100000000-0x103fffffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015544] NUMA: Node 0 [mem 0x00000000-0x0009ffff] + [mem 0x00100000-0xbfffffff] -> [mem 0x00000000-0xbfffffff]
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Reached target Local File Systems.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015545] NUMA: Node 0 [mem 0x00000000-0xbfffffff] + [mem 0x100000000-0x103fffffff] -> [mem 0x00000000-0x103fffffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.015555] NODE_DATA(0) allocated [mem 0x103ffd5000-0x103fffffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.016228] Zone ranges:
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.016229]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.016231]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Set console font and keymap...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.016232]   Normal   [mem 0x0000000100000000-0x000000103fffffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.016233]   Device   empty
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting ebtables ruleset management...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.016234] Movable zone start for each node
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.016237] Early memory node ranges
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.016238]   node   0: [mem 0x0000000000001000-0x0000000000054fff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.016239]   node   0: [mem 0x0000000000060000-0x0000000000097fff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.016240]   node   0: [mem 0x0000000000100000-0x00000000be8eefff]
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting AppArmor initialization...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.016241]   node   0: [mem 0x00000000bebff000-0x00000000bffdffff]
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Create Volatile Files and Directories...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.016242]   node   0: [mem 0x0000000100000000-0x000000103fffffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.017108] Zeroed struct page in unavailable ranges: 932 pages
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Commit a transient machine-id on disk...
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Set console font and keymap.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Create Volatile Files and Directories.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Commit a transient machine-id on disk.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Oct  6 05:18:13 amittestubuntu1804 apparmor[733]:  * Starting AppArmor profiles
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started ebtables ruleset management.
+Oct  6 05:18:13 amittestubuntu1804 apparmor[733]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.017109] Initmem setup node 0 [mem 0x0000000000001000-0x000000103fffffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.017112] On node 0 totalpages: 16776284
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.017113]   DMA zone: 64 pages used for memmap
+Oct  6 05:18:13 amittestubuntu1804 apparmor[733]:    ...done.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.017113]   DMA zone: 3118 pages reserved
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.017114]   DMA zone: 3980 pages, LIFO batch:0
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started AppArmor initialization.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.017164]   DMA32 zone: 12212 pages used for memmap
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.017164]   DMA32 zone: 781520 pages, LIFO batch:63
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.036015]   Normal zone: 249856 pages used for memmap
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.036017]   Normal zone: 15990784 pages, LIFO batch:63
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412174] ACPI: PM-Timer IO Port: 0xb008
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Load AppArmor profiles managed internally by snapd...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412179] ACPI: Local APIC address 0xfee00000
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412210] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412281] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412285] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412286] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412288] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412289] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412291] ACPI: IRQ5 used by override.
+Oct  6 05:18:13 amittestubuntu1804 snapd-apparmor[776]: find: ‘/var/lib/snapd/apparmor/profiles/’: No such file or directory
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412292] ACPI: IRQ9 used by override.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412293] ACPI: IRQ10 used by override.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412293] ACPI: IRQ11 used by override.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412296] Using ACPI (MADT) for SMP configuration information
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412303] smpboot: Allowing 16 CPUs, 0 hotplug CPUs
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Initial cloud-init job (pre-networking)...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412335] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Load AppArmor profiles managed internally by snapd.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412336] PM: Registered nosave memory: [mem 0x00055000-0x0005ffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412338] PM: Registered nosave memory: [mem 0x00098000-0x0009ffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412339] PM: Registered nosave memory: [mem 0x000a0000-0x000fffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412340] PM: Registered nosave memory: [mem 0xbe8ef000-0xbeb6efff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412341] PM: Registered nosave memory: [mem 0xbeb6f000-0xbeb7efff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412342] PM: Registered nosave memory: [mem 0xbeb7f000-0xbebfefff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412343] PM: Registered nosave memory: [mem 0xbffe0000-0xbfffffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412344] PM: Registered nosave memory: [mem 0xc0000000-0xffffffff]
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[781]: Cloud-init v. 21.2-3-g899bfaa9-0ubuntu2~18.04.1 running 'init-local' at Wed, 06 Oct 2021 05:18:08 +0000. Up 7.90 seconds.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412346] [mem 0xc0000000-0xffffffff] available for PCI devices
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412349] Booting paravirtualized kernel on KVM
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412355] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.412362] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:16 nr_cpu_ids:16 nr_node_ids:1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.413627] percpu: Embedded 54 pages/cpu s184320 r8192 d28672 u262144
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Initial cloud-init job (pre-networking).
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.413634] pcpu-alloc: s184320 r8192 d28672 u262144 alloc=1*2097152
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.413635] pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15 
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.413666] kvm-stealtime: cpu 0, msr 103fa2c040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.413672] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.413682] Built 1 zonelists, mobility grouping on.  Total pages: 16511034
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Reached target Network (Pre).
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.413683] Policy zone: Normal
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.413684] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-1053-gcp root=LABEL=cloudimg-rootfs ro console=ttyS0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.430755] Dentry cache hash table entries: 8388608 (order: 14, 67108864 bytes, linear)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.439137] Inode-cache hash table entries: 4194304 (order: 13, 33554432 bytes, linear)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.439425] mem auto-init: stack:off, heap alloc:off, heap free:off
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.448880] Calgary: detecting Calgary via BIOS EBDA area
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.448881] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.590107] Memory: 65766812K/67105136K available (14339K kernel code, 2396K rwdata, 4932K rodata, 2688K init, 5016K bss, 1338324K reserved, 0K cma-reserved)
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Network Service...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.590122] random: get_random_u64 called from __kmem_cache_create+0x41/0x550 with crng_init=0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.590723] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=16, Nodes=1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.590743] Kernel/User page tables isolation: enabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.590764] ftrace: allocating 44728 entries in 175 pages
+Oct  6 05:18:13 amittestubuntu1804 systemd-networkd[807]: Enumeration completed
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.609357] rcu: Hierarchical RCU implementation.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.609361] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=16.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Network Service.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.609362] 	Tasks RCU enabled.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.609363] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.609364] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=16
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.611971] NR_IRQS: 524544, nr_irqs: 552, preallocated irqs: 16
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.612219] random: crng done (trusting CPU's manufacturer)
+Oct  6 05:18:13 amittestubuntu1804 systemd-networkd[807]: ens4: IPv6 successfully enabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.612257] Console: colour dummy device 80x25
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.812423] printk: console [ttyS0] enabled
+Oct  6 05:18:13 amittestubuntu1804 systemd-networkd[807]: lo: Link is not managed by us
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.813056] ACPI: Core revision 20190816
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.813825] APIC: Switch to symmetric I/O mode setup
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.815072] x2apic enabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.818820] Switched APIC routing to physical x2apic.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.824483] ..TIMER: vector=0x30 apic1=0 pin1=0 apic2=-1 pin2=-1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.825790] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x1fb63109b96, max_idle_ns: 440795265316 ns
+Oct  6 05:18:13 amittestubuntu1804 systemd-networkd[807]: ens4: Link UP
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.827474] Calibrating delay loop (skipped) preset value.. 4399.99 BogoMIPS (lpj=8799992)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.828708] pid_max: default: 32768 minimum: 301
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.833394] LSM: Security Framework initializing
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.834496] Yama: becoming mindful.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Network Name Resolution...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.835093] AppArmor: AppArmor initialized
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.836032] Mount-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.837457] Mountpoint-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.839951] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.840753] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.841772] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.843023] Spectre V2 : Mitigation: Full generic retpoline
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.843473] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Oct  6 05:18:13 amittestubuntu1804 systemd-networkd[807]: ens4: Gained carrier
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.844610] Spectre V2 : Enabling Restricted Speculation for firmware calls
+Oct  6 05:18:13 amittestubuntu1804 systemd-networkd[807]: ens4: DHCPv4 address 10.128.0.41/32 via 10.128.0.1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.845618] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.846847] Spectre V2 : User space: Mitigation: STIBP via seccomp and prctl
+Oct  6 05:18:13 amittestubuntu1804 systemd-networkd[807]: Not connected to system bus, not setting hostname.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.847472] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.848778] TAA: Mitigation: Clear CPU buffers
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.849411] MDS: Mitigation: Clear CPU buffers
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.850331] Freeing SMP alternatives memory: 40K
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Wait for Network to be Configured...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.961921] smpboot: CPU0: Intel(R) Xeon(R) CPU @ 2.20GHz (family: 0x6, model: 0x4f, stepping: 0x0)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.963470] Performance Events: unsupported p6 CPU model 79 no PMU driver, software events only.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.963470] rcu: Hierarchical SRCU implementation.
+Oct  6 05:18:13 amittestubuntu1804 systemd-networkd-wait-online[846]: ignoring: lo
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.964909] NMI watchdog: Perf NMI watchdog permanently disabled
+Oct  6 05:18:13 amittestubuntu1804 systemd-resolved[837]: Positive Trust Anchors:
+Oct  6 05:18:13 amittestubuntu1804 systemd-resolved[837]: . IN DS 19036 8 2 49aac11d7b6f6446702e54a1607371607a1a41855200fd2ce1cdde32f24e8fb5
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.966493] smp: Bringing up secondary CPUs ...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.967609] x86: Booting SMP configuration:
+Oct  6 05:18:13 amittestubuntu1804 systemd-resolved[837]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.968220] .... node  #0, CPUs:        #1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 1, msr 103c201041, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 systemd-resolved[837]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.969699] kvm-stealtime: cpu 1, msr 103fa6c040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.971604]   #2
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 2, msr 103c201081, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.972472] kvm-stealtime: cpu 2, msr 103faac040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.973268]   #3
+Oct  6 05:18:13 amittestubuntu1804 systemd-resolved[837]: Using system hostname 'ubuntu'.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 3, msr 103c2010c1, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Network Name Resolution.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.975613] kvm-stealtime: cpu 3, msr 103faec040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.977249]   #4
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 4, msr 103c201101, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.977249] kvm-stealtime: cpu 4, msr 103fb2c040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.979601]   #5
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 5, msr 103c201141, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Reached target Host and Network Name Lookups.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.980425] kvm-stealtime: cpu 5, msr 103fb6c040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.983556]   #6
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 6, msr 103c201181, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.984317] kvm-stealtime: cpu 6, msr 103fbac040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.985142]   #7
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Reached target Network.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 7, msr 103c2011c1, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.985142] kvm-stealtime: cpu 7, msr 103fbec040
+Oct  6 05:18:13 amittestubuntu1804 systemd-networkd[807]: ens4: Gained IPv6LL
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.987618]   #8
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 8, msr 103c201201, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.988644] kvm-stealtime: cpu 8, msr 103fc2c040
+Oct  6 05:18:13 amittestubuntu1804 systemd-networkd[807]: ens4: Configured
+Oct  6 05:18:13 amittestubuntu1804 systemd-networkd-wait-online[846]: ignoring: lo
+Oct  6 05:18:13 amittestubuntu1804 systemd-networkd-wait-online[846]: managing: ens4
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Started Wait for Network to be Configured.
+Oct  6 05:18:13 amittestubuntu1804 systemd[1]: Starting Initial cloud-init job (metadata service crawler)...
+Oct  6 05:18:13 amittestubuntu1804 systemd-resolved[837]: System hostname changed to 'amittestubuntu1804'.
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: Cloud-init v. 21.2-3-g899bfaa9-0ubuntu2~18.04.1 running 'init' at Wed, 06 Oct 2021 05:18:11 +0000. Up 10.20 seconds.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.991629] MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.995478] TAA CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/tsx_async_abort.html for more details.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.999639]   #9
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 9, msr 103c201241, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: +--------+------+---------------------------+-----------------+--------+-------------------+
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.000541] kvm-stealtime: cpu 9, msr 103fc6c040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.001334]  #10
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 10, msr 103c201281, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.004060] kvm-stealtime: cpu 10, msr 103fcac040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.006430]  #11
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: | Device |  Up  |          Address          |       Mask      | Scope  |     Hw-Address    |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 11, msr 103c2012c1, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.008107] kvm-stealtime: cpu 11, msr 103fcec040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.009305]  #12
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 12, msr 103c201301, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.009305] kvm-stealtime: cpu 12, msr 103fd2c040
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: +--------+------+---------------------------+-----------------+--------+-------------------+
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.011619]  #13
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 13, msr 103c201341, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: |  ens4  | True |        10.128.0.41        | 255.255.255.255 | global | 42:01:0a:80:00:29 |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.012512] kvm-stealtime: cpu 13, msr 103fd6c040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.015612]  #14
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 14, msr 103c201381, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.016439] kvm-stealtime: cpu 14, msr 103fdac040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.017278]  #15
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    0.207304] kvm-clock: cpu 15, msr 103c2013c1, secondary cpu clock
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: |  ens4  | True | fe80::4001:aff:fe80:29/64 |        .        |  link  | 42:01:0a:80:00:29 |
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: |   lo   | True |         127.0.0.1         |    255.0.0.0    |  host  |         .         |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.019756] kvm-stealtime: cpu 15, msr 103fdec040
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.021366] smp: Brought up 1 node, 16 CPUs
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.021366] smpboot: Max logical packages: 1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.023475] smpboot: Total of 16 processors activated (70399.93 BogoMIPS)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.028060] devtmpfs: initialized
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.028107] x86/mm: Memory block size: 1024MB
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.029744] PM: Registering ACPI NVS region [mem 0xbeb7f000-0xbebfefff] (524288 bytes)
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: |   lo   | True |          ::1/128          |        .        |  host  |         .         |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.031588] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.033260] futex hash table entries: 4096 (order: 6, 262144 bytes, linear)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.034341] pinctrl core: initialized pinctrl subsystem
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.035631] PM: RTC time: 05:18:01, date: 2021-10-06
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.036720] NET: Registered protocol family 16
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.037915] audit: initializing netlink subsys (disabled)
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: +--------+------+---------------------------+-----------------+--------+-------------------+
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.038808] audit: type=2000 audit(1633497481.401:1): state=initialized audit_enabled=0 res=1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.039484] EISA bus registered
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: +++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.041688] cpuidle: using governor ladder
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.042355] cpuidle: using governor menu
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.043723] ACPI: bus type PCI registered
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.044555] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.045862] PCI: Using configuration type 1 for base access
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: +-------+-------------+------------+-----------------+-----------+-------+
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.049008] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.049008] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: | Route | Destination |  Gateway   |     Genmask     | Interface | Flags |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.051971] ACPI: Added _OSI(Module Device)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.052316] ACPI: Added _OSI(Processor Device)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.053174] ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.055474] ACPI: Added _OSI(Processor Aggregator Device)
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: +-------+-------------+------------+-----------------+-----------+-------+
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.056226] ACPI: Added _OSI(Linux-Dell-Video)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.057070] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.057814] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.060974] ACPI: 3 ACPI AML tables successfully acquired and loaded
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.064251] ACPI: Interpreter enabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.064925] ACPI: (supports S0 S3 S4 S5)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.065638] ACPI: Using IOAPIC for interrupt routing
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: |   0   |   0.0.0.0   | 10.128.0.1 |     0.0.0.0     |    ens4   |   UG  |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.066816] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: |   1   |  10.128.0.1 |  0.0.0.0   | 255.255.255.255 |    ens4   |   UH  |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.067758] ACPI: Enabled 16 GPEs in block 00 to 0F
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.073975] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.074972] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI HPX-Type3]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.075490] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.078462] PCI host bridge to bus 0000:00
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: +-------+-------------+------------+-----------------+-----------+-------+
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.079475] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.080529] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.081476] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.083474] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfefff window]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.084620] pci_bus 0000:00: root bus resource [bus 00-ff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.085457] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.089834] pci 0000:00:01.0: [8086:7110] type 00 class 0x060100
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.114668] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.141181] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.144364] pci 0000:00:03.0: [1af4:1004] type 00 class 0x000000
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.155482] pci 0000:00:03.0: reg 0x10: [io  0xc040-0xc07f]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.163479] pci 0000:00:03.0: reg 0x14: [mem 0xc0001000-0xc000107f]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.184102] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.193684] pci 0000:00:04.0: reg 0x10: [io  0xc000-0xc03f]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.207480] pci 0000:00:04.0: reg 0x14: [mem 0xc0000000-0xc00001ff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.233637] pci 0000:00:05.0: [1af4:1002] type 00 class 0x00ff00
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.242776] pci 0000:00:05.0: reg 0x10: [io  0xc0a0-0xc0bf]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.275508] pci 0000:00:06.0: [1af4:1005] type 00 class 0x00ff00
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.287480] pci 0000:00:06.0: reg 0x10: [io  0xc080-0xc09f]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.295481] pci 0000:00:06.0: reg 0x14: [mem 0xc0002000-0xc000203f]
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: |   1   |  fe80::/64  |    ::   |    ens4   |   U   |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.325816] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.327586] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.331591] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.335598] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.338633] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.343514] iommu: Default domain type: Translated 
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: |   3   |    local    |    ::   |    ens4   |   U   |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.343691] SCSI subsystem initialized
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.344475] libata version 3.00 loaded.
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: |   4   |  multicast  |    ::   |    ens4   |   U   |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.344475] vgaarb: loaded
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.344475] ACPI: bus type USB registered
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.344910] usbcore: registered new interface driver usbfs
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.347481] usbcore: registered new interface driver hub
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.348988] usbcore: registered new device driver usb
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.350859] pps_core: LinuxPPS API ver. 1 registered
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.351473] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.355484] PTP clock support registered
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.356864] EDAC MC: Ver: 3.0.0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.359506] Registered efivars operations
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.360527] PCI: Using ACPI for IRQ routing
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.360966] PCI: pci_cache_line_size set to 64 bytes
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.361098] e820: reserve RAM buffer [mem 0x00055000-0x0005ffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.361099] e820: reserve RAM buffer [mem 0x00098000-0x0009ffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.361100] e820: reserve RAM buffer [mem 0xbe8ef000-0xbfffffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.361101] e820: reserve RAM buffer [mem 0xbffe0000-0xbfffffff]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.361211] NetLabel: Initializing
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.362052] NetLabel:  domain hash size = 128
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.363473] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.365153] NetLabel:  unlabeled traffic allowed by default
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.367636] clocksource: Switched to clocksource kvm-clock
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.383215] VFS: Disk quotas dquot_6.6.0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.385049] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.387938] AppArmor: AppArmor Filesystem Enabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.389578] pnp: PnP ACPI init
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.390530] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.390609] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.390663] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.390726] pnp 00:03: Plug and Play ACPI device, IDs PNP0501 (active)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.390774] pnp 00:04: Plug and Play ACPI device, IDs PNP0501 (active)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.390824] pnp 00:05: Plug and Play ACPI device, IDs PNP0501 (active)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.390871] pnp 00:06: Plug and Play ACPI device, IDs PNP0501 (active)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.391116] pnp: PnP ACPI: found 7 devices
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.393891] thermal_sys: Registered thermal governor 'fair_share'
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.393892] thermal_sys: Registered thermal governor 'bang_bang'
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.395222] thermal_sys: Registered thermal governor 'step_wise'
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.396701] thermal_sys: Registered thermal governor 'user_space'
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.398147] thermal_sys: Registered thermal governor 'power_allocator'
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.403854] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.408462] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.410055] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.412056] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.413911] pci_bus 0000:00: resource 7 [mem 0xc0000000-0xfebfefff window]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.415602] NET: Registered protocol family 2
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.418826] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.422639] tcp_listen_portaddr_hash hash table entries: 32768 (order: 7, 524288 bytes, linear)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.425272] TCP established hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.429211] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.432170] TCP: Hash tables configured (established 524288 bind 65536)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.433411] UDP hash table entries: 32768 (order: 8, 1048576 bytes, linear)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.435387] UDP-Lite hash table entries: 32768 (order: 8, 1048576 bytes, linear)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.438121] NET: Registered protocol family 1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.440278] NET: Registered protocol family 44
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.441494] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.443281] PCI: CLS 0 bytes, default 64
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: Generating public/private rsa key pair.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    1.444372] Trying to unpack rootfs image as initramfs...
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.052443] Freeing initrd memory: 36820K
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.054092] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.055383] software IO TLB: mapped [mem 0xb6ff7000-0xbaff7000] (64MB)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.056720] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x1fb63109b96, max_idle_ns: 440795265316 ns
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.059944] clocksource: Switched to clocksource tsc
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.061337] check: Scanning for low memory corruption every 60 seconds
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.063409] Initialise system trusted keyrings
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.064353] Key type blacklist registered
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.065855] workingset: timestamp_bits=36 max_order=24 bucket_order=0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.069016] zbud: loaded
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: The key fingerprint is:
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.069898] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.071663] fuse: init (API version 7.31)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.072988] Platform Keyring initialized
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.077264] Key type asymmetric registered
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: SHA256:IPodMcpBzLiSdgylyiU/yHKi/WgXwngPtyCkwa3o+wU root@amittestubuntu1804
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.078385] Asymmetric key parser 'x509' registered
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.080049] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 244)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.081812] io scheduler mq-deadline registered
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.083804] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: The key's randomart image is:
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.086391] intel_idle: Please enable MWAIT in BIOS SETUP
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.086482] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.088611] ACPI: Power Button [PWRF]
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: +---[RSA 2048]----+
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.089247] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.090675] ACPI: Sleep Button [SLPF]
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.094724] PCI Interrupt Link [LNKC] enabled at IRQ 11
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.096708] virtio-pci 0000:00:03.0: virtio_pci: leaving for legacy driver
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.104547] PCI Interrupt Link [LNKD] enabled at IRQ 10
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |  .=.            |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.106369] virtio-pci 0000:00:04.0: virtio_pci: leaving for legacy driver
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: | .o.o            |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.114376] PCI Interrupt Link [LNKA] enabled at IRQ 10
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.116035] virtio-pci 0000:00:05.0: virtio_pci: leaving for legacy driver
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.123078] PCI Interrupt Link [LNKB] enabled at IRQ 11
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.124798] virtio-pci 0000:00:06.0: virtio_pci: leaving for legacy driver
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.138743] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.162916] 00:03: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.187679] 00:04: ttyS1 at I/O 0x2f8 (irq = 3, base_baud = 115200) is a 16550A
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |.++oo +          |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.212797] 00:05: ttyS2 at I/O 0x3e8 (irq = 6, base_baud = 115200) is a 16550A
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.236224] 00:06: ttyS3 at I/O 0x2e8 (irq = 7, base_baud = 115200) is a 16550A
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.240413] Linux agpgart interface v0.103
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.252313] tpm_tis MSFT0101:00: 2.0 TPM (device-id 0x9009, rev-id 0)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.399582] loop: module loaded
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |B+** + +         |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.420405] scsi host0: Virtio SCSI HBA
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |OO=Eo . S        |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.428084] scsi 0:0:1:0: Direct-Access     Google   PersistentDisk   1    PQ: 0 ANSI: 6
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.430551] libphy: Fixed MDIO Bus: probed
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.431593] tun: Universal TUN/TAP device driver, 1.6
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.433941] PPP generic driver version 2.4.2
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.435441] VFIO - User Level meta-driver version: 0.3
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.437305] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |B=*.=. .         |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.439756] ehci-pci: EHCI PCI platform driver
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |oo.*.+.          |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.441743] ehci-platform: EHCI generic platform driver
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.443425] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.445091] ohci-pci: OHCI PCI platform driver
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.446240] ohci-platform: OHCI generic platform driver
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.447819] uhci_hcd: USB Universal Host Controller Interface driver
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: | ..o=            |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.450141] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.452187] i8042: Warning: Keylock active
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.455606] serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.458764] serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.460702] mousedev: PS/2 mouse device common for all mice
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: | o+o.            |
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.463670] rtc_cmos 00:00: RTC can wake from S4
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.465428] rtc_cmos 00:00: registered as rtc0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.466662] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: +----[SHA256]-----+
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.469031] i2c /dev entries driver
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.470101] device-mapper: uevent: version 1.0.3
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.470200] scsi 0:0:1:0: Attached scsi generic sg0 type 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.471459] device-mapper: ioctl: 4.41.0-ioctl (2019-09-16) initialised: dm-devel@redhat.com
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.473390] sd 0:0:1:0: [sda] 314572800 512-byte logical blocks: (161 GB/150 GiB)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.475633] platform eisa.0: Probing EISA bus 0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.477463] sd 0:0:1:0: [sda] 4096-byte physical blocks
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.478444] platform eisa.0: EISA: Cannot allocate resource for mainboard
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.479808] sd 0:0:1:0: [sda] Write Protect is off
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.481464] platform eisa.0: Cannot allocate resource for EISA slot 1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.482717] sd 0:0:1:0: [sda] Mode Sense: 1f 00 00 08
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.484592] platform eisa.0: Cannot allocate resource for EISA slot 2
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.484683] sd 0:0:1:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.486126] platform eisa.0: Cannot allocate resource for EISA slot 3
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.488872] platform eisa.0: Cannot allocate resource for EISA slot 4
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.489846] platform eisa.0: Cannot allocate resource for EISA slot 5
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.490716] platform eisa.0: Cannot allocate resource for EISA slot 6
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.495352] GPT:Primary header thinks Alt. header is not at the end of the disk.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.498673] platform eisa.0: Cannot allocate resource for EISA slot 7
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.500915] GPT:4612095 != 314572799
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.502232] platform eisa.0: Cannot allocate resource for EISA slot 8
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.504298] GPT:Alternate GPT header not at the end of the disk.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.504299] GPT:4612095 != 314572799
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.504300] GPT: Use GNU Parted to correct GPT errors.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.504310]  sda: sda1 sda14 sda15
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.506944] platform eisa.0: EISA: Detected 0 cards
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.513692] intel_pstate: CPU model not supported
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.516007] ledtrig-cpu: registered to indicate activity on CPUs
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.517474] EFI Variables Facility v0.08 2004-May-17
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.524596] drop_monitor: Initializing network drop monitor service
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.526662] NET: Registered protocol family 10
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.534354] Segment Routing with IPv6
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.535393] NET: Registered protocol family 17
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.536279] sd 0:0:1:0: [sda] Attached SCSI disk
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.536902] Key type dns_resolver registered
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.541464] RAS: Correctable Errors collector initialized.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.543083] IPI shorthand broadcast: enabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.544040] sched_clock: Marking stable (2340709987, 203304142)->(2547231218, -3217089)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.546611] registered taskstats version 1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.547698] Loading compiled-in X.509 certificates
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.549941] Loaded X.509 cert 'Build time autogenerated kernel key: 3b1f79e2dba4d69582f133c796e8f7eaf094c9e3'
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.552829] Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.556212] Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.557988] zswap: loaded using pool lzo/zbud
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.559354] Key type ._fscrypt registered
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.560206] Key type .fscrypt registered
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.565537] Key type big_key registered
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.566448] Key type trusted registered
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.568984] Key type encrypted registered
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.570445] AppArmor: AppArmor sha1 policy hashing enabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.572322] integrity: Loading X.509 certificate: UEFI:db
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.573456] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.575982] integrity: Loading X.509 certificate: UEFI:db
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.577410] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.580454] integrity: Loading X.509 certificate: UEFI:MokListRT
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.581791] integrity: Loaded X.509 cert 'Canonical Ltd. Master Certificate Authority: ad91990bc22ab1f517048c23b6655a268e345a63'
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.585640] ima: Allocated hash algorithm: sha1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.625070] ima: No architecture policies found
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.626426] evm: Initialising EVM extended attributes:
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.628040] evm: security.selinux
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.628998] evm: security.SMACK64
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.629900] evm: security.SMACK64EXEC
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.631081] evm: security.SMACK64TRANSMUTE
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.632388] evm: security.SMACK64MMAP
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.633340] evm: security.apparmor
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.633981] evm: security.ima
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.634606] evm: security.capability
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.635780] evm: HMAC attrs: 0x1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.636656] PM:   Magic number: 9:274:314
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.637718] rtc_cmos 00:00: setting system clock to 2021-10-06T05:18:03 UTC (1633497483)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.644428] Freeing unused decrypted memory: 2040K
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.646573] Freeing unused kernel image memory: 2688K
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.655537] Write protecting the kernel read-only data: 22528k
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.657581] Freeing unused kernel image memory: 2008K
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.659395] Freeing unused kernel image memory: 1212K
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.664019] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.669003] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.670164] x86/mm: Checking user space page tables
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.679507] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.680745] Run /init as init process
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.750945] piix4_smbus 0000:00:01.3: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.771045] cryptd: max_cpu_qlen set to 1000
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.814331] AVX2 version of gcm_enc/dec engaged.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.815499] AES CTR mode by8 optimization enabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    2.918863] virtio_net virtio1 ens4: renamed from eth0
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    3.617297] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.155485] raid6: avx2x4   gen() 25342 MB/s
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.203483] raid6: avx2x4   xor() 16207 MB/s
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.251486] raid6: avx2x2   gen() 22531 MB/s
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.299484] raid6: avx2x2   xor() 14465 MB/s
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.347483] raid6: avx2x1   gen() 17329 MB/s
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.395484] raid6: avx2x1   xor() 13171 MB/s
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.443487] raid6: sse2x4   gen() 10300 MB/s
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.491485] raid6: sse2x4   xor()  6599 MB/s
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.539483] raid6: sse2x2   gen()  9358 MB/s
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.587486] raid6: sse2x2   xor()  6196 MB/s
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.635485] raid6: sse2x1   gen()  8136 MB/s
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.683502] raid6: sse2x1   xor()  4862 MB/s
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.684470] raid6: using algorithm avx2x4 gen() 25342 MB/s
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.685561] raid6: .... xor() 16207 MB/s, rmw enabled
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.686441] raid6: using avx2x2 recovery algorithm
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.688770] xor: automatically using best checksumming function   avx       
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.691047] async_tx: api initialized (async)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.742256] Btrfs loaded, crc32c=crc32c-intel
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    4.819913] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.359770] systemd[1]: systemd 237 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.363830] systemd[1]: Detected virtualization kvm.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.364731] systemd[1]: Detected architecture x86-64.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.400566] systemd[1]: Set hostname to <ubuntu>.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.403680] systemd[1]: Initializing machine ID from KVM UUID.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.404632] systemd[1]: Installed transient /etc/machine-id file.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.623186] systemd[1]: Reached target User and Group Name Lookups.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.626979] systemd[1]: Created slice System Slice.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.639759] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.651779] systemd[1]: Listening on Network Service Netlink Socket.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.956751] Loading iSCSI transport class v2.0-870.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.968079] iscsi: registered transport (tcp)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.989255] EXT4-fs (sda1): re-mounted. Opts: (null)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    5.994830] iscsi: registered transport (iser)
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    6.280340] systemd-journald[549]: Received request to flush runtime journal from PID 1
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    6.474536] RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    6.927955] audit: type=1400 audit(1633497487.787:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=775 comm="apparmor_parser"
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    6.985743] audit: type=1400 audit(1633497487.843:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=768 comm="apparmor_parser"
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    6.986111] audit: type=1400 audit(1633497487.843:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=768 comm="apparmor_parser"
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    6.986486] audit: type=1400 audit(1633497487.843:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=768 comm="apparmor_parser"
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    7.004066] audit: type=1400 audit(1633497487.863:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/chronyd" pid=771 comm="apparmor_parser"
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    7.013203] audit: type=1400 audit(1633497487.871:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=774 comm="apparmor_parser"
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    7.082728] audit: type=1400 audit(1633497487.939:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=770 comm="apparmor_parser"
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    7.083115] audit: type=1400 audit(1633497487.939:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=770 comm="apparmor_parser"
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    7.083511] audit: type=1400 audit(1633497487.943:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=770 comm="apparmor_parser"
+Oct  6 05:18:13 amittestubuntu1804 kernel: [    7.083889] audit: type=1400 audit(1633497487.943:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=770 comm="apparmor_parser"
+Oct  6 05:18:13 amittestubuntu1804 kernel: [   10.935167] EXT4-fs (sda1): resizing filesystem from 548091 to 39293179 blocks
+Oct  6 05:18:13 amittestubuntu1804 kernel: [   11.282222] EXT4-fs (sda1): resized filesystem to 39293179
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: Generating public/private dsa key pair.
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: The key fingerprint is:
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: SHA256:wDaJVeumeyhp0eU/tvWy6Q5t2UGyaYGiqiTqFlhCiec root@amittestubuntu1804
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: The key's randomart image is:
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: +---[DSA 1024]----+
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |. .   ...        |
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |.o.  + . . .     |
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |.o  . * o . o .  |
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |. E  . =..   *   |
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |.o   ..oS   + .  |
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |..  ...o.  o o . |
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |. o .o.. .. = .  |
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |.+ .+ ... ++.o   |
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: |+... ... ..==o.  |
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: +----[SHA256]-----+
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: Generating public/private ecdsa key pair.
+Oct  6 05:18:13 amittestubuntu1804 cloud-init[864]: Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Oct  6 05:18:13 amittestubuntu1804 kernel: [   12.787454] bpfilter: Loaded bpfilter_umh pid 1122
+Oct  6 05:18:13 amittestubuntu1804 kernel: [   12.787868] Started bpfilter
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: The key fingerprint is:
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: SHA256:1zr/AW76A5wKgVxfVuIaVYp953HZn5q7NM8j3HjIfvY root@amittestubuntu1804
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: The key's randomart image is:
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: +---[ECDSA 256]---+
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |          ooo    |
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |      .  =oo    o|
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |   . o .oo+ . o.o|
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |    o . .o o o oo|
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |       .S...o ...|
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |      .  .+o .o  |
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |       . .o.===  |
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |        .  =o*=B |
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |          ..+*BoE|
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: +----[SHA256]-----+
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: Generating public/private ed25519 key pair.
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: Your identification has been saved in /etc/ssh/ssh_host_ed25519_key.
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub.
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: The key fingerprint is:
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: SHA256:Q9jeRGP/Lc6gTNDdrDxg1fvN3P8IwzhkbGfDB2roFJM root@amittestubuntu1804
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: The key's randomart image is:
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: +--[ED25519 256]--+
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |          + ..   |
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |       o = = o.  |
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |      . E = + o. |
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |       o X = +.. |
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |        S X X +++|
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |       o O * B .*|
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |        . = + o .|
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Started Initial cloud-init job (metadata service crawler).
+Oct  6 05:18:14 amittestubuntu1804 cron[1092]: (CRON) INFO (pidfile fd = 3)
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |           . o ..|
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: |              . o|
+Oct  6 05:18:14 amittestubuntu1804 cloud-init[864]: +----[SHA256]-----+
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Reached target System Initialization.
+Oct  6 05:18:14 amittestubuntu1804 rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.32.0]
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Listening on UUID daemon activation socket.
+Oct  6 05:18:14 amittestubuntu1804 rsyslogd: rsyslogd's groupid changed to 106
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct  6 05:18:14 amittestubuntu1804 rsyslogd: rsyslogd's userid changed to 102
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Started Message of the Day.
+Oct  6 05:18:14 amittestubuntu1804 rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="1074" x-info="http://www.rsyslog.com"] start
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct  6 05:18:14 amittestubuntu1804 cron[1092]: (CRON) INFO (Running @reboot jobs)
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Started Daily apt download activities.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Started Discard unused blocks once a week.
+Oct  6 05:18:14 amittestubuntu1804 networkd-dispatcher[1143]: No valid path found for iwconfig
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Started NSS cache refresh timer.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Listening on ACPID Listen Socket.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Started ACPI Events Check.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Reached target Paths.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Started Ubuntu Advantage update messaging.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Starting Socket activation for snappy daemon.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Starting LXD - unix socket.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Started Daily apt upgrade and clean activities.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Reached target Timers.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Reached target Cloud-config availability.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Reached target Network is Online.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Reached target Remote File Systems (Pre).
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Reached target Remote File Systems.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Starting Availability of block devices...
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Listening on Socket activation for snappy daemon.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Listening on LXD - unix socket.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Started Availability of block devices.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Reached target Sockets.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Reached target Basic System.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Starting LSB: automatic crash report generation...
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Starting LXD - container startup/shutdown...
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Starting Accounts Service...
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Starting System Logging Service...
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Started Regular background program processing daemon.
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Starting SSHGuard...
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Starting NSS cache refresh...
+Oct  6 05:18:14 amittestubuntu1804 systemd[1]: Started D-Bus System Message Bus.
+Oct  6 05:18:15 amittestubuntu1804 dbus-daemon[1167]: [system] AppArmor D-Bus mediation is enabled
+Oct  6 05:18:15 amittestubuntu1804 dbus-daemon[1167]: [system] Activating systemd to hand-off: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.0' (uid=100 pid=807 comm="/lib/systemd/systemd-networkd " label="unconfined")
+Oct  6 05:18:15 amittestubuntu1804 dbus-daemon[1167]: [system] Activating systemd to hand-off: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.3' (uid=0 pid=1053 comm="/usr/lib/accountsservice/accounts-daemon " label="unconfined")
+Oct  6 05:18:15 amittestubuntu1804 google_oslogin_nss_cache[1166]: oslogin_cache_refresh[1166]: Refreshing passwd entry cache
+Oct  6 05:18:15 amittestubuntu1804 oslogin_cache_refresh[1166]: Refreshing passwd entry cache
+Oct  6 05:18:15 amittestubuntu1804 google_oslogin_nss_cache[1166]: oslogin_cache_refresh[1166]: Refreshing group entry cache
+Oct  6 05:18:15 amittestubuntu1804 oslogin_cache_refresh[1166]: Refreshing group entry cache
+Oct  6 05:18:15 amittestubuntu1804 dbus-daemon[1167]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Oct  6 05:18:15 amittestubuntu1804 systemd[1]: Starting Login Service...
+Oct  6 05:18:16 amittestubuntu1804 systemd[1]: Starting Pollinate to seed the pseudo random number generator...
+Oct  6 05:18:16 amittestubuntu1804 pollinate[1218]: client sent challenge to [https://entropy.ubuntu.com/]
+Oct  6 05:18:17 amittestubuntu1804 pollinate[1218]: client verified challenge/response with [https://entropy.ubuntu.com/]
+Oct  6 05:18:17 amittestubuntu1804 pollinate[1218]: client hashed response from [https://entropy.ubuntu.com/]
+Oct  6 05:18:17 amittestubuntu1804 pollinate[1218]: client successfully seeded [/dev/urandom]
+Oct  6 05:18:17 amittestubuntu1804 systemd[1]: Starting LSB: Record successful boot for GRUB...
+Oct  6 05:18:18 amittestubuntu1804 systemd[1]: Started FUSE filesystem for LXC.
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]: mount namespace: 5
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]: hierarchies:
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]:   0: fd:   6: hugetlb
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]:   1: fd:   7: perf_event
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]:   2: fd:   8: cpuset
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]:   3: fd:   9: blkio
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]:   4: fd:  10: devices
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]:   5: fd:  11: net_cls,net_prio
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]:   6: fd:  12: cpu,cpuacct
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]:   7: fd:  13: freezer
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]:   8: fd:  14: rdma
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]:   9: fd:  15: pids
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]:  10: fd:  16: memory
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]:  11: fd:  17: name=systemd
+Oct  6 05:18:18 amittestubuntu1804 lxcfs[1290]:  12: fd:  18: unified
+Oct  6 05:18:18 amittestubuntu1804 kernel: [   17.488052] new mount options do not match the existing superblock, will be ignored
+Oct  6 05:18:19 amittestubuntu1804 systemd[1]: Started Deferred execution scheduler.
+Oct  6 05:18:19 amittestubuntu1804 systemd[1]: Starting Permit User Sessions...
+Oct  6 05:18:20 amittestubuntu1804 systemd[1]: Started Google OSConfig Agent.
+Oct  6 05:18:20 amittestubuntu1804 OSConfigAgent[1328]: 2021-10-06T05:18:20.4853Z OSConfigAgent Info: OSConfig Agent (version 20210219.00-0ubuntu1~18.04.0) started.
+Oct  6 05:18:20 amittestubuntu1804 systemd[1]: Starting chrony, an NTP client/server...
+Oct  6 05:18:20 amittestubuntu1804 chronyd[1391]: chronyd version 3.2 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SECHASH +SIGND +ASYNCDNS +IPV6 -DEBUG)
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Starting Snap Daemon...
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started System Logging Service.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started LXD - container startup/shutdown.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started SSHGuard.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started NSS cache refresh.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started Pollinate to seed the pseudo random number generator.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started Permit User Sessions.
+Oct  6 05:18:21 amittestubuntu1804 grub-common[1275]:  * Recording successful boot for GRUB
+Oct  6 05:18:21 amittestubuntu1804 sshguard-journalctl[1406]: Chain INPUT (policy ACCEPT)
+Oct  6 05:18:21 amittestubuntu1804 sshguard-journalctl[1406]: target     prot opt source               destination
+Oct  6 05:18:21 amittestubuntu1804 sshguard-journalctl[1406]: sshguard   all  --  0.0.0.0/0            0.0.0.0/0
+Oct  6 05:18:21 amittestubuntu1804 sshguard-journalctl[1406]: Chain FORWARD (policy ACCEPT)
+Oct  6 05:18:21 amittestubuntu1804 sshguard-journalctl[1406]: target     prot opt source               destination
+Oct  6 05:18:21 amittestubuntu1804 sshguard-journalctl[1406]: Chain OUTPUT (policy ACCEPT)
+Oct  6 05:18:21 amittestubuntu1804 sshguard-journalctl[1406]: target     prot opt source               destination
+Oct  6 05:18:21 amittestubuntu1804 sshguard-journalctl[1406]: Chain sshguard (1 references)
+Oct  6 05:18:21 amittestubuntu1804 sshguard-journalctl[1406]: target     prot opt source               destination
+Oct  6 05:18:21 amittestubuntu1804 apport[1027]:  * Starting automatic crash report generation: apport
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started chrony, an NTP client/server.
+Oct  6 05:18:21 amittestubuntu1804 apport[1027]:    ...done.
+Oct  6 05:18:21 amittestubuntu1804 grub-common[1275]:    ...done.
+Oct  6 05:18:21 amittestubuntu1804 snapd[1400]: AppArmor status: apparmor is enabled and all features are available
+Oct  6 05:18:21 amittestubuntu1804 snapd[1400]: daemon.go:248: started snapd/2.51.1+18.04 (series 16; classic) ubuntu/18.04 (amd64) linux/5.4.0-1053-gcp.
+Oct  6 05:18:21 amittestubuntu1804 snapd[1400]: daemon.go:341: adjusting startup timeout by 30s (pessimistic estimate of 30s plus 5s per snap)
+Oct  6 05:18:21 amittestubuntu1804 snapd[1400]: helpers.go:105: error trying to compare the snap system key: system-key missing on disk
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started Snap Daemon.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started LSB: automatic crash report generation.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started LSB: Record successful boot for GRUB.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started Login Service.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started Unattended Upgrades Shutdown.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Starting Authorization Manager...
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Starting Wait until snapd is fully seeded...
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Starting Hostname Service...
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Starting Terminate Plymouth Boot Screen...
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Starting Hold until boot process finishes up...
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Starting Google Compute Engine Shutdown Scripts...
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started Google Compute Engine Guest Agent.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Starting OpenBSD Secure Shell server...
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started Hold until boot process finishes up.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started Terminate Plymouth Boot Screen.
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started Google Compute Engine Shutdown Scripts.
+Oct  6 05:18:21 amittestubuntu1804 polkitd[1508]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct  6 05:18:21 amittestubuntu1804 dbus-daemon[1167]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct  6 05:18:21 amittestubuntu1804 systemd[1]: Started Serial Getty on ttyS0.
+Oct  6 05:18:21 amittestubuntu1804 accounts-daemon[1053]: started daemon version 0.6.45
+Oct  6 05:18:21 amittestubuntu1804 dbus-daemon[1167]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Oct  6 05:18:21 amittestubuntu1804 systemd-hostnamed[1516]: Changed host name to 'amittestubuntu1804.us-central1-a.c.click2cloud.internal'
+Oct  6 05:18:21 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T05:18:21.8439Z GCEGuestAgent Info: GCE Agent Started (version 20210414.00-0ubuntu1~18.04.0)
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Starting Set console scheme...
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Started Authorization Manager.
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Started Accounts Service.
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Started Hostname Service.
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Started Set console scheme.
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Created slice system-getty.slice.
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Started Getty on tty1.
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Reached target Login Prompts.
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Started OpenBSD Secure Shell server.
+Oct  6 05:18:22 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T05:18:22.5007Z GCEGuestAgent Info: Instance ID changed, running first-boot actions
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Stopping Login Service...
+Oct  6 05:18:22 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T05:18:22.5277Z GCEGuestAgent Info: Created google sudoers file
+Oct  6 05:18:22 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T05:18:22.5279Z GCEGuestAgent Info: Creating user demo.
+Oct  6 05:18:22 amittestubuntu1804 dhclient[1742]: Internet Systems Consortium DHCP Client 4.3.5
+Oct  6 05:18:22 amittestubuntu1804 dhclient[1742]: Copyright 2004-2016 Internet Systems Consortium.
+Oct  6 05:18:22 amittestubuntu1804 dhclient[1742]: All rights reserved.
+Oct  6 05:18:22 amittestubuntu1804 dhclient[1742]: For info, please visit https://www.isc.org/software/dhcp/
+Oct  6 05:18:22 amittestubuntu1804 dhclient[1742]: 
+Oct  6 05:18:22 amittestubuntu1804 dhclient[1742]: Listening on Socket/ens4
+Oct  6 05:18:22 amittestubuntu1804 dhclient[1742]: Sending on   Socket/ens4
+Oct  6 05:18:22 amittestubuntu1804 dhclient[1742]: Created duid "\000\001\000\001(\357\356\036B\001\012\200\000)".
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Stopped Login Service.
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Starting Login Service...
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Started Login Service.
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Stopping Regular background program processing daemon...
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Stopped Regular background program processing daemon.
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Started Regular background program processing daemon.
+Oct  6 05:18:22 amittestubuntu1804 cron[1812]: (CRON) INFO (pidfile fd = 3)
+Oct  6 05:18:22 amittestubuntu1804 cron[1812]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Stopping OpenBSD Secure Shell server...
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Stopped OpenBSD Secure Shell server.
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Starting OpenBSD Secure Shell server...
+Oct  6 05:18:22 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T05:18:22.7546Z GCEGuestAgent Info: Updating keys for user demo.
+Oct  6 05:18:22 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T05:18:22.7550Z GCEGuestAgent Info: Creating user c2c_gce.
+Oct  6 05:18:22 amittestubuntu1804 systemd[1]: Started OpenBSD Secure Shell server.
+Oct  6 05:18:22 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T05:18:22.9760Z GCEGuestAgent Info: Updating keys for user c2c_gce.
+Oct  6 05:18:22 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T05:18:22.9763Z GCEGuestAgent Info: Creating user test.
+Oct  6 05:18:23 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T05:18:23.2002Z GCEGuestAgent Info: Updating keys for user test.
+Oct  6 05:18:23 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T05:18:23.2004Z GCEGuestAgent Info: Adding existing user root to google-sudoers group.
+Oct  6 05:18:23 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T05:18:23.2144Z GCEGuestAgent Info: Updating keys for user root.
+Oct  6 05:18:23 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T05:18:23.2147Z GCEGuestAgent Info: Creating user pravin.
+Oct  6 05:18:23 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T05:18:23.4345Z GCEGuestAgent Info: Updating keys for user pravin.
+Oct  6 05:18:26 amittestubuntu1804 systemd[1]: Reloading.
+Oct  6 05:18:26 amittestubuntu1804 systemd[1]: Reloading.
+Oct  6 05:18:26 amittestubuntu1804 systemd[1]: Mounting Mount unit for snapd, revision 13170...
+Oct  6 05:18:26 amittestubuntu1804 systemd[1]: Mounted Mount unit for snapd, revision 13170.
+Oct  6 05:18:27 amittestubuntu1804 kernel: [   26.179664] kauditd_printk_skb: 6 callbacks suppressed
+Oct  6 05:18:27 amittestubuntu1804 kernel: [   26.179666] audit: type=1400 audit(1633497507.040:18): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/13170/usr/lib/snapd/snap-confine" pid=2481 comm="apparmor_parser"
+Oct  6 05:18:27 amittestubuntu1804 kernel: [   26.179877] audit: type=1400 audit(1633497507.040:19): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/13170/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2481 comm="apparmor_parser"
+Oct  6 05:18:27 amittestubuntu1804 snapd[1400]: daemon.go:508: gracefully waiting for running hooks
+Oct  6 05:18:27 amittestubuntu1804 snapd[1400]: daemon.go:510: done waiting for running hooks
+Oct  6 05:18:28 amittestubuntu1804 systemd[1]: snapd.service: Service hold-off time over, scheduling restart.
+Oct  6 05:18:28 amittestubuntu1804 systemd[1]: snapd.service: Scheduled restart job, restart counter is at 1.
+Oct  6 05:18:28 amittestubuntu1804 systemd[1]: Stopped Snap Daemon.
+Oct  6 05:18:28 amittestubuntu1804 systemd[1]: Starting Snap Daemon...
+Oct  6 05:18:28 amittestubuntu1804 snapd[2520]: AppArmor status: apparmor is enabled and all features are available
+Oct  6 05:18:29 amittestubuntu1804 snapd[2520]: AppArmor status: apparmor is enabled and all features are available
+Oct  6 05:18:29 amittestubuntu1804 snapd[2520]: patch.go:63: Patching system state level 6 to sublevel 1...
+Oct  6 05:18:29 amittestubuntu1804 snapd[2520]: patch.go:63: Patching system state level 6 to sublevel 2...
+Oct  6 05:18:29 amittestubuntu1804 snapd[2520]: patch.go:63: Patching system state level 6 to sublevel 3...
+Oct  6 05:18:29 amittestubuntu1804 snapd[2520]: daemon.go:248: started snapd/2.51.7 (series 16; classic) ubuntu/18.04 (amd64) linux/5.4.0-1053-gcp.
+Oct  6 05:18:29 amittestubuntu1804 snapd[2520]: daemon.go:341: adjusting startup timeout by 35s (pessimistic estimate of 30s plus 5s per snap)
+Oct  6 05:18:29 amittestubuntu1804 kernel: [   28.581409] audit: type=1400 audit(1633497509.440:20): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/13170/usr/lib/snapd/snap-confine" pid=2588 comm="apparmor_parser"
+Oct  6 05:18:29 amittestubuntu1804 kernel: [   28.603607] audit: type=1400 audit(1633497509.464:21): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/13170/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2588 comm="apparmor_parser"
+Oct  6 05:18:29 amittestubuntu1804 systemd[1]: Started Snap Daemon.
+Oct  6 05:18:29 amittestubuntu1804 chronyd[1391]: Selected source 69.89.207.199
+Oct  6 05:18:30 amittestubuntu1804 systemd[1]: Reloading.
+Oct  6 05:18:30 amittestubuntu1804 systemd[1]: Reloading.
+Oct  6 05:18:30 amittestubuntu1804 systemd[1]: Mounting Mount unit for core18, revision 2128...
+Oct  6 05:18:30 amittestubuntu1804 systemd[1]: Mounted Mount unit for core18, revision 2128.
+Oct  6 05:18:32 amittestubuntu1804 systemd[1]: Reloading.
+Oct  6 05:18:32 amittestubuntu1804 systemd[1]: Reloading.
+Oct  6 05:18:32 amittestubuntu1804 systemd[1]: Mounting Mount unit for google-cloud-sdk, revision 200...
+Oct  6 05:18:32 amittestubuntu1804 systemd[1]: Mounted Mount unit for google-cloud-sdk, revision 200.
+Oct  6 05:18:32 amittestubuntu1804 kernel: [   32.130587] audit: type=1400 audit(1633497512.737:22): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.google-cloud-sdk.anthoscli" pid=3020 comm="apparmor_parser"
+Oct  6 05:18:32 amittestubuntu1804 kernel: [   32.131272] audit: type=1400 audit(1633497512.740:23): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.google-cloud-sdk.kubectl" pid=3025 comm="apparmor_parser"
+Oct  6 05:18:32 amittestubuntu1804 kernel: [   32.132029] audit: type=1400 audit(1633497512.740:24): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.google-cloud-sdk.bq" pid=3021 comm="apparmor_parser"
+Oct  6 05:18:32 amittestubuntu1804 kernel: [   32.132366] audit: type=1400 audit(1633497512.740:25): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.google-cloud-sdk.gcloud" pid=3023 comm="apparmor_parser"
+Oct  6 05:18:32 amittestubuntu1804 kernel: [   32.132381] audit: type=1400 audit(1633497512.740:26): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.google-cloud-sdk.docker-credential-gcloud" pid=3022 comm="apparmor_parser"
+Oct  6 05:18:32 amittestubuntu1804 kernel: [   32.132430] audit: type=1400 audit(1633497512.740:27): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.google-cloud-sdk.gsutil" pid=3024 comm="apparmor_parser"
+Oct  6 05:18:32 amittestubuntu1804 kernel: [   32.137335] audit: type=1400 audit(1633497512.744:28): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.google-cloud-sdk" pid=3019 comm="apparmor_parser"
+Oct  6 05:18:33 amittestubuntu1804 systemd[1]: Started Wait until snapd is fully seeded.
+Oct  6 05:18:33 amittestubuntu1804 systemd[1]: Starting Apply the settings specified in cloud-config...
+Oct  6 05:18:33 amittestubuntu1804 systemd[1]: Reached target Multi-User System.
+Oct  6 05:18:34 amittestubuntu1804 systemd[1]: Reached target Graphical Interface.
+Oct  6 05:18:34 amittestubuntu1804 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Oct  6 05:18:34 amittestubuntu1804 systemd[1]: Started Update UTMP about System Runlevel Changes.
+Oct  6 05:18:34 amittestubuntu1804 systemd[1]: Stopping chrony, an NTP client/server...
+Oct  6 05:18:34 amittestubuntu1804 chronyd[1391]: chronyd exiting
+Oct  6 05:18:34 amittestubuntu1804 systemd[1]: Stopped chrony, an NTP client/server.
+Oct  6 05:18:34 amittestubuntu1804 systemd[1]: Starting chrony, an NTP client/server...
+Oct  6 05:18:34 amittestubuntu1804 chronyd[3113]: chronyd version 3.2 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SECHASH +SIGND +ASYNCDNS +IPV6 -DEBUG)
+Oct  6 05:18:34 amittestubuntu1804 chronyd[3113]: Frequency 0.000 +/- 1000000.000 ppm read from /var/lib/chrony/chrony.drift
+Oct  6 05:18:34 amittestubuntu1804 systemd[1]: Started chrony, an NTP client/server.
+Oct  6 05:18:34 amittestubuntu1804 cloud-init[3030]: Cloud-init v. 21.2-3-g899bfaa9-0ubuntu2~18.04.1 running 'modules:config' at Wed, 06 Oct 2021 05:18:34 +0000. Up 33.30 seconds.
+Oct  6 05:18:34 amittestubuntu1804 systemd[1]: Started Apply the settings specified in cloud-config.
+Oct  6 05:18:34 amittestubuntu1804 systemd[1]: Starting Execute cloud user/final scripts...
+Oct  6 05:18:35 amittestubuntu1804 cloud-init: #############################################################
+Oct  6 05:18:35 amittestubuntu1804 cloud-init: -----BEGIN SSH HOST KEY FINGERPRINTS-----
+Oct  6 05:18:35 amittestubuntu1804 cloud-init: 1024 SHA256:wDaJVeumeyhp0eU/tvWy6Q5t2UGyaYGiqiTqFlhCiec root@amittestubuntu1804 (DSA)
+Oct  6 05:18:35 amittestubuntu1804 cloud-init: 256 SHA256:1zr/AW76A5wKgVxfVuIaVYp953HZn5q7NM8j3HjIfvY root@amittestubuntu1804 (ECDSA)
+Oct  6 05:18:35 amittestubuntu1804 cloud-init: 256 SHA256:Q9jeRGP/Lc6gTNDdrDxg1fvN3P8IwzhkbGfDB2roFJM root@amittestubuntu1804 (ED25519)
+Oct  6 05:18:35 amittestubuntu1804 cloud-init: 2048 SHA256:IPodMcpBzLiSdgylyiU/yHKi/WgXwngPtyCkwa3o+wU root@amittestubuntu1804 (RSA)
+Oct  6 05:18:35 amittestubuntu1804 cloud-init: -----END SSH HOST KEY FINGERPRINTS-----
+Oct  6 05:18:35 amittestubuntu1804 cloud-init: #############################################################
+Oct  6 05:18:35 amittestubuntu1804 cloud-init[3131]: Cloud-init v. 21.2-3-g899bfaa9-0ubuntu2~18.04.1 running 'modules:final' at Wed, 06 Oct 2021 05:18:35 +0000. Up 34.20 seconds.
+Oct  6 05:18:35 amittestubuntu1804 cloud-init[3131]: ci-info: no authorized SSH keys fingerprints found for user ubuntu.
+Oct  6 05:18:35 amittestubuntu1804 cloud-init[3131]: Cloud-init v. 21.2-3-g899bfaa9-0ubuntu2~18.04.1 finished at Wed, 06 Oct 2021 05:18:35 +0000. Datasource DataSourceGCE.  Up 34.35 seconds
+Oct  6 05:18:35 amittestubuntu1804 systemd[1]: Started Execute cloud user/final scripts.
+Oct  6 05:18:35 amittestubuntu1804 systemd[1]: Reached target Cloud-init target.
+Oct  6 05:18:35 amittestubuntu1804 systemd[1]: Starting Google Compute Engine Startup Scripts...
+Oct  6 05:18:35 amittestubuntu1804 GCEMetadataScripts[3185]: 2021/10/06 05:18:35 GCEMetadataScripts: Starting startup scripts (version 20210414.00-0ubuntu1~18.04.0).
+Oct  6 05:18:35 amittestubuntu1804 GCEMetadataScripts[3185]: 2021/10/06 05:18:35 GCEMetadataScripts: No startup scripts to run.
+Oct  6 05:18:35 amittestubuntu1804 systemd[1]: Started Google Compute Engine Startup Scripts.
+Oct  6 05:18:35 amittestubuntu1804 systemd[1]: Startup finished in 4.839s (kernel) + 29.678s (userspace) = 34.517s.
+Oct  6 05:18:39 amittestubuntu1804 chronyd[3113]: Selected source 169.254.169.254
+Oct  6 05:20:00 amittestubuntu1804 systemd[1]: Created slice User Slice of root.
+Oct  6 05:20:00 amittestubuntu1804 systemd[1]: Starting User Manager for UID 0...
+Oct  6 05:20:00 amittestubuntu1804 systemd[1]: Started Session 1 of user root.
+Oct  6 05:20:00 amittestubuntu1804 systemd[3256]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  6 05:20:00 amittestubuntu1804 systemd[3256]: Listening on REST API socket for snapd user session agent.
+Oct  6 05:20:00 amittestubuntu1804 systemd[3256]: Reached target Timers.
+Oct  6 05:20:00 amittestubuntu1804 systemd[3256]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  6 05:20:00 amittestubuntu1804 systemd[3256]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  6 05:20:00 amittestubuntu1804 systemd[3256]: Listening on GnuPG network certificate management daemon.
+Oct  6 05:20:00 amittestubuntu1804 systemd[3256]: Reached target Paths.
+Oct  6 05:20:00 amittestubuntu1804 systemd[3256]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  6 05:20:00 amittestubuntu1804 systemd[3256]: Reached target Sockets.
+Oct  6 05:20:00 amittestubuntu1804 systemd[3256]: Reached target Basic System.
+Oct  6 05:20:00 amittestubuntu1804 systemd[1]: Started User Manager for UID 0.
+Oct  6 05:20:00 amittestubuntu1804 systemd[3256]: Reached target Default.
+Oct  6 05:20:00 amittestubuntu1804 systemd[3256]: Startup finished in 49ms.
+Oct  6 05:20:02 amittestubuntu1804 systemd[1]: Started Session 3 of user root.
+Oct  6 05:33:11 amittestubuntu1804 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct  6 05:33:11 amittestubuntu1804 systemd[1]: Started Cleanup of Temporary Directories.
+Oct  6 05:41:32 amittestubuntu1804 systemd[1]: Reloading.
+Oct  6 05:41:33 amittestubuntu1804 systemd[1]: Reloading.
+Oct  6 05:41:33 amittestubuntu1804 systemd[1]: Starting containerd container runtime...
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.226897199Z" level=info msg="starting containerd" revision=5b46e404f6b9f661a205e28d59c982d3634148f8 version=1.4.11
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.252910069Z" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.253226318Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.263132286Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.263551471Z" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.263596809Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.devmapper\"..." type=io.containerd.snapshotter.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.263632316Z" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.263644188Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.263722755Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.263903711Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.264147584Z" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.zfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.264167903Z" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.264221823Z" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.264233357Z" level=info msg="metadata content store policy set" policy=shared
+Oct  6 05:41:33 amittestubuntu1804 kernel: [ 1412.586912] aufs 5.4.3-20200302
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.271791984Z" level=info msg="loading plugin \"io.containerd.differ.v1.walking\"..." type=io.containerd.differ.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.272115657Z" level=info msg="loading plugin \"io.containerd.gc.v1.scheduler\"..." type=io.containerd.gc.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.272298407Z" level=info msg="loading plugin \"io.containerd.service.v1.introspection-service\"..." type=io.containerd.service.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.272449284Z" level=info msg="loading plugin \"io.containerd.service.v1.containers-service\"..." type=io.containerd.service.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.272498653Z" level=info msg="loading plugin \"io.containerd.service.v1.content-service\"..." type=io.containerd.service.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.272515591Z" level=info msg="loading plugin \"io.containerd.service.v1.diff-service\"..." type=io.containerd.service.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.272532915Z" level=info msg="loading plugin \"io.containerd.service.v1.images-service\"..." type=io.containerd.service.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.272564946Z" level=info msg="loading plugin \"io.containerd.service.v1.leases-service\"..." type=io.containerd.service.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.272583662Z" level=info msg="loading plugin \"io.containerd.service.v1.namespaces-service\"..." type=io.containerd.service.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.272600179Z" level=info msg="loading plugin \"io.containerd.service.v1.snapshots-service\"..." type=io.containerd.service.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.272614875Z" level=info msg="loading plugin \"io.containerd.runtime.v1.linux\"..." type=io.containerd.runtime.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.272757712Z" level=info msg="loading plugin \"io.containerd.runtime.v2.task\"..." type=io.containerd.runtime.v2
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.272863132Z" level=info msg="loading plugin \"io.containerd.monitor.v1.cgroups\"..." type=io.containerd.monitor.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273508567Z" level=info msg="loading plugin \"io.containerd.service.v1.tasks-service\"..." type=io.containerd.service.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273557564Z" level=info msg="loading plugin \"io.containerd.internal.v1.restart\"..." type=io.containerd.internal.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273622998Z" level=info msg="loading plugin \"io.containerd.grpc.v1.containers\"..." type=io.containerd.grpc.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273640934Z" level=info msg="loading plugin \"io.containerd.grpc.v1.content\"..." type=io.containerd.grpc.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273655747Z" level=info msg="loading plugin \"io.containerd.grpc.v1.diff\"..." type=io.containerd.grpc.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273667842Z" level=info msg="loading plugin \"io.containerd.grpc.v1.events\"..." type=io.containerd.grpc.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273680382Z" level=info msg="loading plugin \"io.containerd.grpc.v1.healthcheck\"..." type=io.containerd.grpc.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273702628Z" level=info msg="loading plugin \"io.containerd.grpc.v1.images\"..." type=io.containerd.grpc.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273716081Z" level=info msg="loading plugin \"io.containerd.grpc.v1.leases\"..." type=io.containerd.grpc.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273728101Z" level=info msg="loading plugin \"io.containerd.grpc.v1.namespaces\"..." type=io.containerd.grpc.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273739875Z" level=info msg="loading plugin \"io.containerd.internal.v1.opt\"..." type=io.containerd.internal.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273912015Z" level=info msg="loading plugin \"io.containerd.grpc.v1.snapshots\"..." type=io.containerd.grpc.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273933527Z" level=info msg="loading plugin \"io.containerd.grpc.v1.tasks\"..." type=io.containerd.grpc.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273955095Z" level=info msg="loading plugin \"io.containerd.grpc.v1.version\"..." type=io.containerd.grpc.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.273968544Z" level=info msg="loading plugin \"io.containerd.grpc.v1.introspection\"..." type=io.containerd.grpc.v1
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.274280175Z" level=info msg=serving... address=/run/containerd/containerd.sock.ttrpc
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.274820823Z" level=info msg=serving... address=/run/containerd/containerd.sock
+Oct  6 05:41:33 amittestubuntu1804 containerd[8492]: time="2021-10-06T05:41:33.274892987Z" level=info msg="containerd successfully booted in 0.049702s"
+Oct  6 05:41:33 amittestubuntu1804 systemd[1]: Started containerd container runtime.
+Oct  6 05:41:33 amittestubuntu1804 systemd[1]: Reloading.
+Oct  6 05:41:34 amittestubuntu1804 systemd[1]: message repeated 3 times: [ Reloading.]
+Oct  6 05:41:34 amittestubuntu1804 systemd[1]: Starting Docker Socket for the API.
+Oct  6 05:41:34 amittestubuntu1804 systemd[1]: Listening on Docker Socket for the API.
+Oct  6 05:41:34 amittestubuntu1804 systemd[1]: Starting Docker Application Container Engine...
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.267643095Z" level=info msg="Starting up"
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.271785950Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.303689340Z" level=info msg="parsed scheme: \"unix\"" module=grpc
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.303731974Z" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.303757126Z" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.303772126Z" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Oct  6 05:41:34 amittestubuntu1804 kernel: [ 1413.626987] audit: type=1400 audit(1633498894.299:29): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=8722 comm="apparmor_parser"
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.305818407Z" level=info msg="parsed scheme: \"unix\"" module=grpc
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.305881386Z" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.305924075Z" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.305937066Z" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.345997773Z" level=warning msg="Your kernel does not support swap memory limit"
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.346040383Z" level=warning msg="Your kernel does not support CPU realtime scheduler"
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.346047931Z" level=warning msg="Your kernel does not support cgroup blkio weight"
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.346061723Z" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.346264896Z" level=info msg="Loading containers: start."
+Oct  6 05:41:34 amittestubuntu1804 kernel: [ 1413.684481] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Oct  6 05:41:34 amittestubuntu1804 kernel: [ 1413.687157] Bridge firewalling registered
+Oct  6 05:41:34 amittestubuntu1804 kernel: [ 1413.796872] Initializing XFRM netlink socket
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.475542117Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Oct  6 05:41:34 amittestubuntu1804 systemd-udevd[8786]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 05:41:34 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 3 seen, reloading interface list
+Oct  6 05:41:34 amittestubuntu1804 systemd-networkd[807]: docker0: Link UP
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.530936827Z" level=info msg="Loading containers: done."
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.546536580Z" level=info msg="Docker daemon" commit=79ea9d3 graphdriver(s)=overlay2 version=20.10.9
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.546938135Z" level=info msg="Daemon has completed initialization"
+Oct  6 05:41:34 amittestubuntu1804 systemd[1]: Started Docker Application Container Engine.
+Oct  6 05:41:34 amittestubuntu1804 dockerd[8677]: time="2021-10-06T05:41:34.577528918Z" level=info msg="API listen on /var/run/docker.sock"
+Oct  6 05:41:34 amittestubuntu1804 systemd[1]: Reloading.
+Oct  6 05:48:09 amittestubuntu1804 systemd-networkd[807]: ens4: Configured
+Oct  6 06:10:27 amittestubuntu1804 systemd[1]: Starting Daily apt upgrade and clean activities...
+Oct  6 06:10:27 amittestubuntu1804 systemd-networkd[807]: vethcb2a054: Link UP
+Oct  6 06:10:27 amittestubuntu1804 systemd-udevd[10404]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:10:27 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 5 seen, reloading interface list
+Oct  6 06:10:27 amittestubuntu1804 systemd-udevd[10404]: Could not generate persistent MAC address for vetha9520bc: No such file or directory
+Oct  6 06:10:27 amittestubuntu1804 kernel: [ 3146.909394] docker0: port 1(vethcb2a054) entered blocking state
+Oct  6 06:10:27 amittestubuntu1804 kernel: [ 3146.909397] docker0: port 1(vethcb2a054) entered disabled state
+Oct  6 06:10:27 amittestubuntu1804 kernel: [ 3146.909552] device vethcb2a054 entered promiscuous mode
+Oct  6 06:10:27 amittestubuntu1804 systemd-udevd[10401]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:10:27 amittestubuntu1804 systemd-udevd[10401]: Could not generate persistent MAC address for vethcb2a054: No such file or directory
+Oct  6 06:10:27 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:10:27.778782956Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/669b0db385640d84a5f7ab2fd2f6f966fce1b025ae991f7d3e759cccb171aa8b pid=10430
+Oct  6 06:10:27 amittestubuntu1804 kernel: [ 3147.026326] cgroup: cgroup: disabling cgroup2 socket matching due to net_prio or net_cls activation
+Oct  6 06:10:27 amittestubuntu1804 kernel: [ 3147.172724] eth0: renamed from vetha9520bc
+Oct  6 06:10:27 amittestubuntu1804 systemd-networkd[807]: vethcb2a054: Gained carrier
+Oct  6 06:10:27 amittestubuntu1804 systemd-networkd[807]: docker0: Gained carrier
+Oct  6 06:10:27 amittestubuntu1804 kernel: [ 3147.192594] IPv6: ADDRCONF(NETDEV_CHANGE): vethcb2a054: link becomes ready
+Oct  6 06:10:27 amittestubuntu1804 kernel: [ 3147.192676] docker0: port 1(vethcb2a054) entered blocking state
+Oct  6 06:10:27 amittestubuntu1804 kernel: [ 3147.192679] docker0: port 1(vethcb2a054) entered forwarding state
+Oct  6 06:10:27 amittestubuntu1804 kernel: [ 3147.192733] IPv6: ADDRCONF(NETDEV_CHANGE): docker0: link becomes ready
+Oct  6 06:10:28 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:10:28.077273736Z" level=info msg="ignoring event" container=669b0db385640d84a5f7ab2fd2f6f966fce1b025ae991f7d3e759cccb171aa8b module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  6 06:10:28 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:10:28.077441518Z" level=info msg="shim disconnected" id=669b0db385640d84a5f7ab2fd2f6f966fce1b025ae991f7d3e759cccb171aa8b
+Oct  6 06:10:28 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:10:28.077519211Z" level=error msg="copy shim log" error="read /proc/self/fd/12: file already closed"
+Oct  6 06:10:28 amittestubuntu1804 systemd-networkd[807]: vethcb2a054: Lost carrier
+Oct  6 06:10:28 amittestubuntu1804 kernel: [ 3147.281109] docker0: port 1(vethcb2a054) entered disabled state
+Oct  6 06:10:28 amittestubuntu1804 kernel: [ 3147.281178] vetha9520bc: renamed from eth0
+Oct  6 06:10:28 amittestubuntu1804 systemd-udevd[10542]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:10:28 amittestubuntu1804 systemd-networkd[807]: vethcb2a054: Link DOWN
+Oct  6 06:10:28 amittestubuntu1804 systemd-networkd[807]: vethcb2a054: Removing non-existent address: fe80::c087:bfff:feab:3dd/64 (valid forever), ignoring
+Oct  6 06:10:28 amittestubuntu1804 kernel: [ 3147.361198] docker0: port 1(vethcb2a054) entered disabled state
+Oct  6 06:10:28 amittestubuntu1804 kernel: [ 3147.364507] device vethcb2a054 left promiscuous mode
+Oct  6 06:10:28 amittestubuntu1804 kernel: [ 3147.364514] docker0: port 1(vethcb2a054) entered disabled state
+Oct  6 06:10:28 amittestubuntu1804 networkd-dispatcher[1143]: Failed to request link: No such device
+Oct  6 06:10:28 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Failed to get interface "vethcb2a054" status: Command '['/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'vethcb2a054']' returned non-zero exit status 1.
+Oct  6 06:10:28 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 4 seen, reloading interface list
+Oct  6 06:10:28 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Unknown interface index 4 seen even after reload
+Oct  6 06:10:28 amittestubuntu1804 kernel: [ 3147.599653] docker0: port 1(veth5a4e8f5) entered blocking state
+Oct  6 06:10:28 amittestubuntu1804 kernel: [ 3147.599655] docker0: port 1(veth5a4e8f5) entered disabled state
+Oct  6 06:10:28 amittestubuntu1804 kernel: [ 3147.599725] device veth5a4e8f5 entered promiscuous mode
+Oct  6 06:10:28 amittestubuntu1804 kernel: [ 3147.599798] docker0: port 1(veth5a4e8f5) entered blocking state
+Oct  6 06:10:28 amittestubuntu1804 kernel: [ 3147.599799] docker0: port 1(veth5a4e8f5) entered forwarding state
+Oct  6 06:10:28 amittestubuntu1804 systemd-udevd[10579]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:10:28 amittestubuntu1804 systemd-udevd[10579]: Could not generate persistent MAC address for vethba939ff: No such file or directory
+Oct  6 06:10:28 amittestubuntu1804 systemd-networkd[807]: veth5a4e8f5: Link UP
+Oct  6 06:10:28 amittestubuntu1804 systemd-udevd[10580]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:10:28 amittestubuntu1804 systemd-udevd[10580]: Could not generate persistent MAC address for veth5a4e8f5: No such file or directory
+Oct  6 06:10:28 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 7 seen, reloading interface list
+Oct  6 06:10:28 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:10:28.439747467Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/357d5b25cdede58bef2fd07c47a16bbd10677690849a35ccccf097f89523d699 pid=10596
+Oct  6 06:10:28 amittestubuntu1804 kernel: [ 3147.836676] eth0: renamed from vethba939ff
+Oct  6 06:10:28 amittestubuntu1804 systemd-networkd[807]: veth5a4e8f5: Gained carrier
+Oct  6 06:10:28 amittestubuntu1804 kernel: [ 3147.872619] IPv6: ADDRCONF(NETDEV_CHANGE): veth5a4e8f5: link becomes ready
+Oct  6 06:10:30 amittestubuntu1804 systemd-networkd[807]: docker0: Gained IPv6LL
+Oct  6 06:10:30 amittestubuntu1804 systemd-networkd[807]: veth5a4e8f5: Gained IPv6LL
+Oct  6 06:10:30 amittestubuntu1804 systemd[1]: Started Daily apt upgrade and clean activities.
+Oct  6 06:10:48 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:10:48.990085947Z" level=info msg="shim disconnected" id=357d5b25cdede58bef2fd07c47a16bbd10677690849a35ccccf097f89523d699
+Oct  6 06:10:48 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:10:48.990154914Z" level=error msg="copy shim log" error="read /proc/self/fd/12: file already closed"
+Oct  6 06:10:48 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:10:48.990161220Z" level=info msg="ignoring event" container=357d5b25cdede58bef2fd07c47a16bbd10677690849a35ccccf097f89523d699 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  6 06:10:48 amittestubuntu1804 systemd-networkd[807]: veth5a4e8f5: Lost carrier
+Oct  6 06:10:48 amittestubuntu1804 kernel: [ 3168.192002] docker0: port 1(veth5a4e8f5) entered disabled state
+Oct  6 06:10:48 amittestubuntu1804 kernel: [ 3168.192064] vethba939ff: renamed from eth0
+Oct  6 06:10:49 amittestubuntu1804 systemd-udevd[10730]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:10:49 amittestubuntu1804 systemd-networkd[807]: veth5a4e8f5: Link DOWN
+Oct  6 06:10:49 amittestubuntu1804 kernel: [ 3168.253935] docker0: port 1(veth5a4e8f5) entered disabled state
+Oct  6 06:10:49 amittestubuntu1804 kernel: [ 3168.257006] device veth5a4e8f5 left promiscuous mode
+Oct  6 06:10:49 amittestubuntu1804 kernel: [ 3168.257014] docker0: port 1(veth5a4e8f5) entered disabled state
+Oct  6 06:10:49 amittestubuntu1804 networkd-dispatcher[1143]: Failed to request link: No such device
+Oct  6 06:10:49 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Failed to get interface "veth5a4e8f5" status: Command '['/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth5a4e8f5']' returned non-zero exit status 1.
+Oct  6 06:10:49 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 6 seen, reloading interface list
+Oct  6 06:10:49 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Unknown interface index 6 seen even after reload
+Oct  6 06:10:50 amittestubuntu1804 systemd-networkd[807]: docker0: Lost carrier
+Oct  6 06:11:03 amittestubuntu1804 systemd-networkd[807]: veth5063b9e: Link UP
+Oct  6 06:11:03 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 9 seen, reloading interface list
+Oct  6 06:11:03 amittestubuntu1804 systemd-udevd[10770]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:03 amittestubuntu1804 systemd-udevd[10770]: Could not generate persistent MAC address for veth861f064: No such file or directory
+Oct  6 06:11:03 amittestubuntu1804 systemd-udevd[10771]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:03 amittestubuntu1804 systemd-udevd[10771]: Could not generate persistent MAC address for veth5063b9e: No such file or directory
+Oct  6 06:11:03 amittestubuntu1804 kernel: [ 3182.454827] docker0: port 1(veth5063b9e) entered blocking state
+Oct  6 06:11:03 amittestubuntu1804 kernel: [ 3182.454829] docker0: port 1(veth5063b9e) entered disabled state
+Oct  6 06:11:03 amittestubuntu1804 kernel: [ 3182.454892] device veth5063b9e entered promiscuous mode
+Oct  6 06:11:03 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:03.291165406Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/8e38c5d0f0c4a1fa9fe1082435b4a5bbf0311321f346740495627c2ba0fe9ad7 pid=10786
+Oct  6 06:11:03 amittestubuntu1804 kernel: [ 3182.682159] eth0: renamed from veth861f064
+Oct  6 06:11:03 amittestubuntu1804 systemd-networkd[807]: veth5063b9e: Gained carrier
+Oct  6 06:11:03 amittestubuntu1804 systemd-networkd[807]: docker0: Gained carrier
+Oct  6 06:11:03 amittestubuntu1804 kernel: [ 3182.706075] IPv6: ADDRCONF(NETDEV_CHANGE): veth5063b9e: link becomes ready
+Oct  6 06:11:03 amittestubuntu1804 kernel: [ 3182.706124] docker0: port 1(veth5063b9e) entered blocking state
+Oct  6 06:11:03 amittestubuntu1804 kernel: [ 3182.706125] docker0: port 1(veth5063b9e) entered forwarding state
+Oct  6 06:11:03 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:11:03.593864620Z" level=info msg="ignoring event" container=8e38c5d0f0c4a1fa9fe1082435b4a5bbf0311321f346740495627c2ba0fe9ad7 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  6 06:11:03 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:03.593960215Z" level=info msg="shim disconnected" id=8e38c5d0f0c4a1fa9fe1082435b4a5bbf0311321f346740495627c2ba0fe9ad7
+Oct  6 06:11:03 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:03.594023779Z" level=error msg="copy shim log" error="read /proc/self/fd/12: file already closed"
+Oct  6 06:11:03 amittestubuntu1804 systemd-networkd[807]: veth5063b9e: Lost carrier
+Oct  6 06:11:03 amittestubuntu1804 kernel: [ 3182.794159] docker0: port 1(veth5063b9e) entered disabled state
+Oct  6 06:11:03 amittestubuntu1804 kernel: [ 3182.794226] veth861f064: renamed from eth0
+Oct  6 06:11:03 amittestubuntu1804 systemd-udevd[10882]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:03 amittestubuntu1804 systemd-networkd[807]: veth5063b9e: Link DOWN
+Oct  6 06:11:03 amittestubuntu1804 systemd-networkd[807]: veth5063b9e: Removing non-existent address: fe80::6c17:ddff:fe56:a64a/64 (valid forever), ignoring
+Oct  6 06:11:03 amittestubuntu1804 kernel: [ 3182.866326] docker0: port 1(veth5063b9e) entered disabled state
+Oct  6 06:11:03 amittestubuntu1804 kernel: [ 3182.869541] device veth5063b9e left promiscuous mode
+Oct  6 06:11:03 amittestubuntu1804 kernel: [ 3182.869548] docker0: port 1(veth5063b9e) entered disabled state
+Oct  6 06:11:03 amittestubuntu1804 networkd-dispatcher[1143]: Failed to request link: No such device
+Oct  6 06:11:03 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Failed to get interface "veth5063b9e" status: Command '['/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth5063b9e']' returned non-zero exit status 1.
+Oct  6 06:11:03 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 8 seen, reloading interface list
+Oct  6 06:11:03 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Unknown interface index 8 seen even after reload
+Oct  6 06:11:03 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:11:03.971191759Z" level=info msg="Layer sha256:e8b435dfd39bb27a4a5f7b9df57d1f6cd359dc21ac60124dffedde9c0d99938c cleaned up"
+Oct  6 06:11:04 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:11:04.179394981Z" level=info msg="Layer sha256:7fd7d93dc18e591300a4a60e98fed563a1f3635bd7244a6b63e984bcd76a7e4a cleaned up"
+Oct  6 06:11:04 amittestubuntu1804 systemd-networkd[807]: docker0: Lost carrier
+Oct  6 06:11:04 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:11:04.279988357Z" level=info msg="Layer sha256:7fd7d93dc18e591300a4a60e98fed563a1f3635bd7244a6b63e984bcd76a7e4a cleaned up"
+Oct  6 06:11:04 amittestubuntu1804 systemd-networkd[807]: vethd5867ed: Link UP
+Oct  6 06:11:04 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 11 seen, reloading interface list
+Oct  6 06:11:04 amittestubuntu1804 systemd-udevd[10965]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:04 amittestubuntu1804 systemd-udevd[10965]: Could not generate persistent MAC address for vethd08fb12: No such file or directory
+Oct  6 06:11:04 amittestubuntu1804 systemd-udevd[10966]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:04 amittestubuntu1804 systemd-udevd[10966]: Could not generate persistent MAC address for vethd5867ed: No such file or directory
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.519151] docker0: port 1(vethd5867ed) entered blocking state
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.519153] docker0: port 1(vethd5867ed) entered disabled state
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.519223] device vethd5867ed entered promiscuous mode
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.519300] docker0: port 1(vethd5867ed) entered blocking state
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.519301] docker0: port 1(vethd5867ed) entered forwarding state
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.519358] docker0: port 1(vethd5867ed) entered disabled state
+Oct  6 06:11:04 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:04.386564683Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/7c394805188a3dd9b8e0a587a2a5403e0f00890a7934d272ff720a50c24d9560 pid=10981
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.786774] eth0: renamed from vethd08fb12
+Oct  6 06:11:04 amittestubuntu1804 systemd-networkd[807]: vethd5867ed: Gained carrier
+Oct  6 06:11:04 amittestubuntu1804 systemd-networkd[807]: docker0: Gained carrier
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.809990] IPv6: ADDRCONF(NETDEV_CHANGE): vethd5867ed: link becomes ready
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.810042] docker0: port 1(vethd5867ed) entered blocking state
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.810044] docker0: port 1(vethd5867ed) entered forwarding state
+Oct  6 06:11:04 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:04.713379285Z" level=info msg="shim disconnected" id=7c394805188a3dd9b8e0a587a2a5403e0f00890a7934d272ff720a50c24d9560
+Oct  6 06:11:04 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:04.713449018Z" level=error msg="copy shim log" error="read /proc/self/fd/12: file already closed"
+Oct  6 06:11:04 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:11:04.713488207Z" level=info msg="ignoring event" container=7c394805188a3dd9b8e0a587a2a5403e0f00890a7934d272ff720a50c24d9560 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  6 06:11:04 amittestubuntu1804 systemd-networkd[807]: vethd5867ed: Lost carrier
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.914455] docker0: port 1(vethd5867ed) entered disabled state
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.914624] vethd08fb12: renamed from eth0
+Oct  6 06:11:04 amittestubuntu1804 systemd-udevd[11071]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:04 amittestubuntu1804 systemd-networkd[807]: vethd5867ed: Link DOWN
+Oct  6 06:11:04 amittestubuntu1804 systemd-networkd[807]: vethd5867ed: Removing non-existent address: fe80::5456:1dff:fe56:3c14/64 (valid forever), ignoring
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.966425] docker0: port 1(vethd5867ed) entered disabled state
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.971153] device vethd5867ed left promiscuous mode
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3183.971164] docker0: port 1(vethd5867ed) entered disabled state
+Oct  6 06:11:04 amittestubuntu1804 networkd-dispatcher[1143]: Failed to request link: No such device
+Oct  6 06:11:04 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Failed to get interface "vethd5867ed" status: Command '['/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'vethd5867ed']' returned non-zero exit status 1.
+Oct  6 06:11:04 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 10 seen, reloading interface list
+Oct  6 06:11:04 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Unknown interface index 10 seen even after reload
+Oct  6 06:11:04 amittestubuntu1804 systemd-udevd[11107]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3184.151359] docker0: port 1(veth11b4a8c) entered blocking state
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3184.151362] docker0: port 1(veth11b4a8c) entered disabled state
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3184.151415] device veth11b4a8c entered promiscuous mode
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3184.151479] docker0: port 1(veth11b4a8c) entered blocking state
+Oct  6 06:11:04 amittestubuntu1804 kernel: [ 3184.151480] docker0: port 1(veth11b4a8c) entered forwarding state
+Oct  6 06:11:04 amittestubuntu1804 systemd-udevd[11107]: Could not generate persistent MAC address for vethf020e3d: No such file or directory
+Oct  6 06:11:04 amittestubuntu1804 systemd-networkd[807]: veth11b4a8c: Link UP
+Oct  6 06:11:04 amittestubuntu1804 systemd-udevd[11108]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:04 amittestubuntu1804 systemd-udevd[11108]: Could not generate persistent MAC address for veth11b4a8c: No such file or directory
+Oct  6 06:11:04 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 13 seen, reloading interface list
+Oct  6 06:11:04 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:04.988802695Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/03a7a2f44a5a96dec2c1425c2858cd5382923af20afffe1a060b9992aec4dbc5 pid=11125
+Oct  6 06:11:05 amittestubuntu1804 kernel: [ 3184.366059] eth0: renamed from vethf020e3d
+Oct  6 06:11:05 amittestubuntu1804 systemd-networkd[807]: veth11b4a8c: Gained carrier
+Oct  6 06:11:05 amittestubuntu1804 kernel: [ 3184.385869] IPv6: ADDRCONF(NETDEV_CHANGE): veth11b4a8c: link becomes ready
+Oct  6 06:11:06 amittestubuntu1804 systemd-networkd[807]: veth11b4a8c: Gained IPv6LL
+Oct  6 06:11:12 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:11:12.389383003Z" level=info msg="ignoring event" container=03a7a2f44a5a96dec2c1425c2858cd5382923af20afffe1a060b9992aec4dbc5 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  6 06:11:12 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:12.389719032Z" level=info msg="shim disconnected" id=03a7a2f44a5a96dec2c1425c2858cd5382923af20afffe1a060b9992aec4dbc5
+Oct  6 06:11:12 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:12.389780231Z" level=error msg="copy shim log" error="read /proc/self/fd/12: file already closed"
+Oct  6 06:11:12 amittestubuntu1804 kernel: [ 3191.589336] vethf020e3d: renamed from eth0
+Oct  6 06:11:12 amittestubuntu1804 systemd-networkd[807]: veth11b4a8c: Lost carrier
+Oct  6 06:11:12 amittestubuntu1804 systemd-udevd[11224]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:12 amittestubuntu1804 kernel: [ 3191.641482] docker0: port 1(veth11b4a8c) entered disabled state
+Oct  6 06:11:12 amittestubuntu1804 systemd-networkd[807]: veth11b4a8c: Link DOWN
+Oct  6 06:11:12 amittestubuntu1804 kernel: [ 3191.645693] docker0: port 1(veth11b4a8c) entered disabled state
+Oct  6 06:11:12 amittestubuntu1804 kernel: [ 3191.649787] device veth11b4a8c left promiscuous mode
+Oct  6 06:11:12 amittestubuntu1804 kernel: [ 3191.649795] docker0: port 1(veth11b4a8c) entered disabled state
+Oct  6 06:11:12 amittestubuntu1804 networkd-dispatcher[1143]: Failed to request link: No such device
+Oct  6 06:11:12 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Failed to get interface "veth11b4a8c" status: Command '['/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth11b4a8c']' returned non-zero exit status 1.
+Oct  6 06:11:12 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 12 seen, reloading interface list
+Oct  6 06:11:12 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Unknown interface index 12 seen even after reload
+Oct  6 06:11:13 amittestubuntu1804 systemd-networkd[807]: docker0: Lost carrier
+Oct  6 06:11:14 amittestubuntu1804 systemd-networkd[807]: veth1d3ea2e: Link UP
+Oct  6 06:11:14 amittestubuntu1804 systemd-udevd[11284]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:14 amittestubuntu1804 systemd-udevd[11284]: Could not generate persistent MAC address for veth5d8da16: No such file or directory
+Oct  6 06:11:14 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 15 seen, reloading interface list
+Oct  6 06:11:14 amittestubuntu1804 systemd-udevd[11285]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:14 amittestubuntu1804 systemd-udevd[11285]: Could not generate persistent MAC address for veth1d3ea2e: No such file or directory
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.349688] docker0: port 1(veth1d3ea2e) entered blocking state
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.349691] docker0: port 1(veth1d3ea2e) entered disabled state
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.349756] device veth1d3ea2e entered promiscuous mode
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.349826] docker0: port 1(veth1d3ea2e) entered blocking state
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.349827] docker0: port 1(veth1d3ea2e) entered forwarding state
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.349886] docker0: port 1(veth1d3ea2e) entered disabled state
+Oct  6 06:11:14 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:14.188516833Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/ac33282db57879f42db12ee1cef6b67bf0ae69cbabc1fede7d2b3d121d1fbce6 pid=11301
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.557424] eth0: renamed from veth5d8da16
+Oct  6 06:11:14 amittestubuntu1804 systemd-networkd[807]: veth1d3ea2e: Gained carrier
+Oct  6 06:11:14 amittestubuntu1804 systemd-networkd[807]: docker0: Gained carrier
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.597202] IPv6: ADDRCONF(NETDEV_CHANGE): veth1d3ea2e: link becomes ready
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.597263] docker0: port 1(veth1d3ea2e) entered blocking state
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.597265] docker0: port 1(veth1d3ea2e) entered forwarding state
+Oct  6 06:11:14 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:11:14.499731013Z" level=info msg="ignoring event" container=ac33282db57879f42db12ee1cef6b67bf0ae69cbabc1fede7d2b3d121d1fbce6 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  6 06:11:14 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:14.499845401Z" level=info msg="shim disconnected" id=ac33282db57879f42db12ee1cef6b67bf0ae69cbabc1fede7d2b3d121d1fbce6
+Oct  6 06:11:14 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:14.499924258Z" level=error msg="copy shim log" error="read /proc/self/fd/12: file already closed"
+Oct  6 06:11:14 amittestubuntu1804 systemd-networkd[807]: veth1d3ea2e: Lost carrier
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.699325] docker0: port 1(veth1d3ea2e) entered disabled state
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.699395] veth5d8da16: renamed from eth0
+Oct  6 06:11:14 amittestubuntu1804 systemd-udevd[11390]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:14 amittestubuntu1804 systemd-networkd[807]: veth1d3ea2e: Link DOWN
+Oct  6 06:11:14 amittestubuntu1804 systemd-networkd[807]: veth1d3ea2e: Removing non-existent address: fe80::e817:fbff:feba:1d51/64 (valid forever), ignoring
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.753886] docker0: port 1(veth1d3ea2e) entered disabled state
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.757431] device veth1d3ea2e left promiscuous mode
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3193.757440] docker0: port 1(veth1d3ea2e) entered disabled state
+Oct  6 06:11:14 amittestubuntu1804 networkd-dispatcher[1143]: Failed to request link: No such device
+Oct  6 06:11:14 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Failed to get interface "veth1d3ea2e" status: Command '['/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth1d3ea2e']' returned non-zero exit status 1.
+Oct  6 06:11:14 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 14 seen, reloading interface list
+Oct  6 06:11:14 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Unknown interface index 14 seen even after reload
+Oct  6 06:11:14 amittestubuntu1804 systemd-networkd[807]: vethafb7e57: Link UP
+Oct  6 06:11:14 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 17 seen, reloading interface list
+Oct  6 06:11:14 amittestubuntu1804 systemd-udevd[11462]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:14 amittestubuntu1804 systemd-udevd[11462]: Could not generate persistent MAC address for vethfd77c2b: No such file or directory
+Oct  6 06:11:14 amittestubuntu1804 systemd-udevd[11463]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:14 amittestubuntu1804 systemd-udevd[11463]: Could not generate persistent MAC address for vethafb7e57: No such file or directory
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3194.106117] docker0: port 1(vethafb7e57) entered blocking state
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3194.106119] docker0: port 1(vethafb7e57) entered disabled state
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3194.106181] device vethafb7e57 entered promiscuous mode
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3194.106251] docker0: port 1(vethafb7e57) entered blocking state
+Oct  6 06:11:14 amittestubuntu1804 kernel: [ 3194.106252] docker0: port 1(vethafb7e57) entered forwarding state
+Oct  6 06:11:14 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:14.944445929Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/6ba42803d2083f8772369649b779cc8555b3203d6032bb3d08d3fa8c9f15432e pid=11478
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3194.337271] eth0: renamed from vethfd77c2b
+Oct  6 06:11:15 amittestubuntu1804 systemd-networkd[807]: vethafb7e57: Gained carrier
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3194.357176] IPv6: ADDRCONF(NETDEV_CHANGE): vethafb7e57: link becomes ready
+Oct  6 06:11:15 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:11:15.232699553Z" level=info msg="ignoring event" container=6ba42803d2083f8772369649b779cc8555b3203d6032bb3d08d3fa8c9f15432e module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  6 06:11:15 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:15.232959868Z" level=info msg="shim disconnected" id=6ba42803d2083f8772369649b779cc8555b3203d6032bb3d08d3fa8c9f15432e
+Oct  6 06:11:15 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:15.233075230Z" level=error msg="copy shim log" error="read /proc/self/fd/12: file already closed"
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3194.432444] docker0: port 1(vethafb7e57) entered disabled state
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3194.432552] vethfd77c2b: renamed from eth0
+Oct  6 06:11:15 amittestubuntu1804 systemd-networkd[807]: vethafb7e57: Lost carrier
+Oct  6 06:11:15 amittestubuntu1804 systemd-udevd[11563]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:15 amittestubuntu1804 systemd-networkd[807]: vethafb7e57: Link DOWN
+Oct  6 06:11:15 amittestubuntu1804 systemd-networkd[807]: vethafb7e57: Removing non-existent address: fe80::a485:51ff:fe6f:370c/64 (valid forever), ignoring
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3194.506088] docker0: port 1(vethafb7e57) entered disabled state
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3194.509530] device vethafb7e57 left promiscuous mode
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3194.509538] docker0: port 1(vethafb7e57) entered disabled state
+Oct  6 06:11:15 amittestubuntu1804 networkd-dispatcher[1143]: Failed to request link: No such device
+Oct  6 06:11:15 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Failed to get interface "vethafb7e57" status: Command '['/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'vethafb7e57']' returned non-zero exit status 1.
+Oct  6 06:11:15 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 16 seen, reloading interface list
+Oct  6 06:11:15 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Unknown interface index 16 seen even after reload
+Oct  6 06:11:15 amittestubuntu1804 systemd-networkd[807]: docker0: Lost carrier
+Oct  6 06:11:15 amittestubuntu1804 systemd-networkd[807]: veth7eba9b4: Link UP
+Oct  6 06:11:15 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 19 seen, reloading interface list
+Oct  6 06:11:15 amittestubuntu1804 systemd-udevd[11636]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:15 amittestubuntu1804 systemd-udevd[11635]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:15 amittestubuntu1804 systemd-udevd[11636]: Could not generate persistent MAC address for veth15aea77: No such file or directory
+Oct  6 06:11:15 amittestubuntu1804 systemd-udevd[11635]: Could not generate persistent MAC address for veth7eba9b4: No such file or directory
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3194.886115] docker0: port 1(veth7eba9b4) entered blocking state
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3194.886117] docker0: port 1(veth7eba9b4) entered disabled state
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3194.886184] device veth7eba9b4 entered promiscuous mode
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3194.886255] docker0: port 1(veth7eba9b4) entered blocking state
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3194.886256] docker0: port 1(veth7eba9b4) entered forwarding state
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3194.886314] docker0: port 1(veth7eba9b4) entered disabled state
+Oct  6 06:11:15 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:15.724166131Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/c7d753766b6a6ea1c073929e2c172bd7af2e90c83cb14fa4bb9d64c85b9ca51a pid=11651
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3195.101341] eth0: renamed from veth15aea77
+Oct  6 06:11:15 amittestubuntu1804 systemd-networkd[807]: veth7eba9b4: Gained carrier
+Oct  6 06:11:15 amittestubuntu1804 systemd-networkd[807]: docker0: Gained carrier
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3195.125269] IPv6: ADDRCONF(NETDEV_CHANGE): veth7eba9b4: link becomes ready
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3195.125350] docker0: port 1(veth7eba9b4) entered blocking state
+Oct  6 06:11:15 amittestubuntu1804 kernel: [ 3195.125352] docker0: port 1(veth7eba9b4) entered forwarding state
+Oct  6 06:11:16 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:16.021124474Z" level=info msg="shim disconnected" id=c7d753766b6a6ea1c073929e2c172bd7af2e90c83cb14fa4bb9d64c85b9ca51a
+Oct  6 06:11:16 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:16.021183325Z" level=error msg="copy shim log" error="read /proc/self/fd/12: file already closed"
+Oct  6 06:11:16 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:11:16.021318621Z" level=info msg="ignoring event" container=c7d753766b6a6ea1c073929e2c172bd7af2e90c83cb14fa4bb9d64c85b9ca51a module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3195.220448] docker0: port 1(veth7eba9b4) entered disabled state
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3195.220522] veth15aea77: renamed from eth0
+Oct  6 06:11:16 amittestubuntu1804 systemd-networkd[807]: veth7eba9b4: Lost carrier
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3195.269440] docker0: port 1(veth7eba9b4) entered disabled state
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3195.272982] device veth7eba9b4 left promiscuous mode
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3195.272992] docker0: port 1(veth7eba9b4) entered disabled state
+Oct  6 06:11:16 amittestubuntu1804 systemd-udevd[11737]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:16 amittestubuntu1804 systemd-networkd[807]: veth7eba9b4: Link DOWN
+Oct  6 06:11:16 amittestubuntu1804 systemd-networkd[807]: veth7eba9b4: Removing non-existent address: fe80::482a:92ff:fe6f:7203/64 (valid forever), ignoring
+Oct  6 06:11:16 amittestubuntu1804 networkd-dispatcher[1143]: Failed to request link: No such device
+Oct  6 06:11:16 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Failed to get interface "veth7eba9b4" status: Command '['/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth7eba9b4']' returned non-zero exit status 1.
+Oct  6 06:11:16 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 18 seen, reloading interface list
+Oct  6 06:11:16 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Unknown interface index 18 seen even after reload
+Oct  6 06:11:16 amittestubuntu1804 systemd-networkd[807]: docker0: Lost carrier
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3195.752147] docker0: port 1(vetha2c9a75) entered blocking state
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3195.752150] docker0: port 1(vetha2c9a75) entered disabled state
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3195.752205] device vetha2c9a75 entered promiscuous mode
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3195.752268] docker0: port 1(vetha2c9a75) entered blocking state
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3195.752269] docker0: port 1(vetha2c9a75) entered forwarding state
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3195.752449] docker0: port 1(vetha2c9a75) entered disabled state
+Oct  6 06:11:16 amittestubuntu1804 systemd-networkd[807]: vetha2c9a75: Link UP
+Oct  6 06:11:16 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 21 seen, reloading interface list
+Oct  6 06:11:16 amittestubuntu1804 systemd-udevd[11865]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:16 amittestubuntu1804 systemd-udevd[11865]: Could not generate persistent MAC address for veth5b281b2: No such file or directory
+Oct  6 06:11:16 amittestubuntu1804 systemd-udevd[11866]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:16 amittestubuntu1804 systemd-udevd[11866]: Could not generate persistent MAC address for vetha2c9a75: No such file or directory
+Oct  6 06:11:16 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:16.592627156Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/c9311e6a939e065e8666d577b6a390cff4b38eba228336f1f654ce8feb1efeff pid=11882
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3195.989666] eth0: renamed from veth5b281b2
+Oct  6 06:11:16 amittestubuntu1804 systemd-networkd[807]: vetha2c9a75: Gained carrier
+Oct  6 06:11:16 amittestubuntu1804 systemd-networkd[807]: docker0: Gained carrier
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3196.013068] IPv6: ADDRCONF(NETDEV_CHANGE): vetha2c9a75: link becomes ready
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3196.013117] docker0: port 1(vetha2c9a75) entered blocking state
+Oct  6 06:11:16 amittestubuntu1804 kernel: [ 3196.013118] docker0: port 1(vetha2c9a75) entered forwarding state
+Oct  6 06:11:18 amittestubuntu1804 systemd-networkd[807]: vetha2c9a75: Gained IPv6LL
+Oct  6 06:11:36 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:11:36.398060361Z" level=info msg="ignoring event" container=c9311e6a939e065e8666d577b6a390cff4b38eba228336f1f654ce8feb1efeff module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  6 06:11:36 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:36.398050050Z" level=info msg="shim disconnected" id=c9311e6a939e065e8666d577b6a390cff4b38eba228336f1f654ce8feb1efeff
+Oct  6 06:11:36 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:36.398154595Z" level=error msg="copy shim log" error="read /proc/self/fd/12: file already closed"
+Oct  6 06:11:36 amittestubuntu1804 systemd-networkd[807]: vetha2c9a75: Lost carrier
+Oct  6 06:11:36 amittestubuntu1804 kernel: [ 3215.596193] docker0: port 1(vetha2c9a75) entered disabled state
+Oct  6 06:11:36 amittestubuntu1804 kernel: [ 3215.596272] veth5b281b2: renamed from eth0
+Oct  6 06:11:36 amittestubuntu1804 systemd-udevd[11973]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:36 amittestubuntu1804 systemd-networkd[807]: vetha2c9a75: Link DOWN
+Oct  6 06:11:36 amittestubuntu1804 kernel: [ 3215.672813] docker0: port 1(vetha2c9a75) entered disabled state
+Oct  6 06:11:36 amittestubuntu1804 kernel: [ 3215.676822] device vetha2c9a75 left promiscuous mode
+Oct  6 06:11:36 amittestubuntu1804 kernel: [ 3215.676840] docker0: port 1(vetha2c9a75) entered disabled state
+Oct  6 06:11:36 amittestubuntu1804 networkd-dispatcher[1143]: Failed to request link: No such device
+Oct  6 06:11:36 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Failed to get interface "vetha2c9a75" status: Command '['/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'vetha2c9a75']' returned non-zero exit status 1.
+Oct  6 06:11:36 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 20 seen, reloading interface list
+Oct  6 06:11:36 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Unknown interface index 20 seen even after reload
+Oct  6 06:11:36 amittestubuntu1804 kernel: [ 3216.159114] docker0: port 1(veth28e1101) entered blocking state
+Oct  6 06:11:36 amittestubuntu1804 kernel: [ 3216.159117] docker0: port 1(veth28e1101) entered disabled state
+Oct  6 06:11:36 amittestubuntu1804 systemd-networkd[807]: veth28e1101: Link UP
+Oct  6 06:11:36 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 23 seen, reloading interface list
+Oct  6 06:11:36 amittestubuntu1804 systemd-udevd[12119]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:36 amittestubuntu1804 systemd-udevd[12119]: Could not generate persistent MAC address for veth1fcad86: No such file or directory
+Oct  6 06:11:36 amittestubuntu1804 systemd-udevd[12120]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:36 amittestubuntu1804 systemd-udevd[12120]: Could not generate persistent MAC address for veth28e1101: No such file or directory
+Oct  6 06:11:36 amittestubuntu1804 kernel: [ 3216.159311] device veth28e1101 entered promiscuous mode
+Oct  6 06:11:36 amittestubuntu1804 kernel: [ 3216.159657] docker0: port 1(veth28e1101) entered blocking state
+Oct  6 06:11:36 amittestubuntu1804 kernel: [ 3216.159659] docker0: port 1(veth28e1101) entered forwarding state
+Oct  6 06:11:37 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:37.019642476Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/fee63fe72adcc30e2c808ca9253920761de9c452dc02ee648216ce88a77838dc pid=12154
+Oct  6 06:11:37 amittestubuntu1804 kernel: [ 3216.423622] eth0: renamed from veth1fcad86
+Oct  6 06:11:37 amittestubuntu1804 systemd-networkd[807]: veth28e1101: Gained carrier
+Oct  6 06:11:37 amittestubuntu1804 kernel: [ 3216.451671] IPv6: ADDRCONF(NETDEV_CHANGE): veth28e1101: link becomes ready
+Oct  6 06:11:38 amittestubuntu1804 systemd-networkd[807]: veth28e1101: Gained IPv6LL
+Oct  6 06:11:39 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:11:39.677411131Z" level=info msg="ignoring event" container=fee63fe72adcc30e2c808ca9253920761de9c452dc02ee648216ce88a77838dc module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  6 06:11:39 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:39.677706372Z" level=info msg="shim disconnected" id=fee63fe72adcc30e2c808ca9253920761de9c452dc02ee648216ce88a77838dc
+Oct  6 06:11:39 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:39.677814111Z" level=error msg="copy shim log" error="read /proc/self/fd/12: file already closed"
+Oct  6 06:11:39 amittestubuntu1804 systemd-networkd[807]: veth28e1101: Lost carrier
+Oct  6 06:11:39 amittestubuntu1804 kernel: [ 3218.884581] docker0: port 1(veth28e1101) entered disabled state
+Oct  6 06:11:39 amittestubuntu1804 kernel: [ 3218.884815] veth1fcad86: renamed from eth0
+Oct  6 06:11:39 amittestubuntu1804 systemd-udevd[12318]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:39 amittestubuntu1804 systemd-networkd[807]: veth28e1101: Link DOWN
+Oct  6 06:11:39 amittestubuntu1804 kernel: [ 3218.952375] docker0: port 1(veth28e1101) entered disabled state
+Oct  6 06:11:39 amittestubuntu1804 kernel: [ 3218.956281] device veth28e1101 left promiscuous mode
+Oct  6 06:11:39 amittestubuntu1804 kernel: [ 3218.956292] docker0: port 1(veth28e1101) entered disabled state
+Oct  6 06:11:39 amittestubuntu1804 networkd-dispatcher[1143]: Failed to request link: No such device
+Oct  6 06:11:39 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Failed to get interface "veth28e1101" status: Command '['/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth28e1101']' returned non-zero exit status 1.
+Oct  6 06:11:39 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 22 seen, reloading interface list
+Oct  6 06:11:39 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Unknown interface index 22 seen even after reload
+Oct  6 06:11:40 amittestubuntu1804 systemd-networkd[807]: docker0: Lost carrier
+Oct  6 06:11:46 amittestubuntu1804 systemd-udevd[12450]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:46 amittestubuntu1804 systemd-udevd[12450]: Could not generate persistent MAC address for vetha35f6bc: No such file or directory
+Oct  6 06:11:46 amittestubuntu1804 systemd-networkd[807]: vetha2a2b28: Link UP
+Oct  6 06:11:46 amittestubuntu1804 systemd-udevd[12451]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:11:46 amittestubuntu1804 systemd-udevd[12451]: Could not generate persistent MAC address for vetha2a2b28: No such file or directory
+Oct  6 06:11:46 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 25 seen, reloading interface list
+Oct  6 06:11:46 amittestubuntu1804 kernel: [ 3225.519496] docker0: port 1(vetha2a2b28) entered blocking state
+Oct  6 06:11:46 amittestubuntu1804 kernel: [ 3225.519499] docker0: port 1(vetha2a2b28) entered disabled state
+Oct  6 06:11:46 amittestubuntu1804 kernel: [ 3225.519642] device vetha2a2b28 entered promiscuous mode
+Oct  6 06:11:46 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:11:46.362451210Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e303e9f38630a063e78dccfde6f010b33f056d93ce1feb5a89bed4f1cc442ebb pid=12467
+Oct  6 06:11:46 amittestubuntu1804 kernel: [ 3225.751310] eth0: renamed from vetha35f6bc
+Oct  6 06:11:46 amittestubuntu1804 systemd-networkd[807]: vetha2a2b28: Gained carrier
+Oct  6 06:11:46 amittestubuntu1804 systemd-networkd[807]: docker0: Gained carrier
+Oct  6 06:11:46 amittestubuntu1804 kernel: [ 3225.778906] IPv6: ADDRCONF(NETDEV_CHANGE): vetha2a2b28: link becomes ready
+Oct  6 06:11:46 amittestubuntu1804 kernel: [ 3225.778956] docker0: port 1(vetha2a2b28) entered blocking state
+Oct  6 06:11:46 amittestubuntu1804 kernel: [ 3225.778957] docker0: port 1(vetha2a2b28) entered forwarding state
+Oct  6 06:11:48 amittestubuntu1804 systemd-networkd[807]: vetha2a2b28: Gained IPv6LL
+Oct  6 06:17:02 amittestubuntu1804 CRON[15602]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  6 06:18:09 amittestubuntu1804 systemd-networkd[807]: ens4: Configured
+Oct  6 06:19:17 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:19:17.650771605Z" level=info msg="ignoring event" container=e303e9f38630a063e78dccfde6f010b33f056d93ce1feb5a89bed4f1cc442ebb module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  6 06:19:17 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:19:17.650944718Z" level=info msg="shim disconnected" id=e303e9f38630a063e78dccfde6f010b33f056d93ce1feb5a89bed4f1cc442ebb
+Oct  6 06:19:17 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:19:17.652213694Z" level=error msg="copy shim log" error="read /proc/self/fd/12: file already closed"
+Oct  6 06:19:17 amittestubuntu1804 systemd-networkd[807]: vetha2a2b28: Lost carrier
+Oct  6 06:19:17 amittestubuntu1804 kernel: [ 3676.815553] docker0: port 1(vetha2a2b28) entered disabled state
+Oct  6 06:19:17 amittestubuntu1804 kernel: [ 3676.815641] vetha35f6bc: renamed from eth0
+Oct  6 06:19:17 amittestubuntu1804 systemd-udevd[5028]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:19:17 amittestubuntu1804 systemd-networkd[807]: vetha2a2b28: Link DOWN
+Oct  6 06:19:17 amittestubuntu1804 kernel: [ 3676.874136] docker0: port 1(vetha2a2b28) entered disabled state
+Oct  6 06:19:17 amittestubuntu1804 kernel: [ 3676.877317] device vetha2a2b28 left promiscuous mode
+Oct  6 06:19:17 amittestubuntu1804 kernel: [ 3676.877323] docker0: port 1(vetha2a2b28) entered disabled state
+Oct  6 06:19:17 amittestubuntu1804 networkd-dispatcher[1143]: Failed to request link: No such device
+Oct  6 06:19:17 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Failed to get interface "vetha2a2b28" status: Command '['/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'vetha2a2b28']' returned non-zero exit status 1.
+Oct  6 06:19:17 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 24 seen, reloading interface list
+Oct  6 06:19:17 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Unknown interface index 24 seen even after reload
+Oct  6 06:19:18 amittestubuntu1804 systemd-networkd[807]: docker0: Lost carrier
+Oct  6 06:19:21 amittestubuntu1804 systemd-networkd[807]: veth8feb43f: Link UP
+Oct  6 06:19:21 amittestubuntu1804 systemd-udevd[5228]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:19:21 amittestubuntu1804 systemd-udevd[5228]: Could not generate persistent MAC address for vethbda6612: No such file or directory
+Oct  6 06:19:21 amittestubuntu1804 systemd-udevd[5229]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:19:21 amittestubuntu1804 systemd-udevd[5229]: Could not generate persistent MAC address for veth8feb43f: No such file or directory
+Oct  6 06:19:21 amittestubuntu1804 kernel: [ 3680.907020] docker0: port 1(veth8feb43f) entered blocking state
+Oct  6 06:19:21 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 27 seen, reloading interface list
+Oct  6 06:19:21 amittestubuntu1804 kernel: [ 3680.907022] docker0: port 1(veth8feb43f) entered disabled state
+Oct  6 06:19:21 amittestubuntu1804 kernel: [ 3680.907244] device veth8feb43f entered promiscuous mode
+Oct  6 06:19:21 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:19:21.792055261Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/3676bf8b80b9cf2efc3d8ba58a4fe0feab5955ca71649c32ead3acbcde30c3e8 pid=5257
+Oct  6 06:19:21 amittestubuntu1804 kernel: [ 3681.154084] eth0: renamed from vethbda6612
+Oct  6 06:19:22 amittestubuntu1804 systemd-networkd[807]: veth8feb43f: Gained carrier
+Oct  6 06:19:22 amittestubuntu1804 systemd-networkd[807]: docker0: Gained carrier
+Oct  6 06:19:22 amittestubuntu1804 kernel: [ 3681.185932] IPv6: ADDRCONF(NETDEV_CHANGE): veth8feb43f: link becomes ready
+Oct  6 06:19:22 amittestubuntu1804 kernel: [ 3681.186012] docker0: port 1(veth8feb43f) entered blocking state
+Oct  6 06:19:22 amittestubuntu1804 kernel: [ 3681.186014] docker0: port 1(veth8feb43f) entered forwarding state
+Oct  6 06:19:23 amittestubuntu1804 systemd-networkd[807]: veth8feb43f: Gained IPv6LL
+Oct  6 06:19:29 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:19:29.434602527Z" level=info msg="ignoring event" container=3676bf8b80b9cf2efc3d8ba58a4fe0feab5955ca71649c32ead3acbcde30c3e8 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  6 06:19:29 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:19:29.434696617Z" level=info msg="shim disconnected" id=3676bf8b80b9cf2efc3d8ba58a4fe0feab5955ca71649c32ead3acbcde30c3e8
+Oct  6 06:19:29 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:19:29.434772519Z" level=error msg="copy shim log" error="read /proc/self/fd/12: file already closed"
+Oct  6 06:19:29 amittestubuntu1804 kernel: [ 3688.608434] docker0: port 1(veth8feb43f) entered disabled state
+Oct  6 06:19:29 amittestubuntu1804 kernel: [ 3688.608514] vethbda6612: renamed from eth0
+Oct  6 06:19:29 amittestubuntu1804 systemd-networkd[807]: veth8feb43f: Lost carrier
+Oct  6 06:19:29 amittestubuntu1804 systemd-udevd[5421]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:19:29 amittestubuntu1804 systemd-networkd[807]: veth8feb43f: Link DOWN
+Oct  6 06:19:29 amittestubuntu1804 kernel: [ 3688.665322] docker0: port 1(veth8feb43f) entered disabled state
+Oct  6 06:19:29 amittestubuntu1804 kernel: [ 3688.668255] device veth8feb43f left promiscuous mode
+Oct  6 06:19:29 amittestubuntu1804 kernel: [ 3688.668263] docker0: port 1(veth8feb43f) entered disabled state
+Oct  6 06:19:29 amittestubuntu1804 networkd-dispatcher[1143]: Failed to request link: No such device
+Oct  6 06:19:29 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Failed to get interface "veth8feb43f" status: Command '['/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth8feb43f']' returned non-zero exit status 1.
+Oct  6 06:19:29 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 26 seen, reloading interface list
+Oct  6 06:19:29 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Unknown interface index 26 seen even after reload
+Oct  6 06:19:30 amittestubuntu1804 systemd-networkd[807]: docker0: Lost carrier
+Oct  6 06:20:10 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:20:10.618242789Z" level=error msg="(*service).Write failed" error="rpc error: code = Unavailable desc = ref moby/1/manifest-sha256:5f25d97ece9076612b64bb551e12f1e39a520176b684e2d663ce1bd53c5d0618 locked: unavailable" expected="sha256:5f25d97ece9076612b64bb551e12f1e39a520176b684e2d663ce1bd53c5d0618" ref="manifest-sha256:5f25d97ece9076612b64bb551e12f1e39a520176b684e2d663ce1bd53c5d0618" total=529
+Oct  6 06:23:16 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:23:16.778806327Z" level=info msg="Layer sha256:44a8654b2bd59622c5461806ff3afcacecc095a2f39d36a4b2237a933f6edc6b cleaned up"
+Oct  6 06:23:16 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:23:16.881198953Z" level=info msg="Layer sha256:44a8654b2bd59622c5461806ff3afcacecc095a2f39d36a4b2237a933f6edc6b cleaned up"
+Oct  6 06:23:16 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:23:16.979959055Z" level=info msg="Layer sha256:44a8654b2bd59622c5461806ff3afcacecc095a2f39d36a4b2237a933f6edc6b cleaned up"
+Oct  6 06:23:17 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:23:17.080663273Z" level=info msg="Layer sha256:44a8654b2bd59622c5461806ff3afcacecc095a2f39d36a4b2237a933f6edc6b cleaned up"
+Oct  6 06:23:17 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:23:17.181630135Z" level=info msg="Layer sha256:44a8654b2bd59622c5461806ff3afcacecc095a2f39d36a4b2237a933f6edc6b cleaned up"
+Oct  6 06:23:17 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:23:17.280919847Z" level=info msg="Layer sha256:44a8654b2bd59622c5461806ff3afcacecc095a2f39d36a4b2237a933f6edc6b cleaned up"
+Oct  6 06:23:17 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:23:17.379714302Z" level=info msg="Layer sha256:44a8654b2bd59622c5461806ff3afcacecc095a2f39d36a4b2237a933f6edc6b cleaned up"
+Oct  6 06:23:17 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:23:17.482906234Z" level=info msg="Layer sha256:44a8654b2bd59622c5461806ff3afcacecc095a2f39d36a4b2237a933f6edc6b cleaned up"
+Oct  6 06:23:17 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:23:17.582906502Z" level=info msg="Layer sha256:44a8654b2bd59622c5461806ff3afcacecc095a2f39d36a4b2237a933f6edc6b cleaned up"
+Oct  6 06:25:01 amittestubuntu1804 CRON[6730]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Oct  6 06:34:39 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:34:39.599699742Z" level=info msg="Layer sha256:959b72587e42f1677f7bcaf310654ae3c3f7b7488457476db4a03296864d627f cleaned up"
+Oct  6 06:34:53 amittestubuntu1804 systemd-networkd[807]: veth3866202: Link UP
+Oct  6 06:34:53 amittestubuntu1804 systemd-udevd[21040]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:34:53 amittestubuntu1804 systemd-udevd[21040]: Could not generate persistent MAC address for veth93e1cbb: No such file or directory
+Oct  6 06:34:53 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 29 seen, reloading interface list
+Oct  6 06:34:53 amittestubuntu1804 systemd-udevd[21041]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:34:53 amittestubuntu1804 kernel: [ 4613.087452] docker0: port 1(veth3866202) entered blocking state
+Oct  6 06:34:53 amittestubuntu1804 kernel: [ 4613.087455] docker0: port 1(veth3866202) entered disabled state
+Oct  6 06:34:53 amittestubuntu1804 kernel: [ 4613.087658] device veth3866202 entered promiscuous mode
+Oct  6 06:34:53 amittestubuntu1804 systemd-udevd[21041]: Could not generate persistent MAC address for veth3866202: No such file or directory
+Oct  6 06:34:54 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:34:54.029410088Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/94b44dc1d661fc736af47336017ec3c56bbd0262418d701acdf5c58dfb4d8b83 pid=21058
+Oct  6 06:34:54 amittestubuntu1804 kernel: [ 4613.314260] eth0: renamed from veth93e1cbb
+Oct  6 06:34:54 amittestubuntu1804 systemd-networkd[807]: veth3866202: Gained carrier
+Oct  6 06:34:54 amittestubuntu1804 systemd-networkd[807]: docker0: Gained carrier
+Oct  6 06:34:54 amittestubuntu1804 kernel: [ 4613.330021] IPv6: ADDRCONF(NETDEV_CHANGE): veth3866202: link becomes ready
+Oct  6 06:34:54 amittestubuntu1804 kernel: [ 4613.330062] docker0: port 1(veth3866202) entered blocking state
+Oct  6 06:34:54 amittestubuntu1804 kernel: [ 4613.330063] docker0: port 1(veth3866202) entered forwarding state
+Oct  6 06:34:54 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:34:54.377533165Z" level=info msg="shim disconnected" id=94b44dc1d661fc736af47336017ec3c56bbd0262418d701acdf5c58dfb4d8b83
+Oct  6 06:34:54 amittestubuntu1804 containerd[8492]: time="2021-10-06T06:34:54.377598645Z" level=error msg="copy shim log" error="read /proc/self/fd/12: file already closed"
+Oct  6 06:34:54 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:34:54.377665122Z" level=info msg="ignoring event" container=94b44dc1d661fc736af47336017ec3c56bbd0262418d701acdf5c58dfb4d8b83 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  6 06:34:54 amittestubuntu1804 systemd-networkd[807]: veth3866202: Lost carrier
+Oct  6 06:34:54 amittestubuntu1804 kernel: [ 4613.474603] docker0: port 1(veth3866202) entered disabled state
+Oct  6 06:34:54 amittestubuntu1804 kernel: [ 4613.474689] veth93e1cbb: renamed from eth0
+Oct  6 06:34:54 amittestubuntu1804 systemd-udevd[21149]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  6 06:34:54 amittestubuntu1804 systemd-networkd[807]: veth3866202: Link DOWN
+Oct  6 06:34:54 amittestubuntu1804 systemd-networkd[807]: veth3866202: Removing non-existent address: fe80::747b:e5ff:fef4:27e2/64 (valid forever), ignoring
+Oct  6 06:34:54 amittestubuntu1804 kernel: [ 4613.518085] docker0: port 1(veth3866202) entered disabled state
+Oct  6 06:34:54 amittestubuntu1804 kernel: [ 4613.521193] device veth3866202 left promiscuous mode
+Oct  6 06:34:54 amittestubuntu1804 kernel: [ 4613.521203] docker0: port 1(veth3866202) entered disabled state
+Oct  6 06:34:54 amittestubuntu1804 networkd-dispatcher[1143]: Failed to request link: No such device
+Oct  6 06:34:54 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Failed to get interface "veth3866202" status: Command '['/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth3866202']' returned non-zero exit status 1.
+Oct  6 06:34:54 amittestubuntu1804 networkd-dispatcher[1143]: WARNING:Unknown index 28 seen, reloading interface list
+Oct  6 06:34:54 amittestubuntu1804 networkd-dispatcher[1143]: ERROR:Unknown interface index 28 seen even after reload
+Oct  6 06:34:54 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:34:54.804573116Z" level=info msg="Layer sha256:74199bed281e1a000718b9adf37484fc958b73abe6d05474e16c73201aef83b8 cleaned up"
+Oct  6 06:34:54 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:34:54.906546700Z" level=info msg="Layer sha256:74199bed281e1a000718b9adf37484fc958b73abe6d05474e16c73201aef83b8 cleaned up"
+Oct  6 06:34:55 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:34:55.005408819Z" level=info msg="Layer sha256:74199bed281e1a000718b9adf37484fc958b73abe6d05474e16c73201aef83b8 cleaned up"
+Oct  6 06:34:55 amittestubuntu1804 systemd-networkd[807]: docker0: Lost carrier
+Oct  6 06:34:55 amittestubuntu1804 dockerd[8677]: time="2021-10-06T06:34:55.112096868Z" level=info msg="Layer sha256:74199bed281e1a000718b9adf37484fc958b73abe6d05474e16c73201aef83b8 cleaned up"
+Oct  6 06:48:09 amittestubuntu1804 systemd-networkd[807]: ens4: Configured
+Oct  6 07:17:01 amittestubuntu1804 CRON[30777]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  6 07:18:09 amittestubuntu1804 systemd-networkd[807]: ens4: Configured
+Oct  6 07:27:02 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T07:27:02.9988Z GCEGuestAgent Info: Updating keys for user root.
+Oct  6 07:30:29 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T07:30:29.4239Z GCEGuestAgent Info: Updating keys for user root.
+Oct  6 07:48:10 amittestubuntu1804 systemd-networkd[807]: ens4: Configured
+Oct  6 08:17:01 amittestubuntu1804 CRON[32084]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  6 08:18:09 amittestubuntu1804 systemd-networkd[807]: ens4: Configured
+Oct  6 08:48:10 amittestubuntu1804 systemd-networkd[807]: ens4: Configured
+Oct  6 09:15:44 amittestubuntu1804 GCEGuestAgent[1528]: 2021-10-06T09:15:44.6875Z GCEGuestAgent Info: Updating keys for user root.
+Oct  6 09:17:01 amittestubuntu1804 CRON[7215]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  6 09:18:09 amittestubuntu1804 systemd-networkd[807]: ens4: Configured
+Oct  6 09:37:51 amittestubuntu1804 systemd[1]: Starting Daily apt download activities...
+Oct  6 09:38:00 amittestubuntu1804 systemd[1]: Started Daily apt download activities.
+Oct  6 09:48:10 amittestubuntu1804 systemd-networkd[807]: ens4: Configured
+Oct  6 10:11:53 amittestubuntu1804 systemd[1]: Started Session 9 of user root.

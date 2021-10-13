@@ -1,0 +1,1 @@
+# log reports for gce cloud

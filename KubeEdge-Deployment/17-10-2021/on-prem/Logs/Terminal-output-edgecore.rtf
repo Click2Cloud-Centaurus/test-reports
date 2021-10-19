@@ -1,0 +1,899 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern Consolas;}{\f1\fmodern Wingdings;}{\f2\fmodern\fcharset2 Wingdings;}{\f3\fmodern\fcharset0 Consolas;}{\f4\fnil\fcharset129 Courier New;}}
+{\colortbl ;\red20\green20\blue20;\red142\green142\blue142;\red16\green158\blue98;\red148\green146\blue12;\red170\green51\blue170;\red170\green64\blue64;\red56\green136\blue159;\red136\green202\blue222;\red12\green100\blue126;\red134\green216\blue181;\red9\green118\blue72;\red222\green222\blue136;\red126\green126\blue12;\red18\green124\blue155;\red94\green147\blue162;\red170\green85\blue85;\red136\green136\blue136;}
+\viewkind4\uc1\pard\f0\fs20      \u9484?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\cf1\highlight2 
+\par \cf0\highlight0      \u9474?                \cf3\u8729? MobaXterm Personal Edition v21.1 \u8729?\cf0                 \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474?              \cf4 (X server, SSH client and network tools)\cf0               \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474?                                                                    \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \u8594? Your computer drives are accessible through the \cf5 /drives\cf0  path     \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \u8594? Your DISPLAY is set to \cf5 192.168.0.20:0.0   \cf0                        \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \u8594? When using \cf5 SSH\cf0 , your remote DISPLAY is automatically forwarded   \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \u8594? Your \cf5 HOME\cf0  folder is not persistent: it will be erased on restart \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \u8594? Each command status is specified by a special symbol (\cf3 v\cf0  or \cf6 x\cf0 )    \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474?                                                                    \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf6\u8729? Important:\cf0                                                        \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf7 This is MobaXterm Personal Edition. The Professional edition\cf0        \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf7 allows you to customize MobaXterm for your company: you can add\cf0     \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf7 your own logo, your parameters, your welcome message and generate\cf0   \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf7 either an MSI installation package or a portable executable.\cf0        \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf7 We can also modify MobaXterm or develop the plugins you need.\cf0       \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf4 For more information: \cf5\ul https://mobaxterm.mobatek.net/download.html\cf0\ulnone   \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9492?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\cf1\highlight2 
+\par 
+\par \highlight8  \f1 O\f0  18/10/2021 \cf9\highlight10\u9658?\cf1  \f2\'be\f0  12:24.56 \cf11\highlight12\u9658?\cf1  \f1 1\f0  /home/mobaxterm \cf13\highlight0\u9658?\cf1\highlight2 
+\par 
+\par \highlight8  \f1 O\f0  18/10/2021 \cf9\highlight10\u9658?\cf1  \f2\'be\f0  12:24.56 \cf11\highlight12\u9658?\cf1  \f1 1\f0  /home/mobaxterm \cf13\highlight0\u9658?\cf0  ssh root@192.168.3.130\cf1\highlight2 
+\par \cf0\highlight0 Warning: Permanently added '192.168.3.130' (RSA) to the list of known hosts.\cf1\highlight2 
+\par \cf0\highlight0 X11 forwarding request failed on channel 0\cf1\highlight2 
+\par \cf0\highlight0 Last login: Thu Oct 14 10:51:50 2021 from gateway\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos ~]#\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos ~]# ls\cf1\highlight2 
+\par \cf0\highlight0 anaconda-ks.cfg  \cf14 directory\cf0   \cf14 file\cf0   \cf14 git\cf0   \cf14 No\cf0   \cf14 or\cf0   \cf14 such\cf0   \cf14 var\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos ~]# cd /\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos /]# ls\cf1\highlight2 
+\par \cf15\highlight0 bin\cf0   \cf14 boot\cf0   \cf14 dev\cf0   \cf14 etc\cf0   \cf14 home\cf0   \cf15 lib\cf0   \cf15 lib64\cf0   \cf14 media\cf0   \cf14 mnt\cf0   \cf14 opt\cf0   \cf14 proc\cf0   \cf14 root\cf0   \cf14 run\cf0   \cf15 sbin\cf0   \cf14 srv\cf0   \cf14 sys\cf0   \cf1\highlight10 tmp\cf0\highlight0   \cf14 usr\cf0   \cf14 var\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos /]# cd /var\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos var]# ls\cf1\highlight2 
+\par \cf14\highlight0 adm\cf0   \cf14 cache\cf0   \cf14 crash\cf0   \cf14 db\cf0   \cf14 empty\cf0   \cf14 games\cf0   \cf14 gopher\cf0   \cf14 kerberos\cf0   \cf14 lib\cf0   \cf14 local\cf0   \cf15 lock\cf0   \cf14 log\cf0   \cf15 mail\cf0   \cf9\highlight10 nfsshare\cf0\highlight0   \cf14 nis\cf0   \cf14 opt\cf0   \cf14 preserve\cf0   \cf15 run\cf0   \cf14 spool\cf0   \cf1\highlight10 tmp\cf0\highlight0   \cf14 yp\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos var]# cd nfsshare/\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# ls\cf1\highlight2 
+\par \cf9\highlight10 cb\cf0\highlight0   \cf9\highlight10 jenkins-point\cf0\highlight0   \cf14 portainer\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# cd portainer/\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos portainer]# ls\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos portainer]# cd ..\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# ls\cf1\highlight2 
+\par \cf9\highlight10 cb\cf0\highlight0   \cf9\highlight10 jenkins-point\cf0\highlight0   \cf14 portainer\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# pwd\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# cd portainer\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos portainer]# pwd\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/portainer\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos portainer]# chmod -R /var/nfsshare/portainer\cf1\highlight2 
+\par \cf0\highlight0\f3 chmod: missing operand after \lquote /var/nfsshare/portainer\rquote\cf1\highlight2\f0 
+\par \cf0\highlight0 Try 'chmod --help' for more information.\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos portainer]# chmod -R 777 /var/nfsshare/portainer\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos portainer]#\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos portainer]# ls\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos portainer]# cd ..\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# ls\cf1\highlight2 
+\par \cf9\highlight10 cb\cf0\highlight0   \cf9\highlight10 jenkins-point\cf0\highlight0   \cf9\highlight10 portainer\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# cd portainer\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos portainer]# ks\cf1\highlight2 
+\par \cf0\highlight0 -bash: ks: command not found\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos portainer]#\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos portainer]# ls\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos portainer]# cd ..\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# ls\cf1\highlight2 
+\par \cf9\highlight10 cb\cf0\highlight0   \cf9\highlight10 jenkins-point\cf0\highlight0   \cf9\highlight10 portainer\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# pwd\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# vi /etc/exports\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# exportfs -avr\cf1\highlight2 
+\par \cf0\highlight0 exportfs: duplicated export entries:\cf1\highlight2 
+\par \cf0\highlight0 exportfs:       *:/var/nfsshare/cb/dev/engine/certs\cf1\highlight2 
+\par \cf0\highlight0 exportfs:       *:/var/nfsshare/cb/dev/engine/certs\cf1\highlight2 
+\par \cf0\highlight0 exportfs: duplicated export entries:\cf1\highlight2 
+\par \cf0\highlight0 exportfs:       *:/var/nfsshare/portainer\cf1\highlight2 
+\par \cf0\highlight0 exportfs:       *:/var/nfsshare/portainer\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/jenkins-point\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/postgres/pricing\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/cloudintel-db\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/cloudintel-db\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/portainer\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/multi-cloud/tidb-data\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/multi-cloud/logs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/multi-cloud/datastore\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/storage-management/clusters\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/clusterpro-go/config_dumps\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/clusterpro/config_dumps\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/dr/jobs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/cro/jobs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/opensds/mongo/db\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/opensds/logs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/opensds/ssl/certs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/engine/logs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/postgres/data\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/uat/engine/certs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/manageiq_ci-cb/test/engine/certs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/manageiq_ci-cb/test/engine/logs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/manageiq_ci-cb/test/postgres/data\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/backup/db\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/admin\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/multi-cloud/tidb-data\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/multi-cloud/logs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/multi-cloud/datastore\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/storage-management/clusters\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/postgres/data\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/clusterpro-go/config_dumps\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/clusterpro/config_dumps\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/dr/jobs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/cro/jobs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/opensds/mongo/db\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/opensds/logs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/opensds/ssl/certs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/engine/logs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/dev/engine/certs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/license-app/postgres/data\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/admin\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/multi-cloud/tidb-data\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/multi-cloud/logs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/multi-cloud/datastore\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/storage-management/clusters\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/postgres/data\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/clusterpro-go/config_dumps\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/clusterpro/config_dumps\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/dr/jobs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/cro/jobs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/opensds/mongo/db\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/opensds/logs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/opensds/ssl/certs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/engine/logs\cf1\highlight2 
+\par \cf0\highlight0 exporting *:/var/nfsshare/cb/test/engine/certs\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]#\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# la\cf1\highlight2 
+\par \cf0\highlight0 -bash: la: command not found\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]#\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# ls\cf1\highlight2 
+\par \cf9\highlight10 cb\cf0\highlight0   \cf9\highlight10 jenkins-point\cf0\highlight0   \cf9\highlight10 portainer\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# ls\cf1\highlight2 
+\par \cf9\highlight10 cb\cf0\highlight0   \cf9\highlight10 jenkins-point\cf0\highlight0   \cf9\highlight10 portainer\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# exportfs\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/engine/certs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/engine/logs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/opensds/ssl/certs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/opensds/logs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/opensds/mongo/db\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/cro/jobs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/dr/jobs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/clusterpro/config_dumps\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/clusterpro-go/config_dumps\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/postgres/data\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/storage-management/clusters\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/multi-cloud/datastore\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/multi-cloud/logs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/multi-cloud/tidb-data\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/admin\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/license-app/postgres/data\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/engine/certs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/engine/logs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/opensds/ssl/certs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/opensds/logs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/opensds/mongo/db\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/cro/jobs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/dr/jobs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/clusterpro/config_dumps\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/clusterpro-go/config_dumps\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/postgres/data\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/storage-management/clusters\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/multi-cloud/datastore\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/multi-cloud/logs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/multi-cloud/tidb-data\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/admin\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/backup/db\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/manageiq_ci-cb/test/postgres/data\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/manageiq_ci-cb/test/engine/logs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/manageiq_ci-cb/test/engine/certs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/engine/certs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/postgres/data\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/engine/logs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/opensds/ssl/certs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/opensds/logs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/opensds/mongo/db\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/cro/jobs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/dr/jobs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/clusterpro/config_dumps\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/clusterpro-go/config_dumps\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/storage-management/clusters\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/multi-cloud/datastore\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/multi-cloud/logs\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/uat/multi-cloud/tidb-data\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/portainer\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/cloudintel-db\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/dev/cloudintel-db\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/cb/test/postgres/pricing\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 /var/nfsshare/jenkins-point\cf1\highlight2 
+\par \cf0\highlight0                 <world>\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]#\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]#\cf1\highlight2 
+\par \cf0\highlight0 [root@Centos nfsshare]# logout\cf1\highlight2 
+\par \cf0\highlight0 Connection to 192.168.3.130 closed.\cf1\highlight2 
+\par \cf0\highlight0                                                                                                                                                          \cf6 x\cf1\highlight2 
+\par 
+\par \highlight8  \f1 O\f0  18/10/2021 \cf9\highlight10\u9658?\cf1  \f2\'be\f0  12:40.52 \cf11\highlight12\u9658?\cf1  \f1 1\f0  /home/mobaxterm \cf13\highlight0\u9658?\cf1\highlight2 
+\par 
+\par \highlight8  \f1 O\f0  18/10/2021 \cf9\highlight10\u9658?\cf1  \f2\'be\f0  12:40.52 \cf11\highlight12\u9658?\cf1  \f1 1\f0  /home/mobaxterm \cf13\highlight0\u9658?\cf0  ssh root@192.168.3.140\cf1\highlight2 
+\par \cf0\highlight0 X11 forwarding request failed on channel 0\cf1\highlight2 
+\par \cf0\highlight0 Last login: Mon Oct 18 10:16:27 2021 from gateway\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# history\cf1\highlight2 
+\par \cf0\highlight0     1  systemctl status network\cf1\highlight2 
+\par \cf0\highlight0     2  systemctl disable network\cf1\highlight2 
+\par \cf0\highlight0     3  ping 8.8.8.8\cf1\highlight2 
+\par \cf0\highlight0     4  init 0\cf1\highlight2 
+\par \cf0\highlight0     5  df  -h\cf1\highlight2 
+\par \cf0\highlight0     6  swapoff -a\cf1\highlight2 
+\par \cf0\highlight0     7  df -h\cf1\highlight2 
+\par \cf0\highlight0     8  yum update\cf1\highlight2 
+\par \cf0\highlight0     9  yum install haproxy\cf1\highlight2 
+\par \cf0\highlight0    10  systemctl status network\cf1\highlight2 
+\par \cf0\highlight0    11  systenctl stop network\cf1\highlight2 
+\par \cf0\highlight0    12  systemctl stop network\cf1\highlight2 
+\par \cf0\highlight0    13  nmtui\cf1\highlight2 
+\par \cf0\highlight0    14  ping www.google.com\cf1\highlight2 
+\par \cf0\highlight0    15  ip addr\cf1\highlight2 
+\par \cf0\highlight0    16  systemctl status haproxy\cf1\highlight2 
+\par \cf0\highlight0    17  vi /etc/haproxy\cf1\highlight2 
+\par \cf0\highlight0    18  cd /etc/haproxy\cf1\highlight2 
+\par \cf0\highlight0    19  ls\cf1\highlight2 
+\par \cf0\highlight0    20  cp haproxy.cfg haproxy-bkp.cfg\cf1\highlight2 
+\par \cf0\highlight0    21  ls\cf1\highlight2 
+\par \cf0\highlight0    22  vi haproxy.cfg\cf1\highlight2 
+\par \cf0\highlight0    23  ls\cf1\highlight2 
+\par \cf0\highlight0    24  rm -rf \\\cf1\highlight2 
+\par \cf0\highlight0    25  ls\cf1\highlight2 
+\par \cf0\highlight0    26  rm -rf \\\cf1\highlight2 
+\par \cf0\highlight0    27  ls\cf1\highlight2 
+\par \cf0\highlight0    28  pwd\cf1\highlight2 
+\par \cf0\highlight0    29  ls\cf1\highlight2 
+\par \cf0\highlight0    30  vi haproxy.cfg\cf1\highlight2 
+\par \cf0\highlight0    31  ls\cf1\highlight2 
+\par \cf0\highlight0    32  cp haproxy.cfg /root\cf1\highlight2 
+\par \cf0\highlight0    33  ls\cf1\highlight2 
+\par \cf0\highlight0    34  rm -rf *\cf1\highlight2 
+\par \cf0\highlight0    35  ls\cf1\highlight2 
+\par \cf0\highlight0    36  cp /root/haproxy.cfg /etc/haproxy/\cf1\highlight2 
+\par \cf0\highlight0    37  ls\cf1\highlight2 
+\par \cf0\highlight0    38  ls -ltrh\cf1\highlight2 
+\par \cf0\highlight0    39  vi haproxy.cfg\cf1\highlight2 
+\par \cf0\highlight0    40  syistemctl restart haproxy\cf1\highlight2 
+\par \cf0\highlight0    41  systemctl restart haproxy\cf1\highlight2 
+\par \cf0\highlight0    42  systemctl status haproxy\cf1\highlight2 
+\par \cf0\highlight0    43  systemctl stop firewalld\cf1\highlight2 
+\par \cf0\highlight0    44  systemctl disable firewalld\cf1\highlight2 
+\par \cf0\highlight0    45  vi /etc/haproxy/\cf1\highlight2 
+\par \cf0\highlight0    46  cd /etc/haproxy/\cf1\highlight2 
+\par \cf0\highlight0    47  ls\cf1\highlight2 
+\par \cf0\highlight0    48  vi haproxy.cfg\cf1\highlight2 
+\par \cf0\highlight0    49  ip addr\cf1\highlight2 
+\par \cf0\highlight0    50  systemctl restart haproxy\cf1\highlight2 
+\par \cf0\highlight0    51  systemctl status haproxy\cf1\highlight2 
+\par \cf0\highlight0    52  systemctl status network\cf1\highlight2 
+\par \cf0\highlight0    53  systemctl start network\cf1\highlight2 
+\par \cf0\highlight0    54  systemctl status network\cf1\highlight2 
+\par \cf0\highlight0    55  systemctl enable network\cf1\highlight2 
+\par \cf0\highlight0    56  nmtui\cf1\highlight2 
+\par \cf0\highlight0    57  sudo yum install -y yum-utils\cf1\highlight2 
+\par \cf0\highlight0    58   sudo yum-config-manager     --add-repo     https://download.docker.com/linux/centos/docker-ce.repo\cf1\highlight2 
+\par \cf0\highlight0    59  sudo yum install docker-ce docker-ce-cli containerd.io\cf1\highlight2 
+\par \cf0\highlight0    60  cat <<EOF > /etc/yum.repos.d/kubernetes.repo\cf1\highlight2 
+\par \cf0\highlight0    61  [kubernetes]\cf1\highlight2 
+\par \cf0\highlight0    62  name=Kubernetes\cf1\highlight2 
+\par \cf0\highlight0    63  baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64\cf1\highlight2 
+\par \cf0\highlight0    64  enabled=1\cf1\highlight2 
+\par \cf0\highlight0    65  gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0    66  repo_gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0    67  gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg\cf1\highlight2 
+\par \cf0\highlight0    68  EOF\cf1\highlight2 
+\par \cf0\highlight0    69  yum install kubeadm -y\cf1\highlight2 
+\par \cf0\highlight0    70  yum remove kubeadm -y\cf1\highlight2 
+\par \cf0\highlight0    71  kubectl version\cf1\highlight2 
+\par \cf0\highlight0    72  ls\cf1\highlight2 
+\par \cf0\highlight0    73  kubectl version\cf1\highlight2 
+\par \cf0\highlight0    74  kubeadm version\cf1\highlight2 
+\par \cf0\highlight0    75  yum remove kubectl\cf1\highlight2 
+\par \cf0\highlight0    76  yum remove kubelet\cf1\highlight2 
+\par \cf0\highlight0    77  cat <<EOF > /etc/yum.repos.d/kubernetes.repo\cf1\highlight2 
+\par \cf0\highlight0    78  [kubernetes]\cf1\highlight2 
+\par \cf0\highlight0    79  name=Kubernetes\cf1\highlight2 
+\par \cf0\highlight0    80  baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64\cf1\highlight2 
+\par \cf0\highlight0    81  enabled=1\cf1\highlight2 
+\par \cf0\highlight0    82  gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0    83  repo_gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0    84  gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg\cf1\highlight2 
+\par \cf0\highlight0    85  EOF\cf1\highlight2 
+\par \cf0\highlight0    86  yum install -y kubectl\cf1\highlight2 
+\par \cf0\highlight0    87  vi /etc/yum.repos.d/kubernetes.repo\cf1\highlight2 
+\par \cf0\highlight0    88  yum remove kubectl\cf1\highlight2 
+\par \cf0\highlight0    89  cat <<EOF > /etc/yum.repos.d/kubernetes.repo\cf1\highlight2 
+\par \cf0\highlight0    90  [kubernetes]\cf1\highlight2 
+\par \cf0\highlight0    91  name=Kubernetes\cf1\highlight2 
+\par \cf0\highlight0    92  baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64\cf1\highlight2 
+\par \cf0\highlight0    93  enabled=1\cf1\highlight2 
+\par \cf0\highlight0    94  gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0    95  repo_gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0    96  gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg\cf1\highlight2 
+\par \cf0\highlight0    97  EOF\cf1\highlight2 
+\par \cf0\highlight0    98  yum install kubectl\cf1\highlight2 
+\par \cf0\highlight0    99  kubectl version\cf1\highlight2 
+\par \cf0\highlight0   100  yum remove kubectl\cf1\highlight2 
+\par \cf0\highlight0   101  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"\cf1\highlight2 
+\par \cf0\highlight0   102  ls\cf1\highlight2 
+\par \cf0\highlight0   103  ./kubectl version\cf1\highlight2 
+\par \cf0\highlight0   104  kubectl version\cf1\highlight2 
+\par \cf0\highlight0   105  ls\cf1\highlight2 
+\par \cf0\highlight0   106  chmod 777 kubectl\cf1\highlight2 
+\par \cf0\highlight0   107  ls\cf1\highlight2 
+\par \cf0\highlight0   108  cp kubectl /usr/local/bin\cf1\highlight2 
+\par \cf0\highlight0   109  which kubectl\cf1\highlight2 
+\par \cf0\highlight0   110  kubectl version\cf1\highlight2 
+\par \cf0\highlight0   111  kubectl -version\cf1\highlight2 
+\par \cf0\highlight0   112  ls\cf1\highlight2 
+\par \cf0\highlight0   113  vi kubectl\cf1\highlight2 
+\par \cf0\highlight0   114  ls\cf1\highlight2 
+\par \cf0\highlight0   115  echo %PATH\cf1\highlight2 
+\par \cf0\highlight0   116  echo $PATH\cf1\highlight2 
+\par \cf0\highlight0   117  which kubectl\cf1\highlight2 
+\par \cf0\highlight0   118  kubectl version\cf1\highlight2 
+\par \cf0\highlight0   119  rm -rf /usr/local/bin/kubectl\cf1\highlight2 
+\par \cf0\highlight0   120  curl -LO https://dl.k8s.io/release/v1.21.4/bin/linux/amd64/kubectl\cf1\highlight2 
+\par \cf0\highlight0   121  ls\cf1\highlight2 
+\par \cf0\highlight0   122  kubectl version\cf1\highlight2 
+\par \cf0\highlight0   123  ./kubectl version\cf1\highlight2 
+\par \cf0\highlight0   124  echo $PATH\cf1\highlight2 
+\par \cf0\highlight0   125  cp kubectl /usr/local/sbin\cf1\highlight2 
+\par \cf0\highlight0   126  cp kubectl /usr/local/bin\cf1\highlight2 
+\par \cf0\highlight0   127  cp kubectl /usr/sbin\cf1\highlight2 
+\par \cf0\highlight0   128  cp kubectl /usr/bin\cf1\highlight2 
+\par \cf0\highlight0   129  cp kubectl /root/bin\cf1\highlight2 
+\par \cf0\highlight0   130  kubectl version\cf1\highlight2 
+\par \cf0\highlight0   131  cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo\cf1\highlight2 
+\par \cf0\highlight0   132  [kubernetes]\cf1\highlight2 
+\par \cf0\highlight0   133  name=Kubernetes\cf1\highlight2 
+\par \cf0\highlight0   134  baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-\\$basearch\cf1\highlight2 
+\par \cf0\highlight0   135  enabled=1\cf1\highlight2 
+\par \cf0\highlight0   136  gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0   137  repo_gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0   138  gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg\cf1\highlight2 
+\par \cf0\highlight0   139  exclude=kubelet kubeadm kubectl\cf1\highlight2 
+\par \cf0\highlight0   140  EOF\cf1\highlight2 
+\par \cf0\highlight0   141  sudo setenforce 0\cf1\highlight2 
+\par \cf0\highlight0   142  sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config\cf1\highlight2 
+\par \cf0\highlight0   143  sudo yum install -y kubelet kubeadm  --disableexcludes=kubernetes\cf1\highlight2 
+\par \cf0\highlight0   144  sudo yum remove -y kubelet kubeadm  --disableexcludes=kubernetes\cf1\highlight2 
+\par \cf0\highlight0   145  kubectl version\cf1\highlight2 
+\par \cf0\highlight0   146  ip addr\cf1\highlight2 
+\par \cf0\highlight0   147  kubectl version\cf1\highlight2 
+\par \cf0\highlight0   148  ip addr\cf1\highlight2 
+\par \cf0\highlight0   149  init 0\cf1\highlight2 
+\par \cf0\highlight0   150  nmtui\cf1\highlight2 
+\par \cf0\highlight0   151  ping google.com\cf1\highlight2 
+\par \cf0\highlight0   152  cat <<EOF > /etc/yum.repos.d/kubernetes.repo\cf1\highlight2 
+\par \cf0\highlight0   153  [kubernetes]\cf1\highlight2 
+\par \cf0\highlight0   154  name=Kubernetes\cf1\highlight2 
+\par \cf0\highlight0   155  baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64\cf1\highlight2 
+\par \cf0\highlight0   156  enabled=1\cf1\highlight2 
+\par \cf0\highlight0   157  gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0   158  repo_gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0   159  gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg\cf1\highlight2 
+\par \cf0\highlight0   160  EOF\cf1\highlight2 
+\par \cf0\highlight0   161  yum install kubeadm\cf1\highlight2 
+\par \cf0\highlight0   162  cat < /etc/yum.repos.d/kubernetes.repo\cf1\highlight2 
+\par \cf0\highlight0   163  [kubernetes]\cf1\highlight2 
+\par \cf0\highlight0   164  name=Kubernetes\cf1\highlight2 
+\par \cf0\highlight0   165  baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-\\$basearch\cf1\highlight2 
+\par \cf0\highlight0   166  enabled=1\cf1\highlight2 
+\par \cf0\highlight0   167  gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0   168  repo_gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0   169  gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg\cf1\highlight2 
+\par \cf0\highlight0   170  exclude=kubelet kubeadm kubectl\cf1\highlight2 
+\par \cf0\highlight0   171  cat < /etc/yum.repos.d/kubernetes.repo\cf1\highlight2 
+\par \cf0\highlight0   172  [kubernetes]\cf1\highlight2 
+\par \cf0\highlight0   173  name=Kubernetes\cf1\highlight2 
+\par \cf0\highlight0   174  baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-\\$basearch\cf1\highlight2 
+\par \cf0\highlight0   175  enabled=1\cf1\highlight2 
+\par \cf0\highlight0   176  gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0   177  repo_gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0   178  gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg\cf1\highlight2 
+\par \cf0\highlight0   179  exclude=kubelet kubeadm kubectl\cf1\highlight2 
+\par \cf0\highlight0   180  vi /etc/yum.repos.d/kubernetes.repo\cf1\highlight2 
+\par \cf0\highlight0   181  yum install kubeadm\cf1\highlight2 
+\par \cf0\highlight0   182  vi /etc/yum.repos.d/kubernetes.repo\cf1\highlight2 
+\par \cf0\highlight0   183  cat > /etc/yum.repos.d/kubernetes.repo <<EOF\cf1\highlight2 
+\par \cf0\highlight0   184  [kubernetes]\cf1\highlight2 
+\par \cf0\highlight0   185  name=Kubernetes\cf1\highlight2 
+\par \cf0\highlight0   186  baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64\cf1\highlight2 
+\par \cf0\highlight0   187  enabled=1\cf1\highlight2 
+\par \cf0\highlight0   188  gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0   189  repo_gpgcheck=1\cf1\highlight2 
+\par \cf0\highlight0   190  gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg\cf1\highlight2 
+\par \cf0\highlight0   191         https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg\cf1\highlight2 
+\par \cf0\highlight0   192  EOF\cf1\highlight2 
+\par \cf0\highlight0   193  yum install kubeadm docker -y\cf1\highlight2 
+\par \cf0\highlight0   194   systemctl enable docker && systemctl restart docker\cf1\highlight2 
+\par \cf0\highlight0   195  systemctl  enable kubelet && systemctl restart kubelet\cf1\highlight2 
+\par \cf0\highlight0   196  kubectl vesrsion\cf1\highlight2 
+\par \cf0\highlight0   197  kubectl version\cf1\highlight2 
+\par \cf0\highlight0   198  ip addr show\cf1\highlight2 
+\par \cf0\highlight0   199  kubectl version\cf1\highlight2 
+\par \cf0\highlight0   200  do\cf1\highlight2 
+\par \cf0\highlight0   201  ck\cf1\highlight2 
+\par \cf0\highlight0   202  docker ps\cf1\highlight2 
+\par \cf0\highlight0   203  kubectl version\cf1\highlight2 
+\par \cf0\highlight0   204  which kubeadm\cf1\highlight2 
+\par \cf0\highlight0   205  yum list --showduplicates kubeadm --disableexcludes=kubernetes\cf1\highlight2 
+\par \cf0\highlight0   206  yum install -y kubeadm-1.22.4-0 --disableexcludes=kubernetes\cf1\highlight2 
+\par \cf0\highlight0   207  yum install -y kubeadm-1.21.4-0 --disableexcludes=kubernetes\cf1\highlight2 
+\par \cf0\highlight0   208  kubeadm vesion\cf1\highlight2 
+\par \cf0\highlight0   209  kubeadm -version\cf1\highlight2 
+\par \cf0\highlight0   210  kubeadm version\cf1\highlight2 
+\par \cf0\highlight0   211  yum install -y kubelet-1.21.4-0 --disableexcludes=kubernetes\cf1\highlight2 
+\par \cf0\highlight0   212  kubelet version\cf1\highlight2 
+\par \cf0\highlight0   213  kubelet --version\cf1\highlight2 
+\par \cf0\highlight0   214  yum list --showduplicates kubelet --disableexcludes=kubernetes\cf1\highlight2 
+\par \cf0\highlight0   215  yum install -y kubelet-1.21.4-0 --disableexcludes=kubernetes\cf1\highlight2 
+\par \cf0\highlight0   216  yum remove kubelet\cf1\highlight2 
+\par \cf0\highlight0   217  yum install -y kubelet-1.21.4-0 --disableexcludes=kubernetes\cf1\highlight2 
+\par \cf0\highlight0   218  kubelet version\cf1\highlight2 
+\par \cf0\highlight0   219  kubelet -version\cf1\highlight2 
+\par \cf0\highlight0   220  kubelet --version\cf1\highlight2 
+\par \cf0\highlight0   221  kubeadm --cersion\cf1\highlight2 
+\par \cf0\highlight0   222  kubeadm version\cf1\highlight2 
+\par \cf0\highlight0   223  kubeadm -version\cf1\highlight2 
+\par \cf0\highlight0   224  kubeadm --version\cf1\highlight2 
+\par \cf0\highlight0   225  which kubeadm\cf1\highlight2 
+\par \cf0\highlight0   226  yum install -y kubadm-1.21.4-0 --disableexcludes=kubernetes\cf1\highlight2 
+\par \cf0\highlight0   227  yum install -y kubeadm-1.21.4-0 --disableexcludes=kubernetes\cf1\highlight2 
+\par \cf0\highlight0   228  kubeadm version\cf1\highlight2 
+\par \cf0\highlight0   229  kubelet version\cf1\highlight2 
+\par \cf0\highlight0   230  kubelet --version\cf1\highlight2 
+\par \cf0\highlight0   231  which go\cf1\highlight2 
+\par \cf0\highlight0   232  kubeadm init --pod-network-cidr=10.244.0.0/16\cf1\highlight2 
+\par \cf0\highlight0   233  kubeadm swapoff -a\cf1\highlight2 
+\par \cf0\highlight0   234   swapoff -a\cf1\highlight2 
+\par \cf0\highlight0   235  kubeadm init --pod-network-cidr=10.244.0.0/16\cf1\highlight2 
+\par \cf0\highlight0   236  cat > /etc/docker/daemon.json <<EOF\cf1\highlight2 
+\par \cf0\highlight0   237  \{\cf1\highlight2 
+\par \cf0\highlight0   238  "exec-opts": ["native.cgroupdriver=systemd"],\cf1\highlight2 
+\par \cf0\highlight0   239  "log-driver": "json-file",\cf1\highlight2 
+\par \cf0\highlight0   240  "log-opts": \{\cf1\highlight2 
+\par \cf0\highlight0   241  "max-size": "100m"\cf1\highlight2 
+\par \cf0\highlight0   242  \},\cf1\highlight2 
+\par \cf0\highlight0   243  "storage-driver": "overlay2"\cf1\highlight2 
+\par \cf0\highlight0   244  \}\cf1\highlight2 
+\par \cf0\highlight0   245  EOF\cf1\highlight2 
+\par \cf0\highlight0   246  cat > /etc/docker/daemon.json <<EOF\cf1\highlight2 
+\par \cf0\highlight0   247  \{\cf1\highlight2 
+\par \cf0\highlight0   248  "exec-opts": ["native.cgroupdriver=systemd"],\cf1\highlight2 
+\par \cf0\highlight0   249  "log-driver": "json-file",\cf1\highlight2 
+\par \cf0\highlight0   250  "log-opts": \{\cf1\highlight2 
+\par \cf0\highlight0   251  "max-size": "100m"\cf1\highlight2 
+\par \cf0\highlight0   252  \},\cf1\highlight2 
+\par \cf0\highlight0   253  "storage-driver": "overlay2"\cf1\highlight2 
+\par \cf0\highlight0   254  \}\cf1\highlight2 
+\par \cf0\highlight0   255  EOF\cf1\highlight2 
+\par \cf0\highlight0   256  cat > /etc/docker/daemon.json <<EOF\cf1\highlight2 
+\par \cf0\highlight0   257  \{\cf1\highlight2 
+\par \cf0\highlight0   258  "exec-opts": ["native.cgroupdriver=systemd"],\cf1\highlight2 
+\par \cf0\highlight0   259  "log-driver": "json-file",\cf1\highlight2 
+\par \cf0\highlight0   260  "log-opts": \{\cf1\highlight2 
+\par \cf0\highlight0   261  "max-size": "100m"\cf1\highlight2 
+\par \cf0\highlight0   262  \},\cf1\highlight2 
+\par \cf0\highlight0   263  "storage-driver": "overlay2"\cf1\highlight2 
+\par \cf0\highlight0   264  \}\cf1\highlight2 
+\par \cf0\highlight0   265  EOF\cf1\highlight2 
+\par \cf0\highlight0   266  vi /etc/docker/daemon.json\cf1\highlight2 
+\par \cf0\highlight0   267  systemctl restart docker\cf1\highlight2 
+\par \cf0\highlight0   268  systemctl status docker\cf1\highlight2 
+\par \cf0\highlight0   269  kubeadm init --pod-network-cidr=10.244.0.0/16\cf1\highlight2 
+\par \cf0\highlight0   270  systemctl status firewalld\cf1\highlight2 
+\par \cf0\highlight0   271  ps -ef | grep 10250\cf1\highlight2 
+\par \cf0\highlight0   272  kubeadm reset\cf1\highlight2 
+\par \cf0\highlight0   273  kubeadm init --pod-network-cidr=10.244.0.0/16\cf1\highlight2 
+\par \cf0\highlight0   274  vi /etc/hostname\cf1\highlight2 
+\par \cf0\highlight0   275  vi /etc/hosts\cf1\highlight2 
+\par \cf0\highlight0   276  kubeadm init --pod-network-cidr=10.244.0.0/16\cf1\highlight2 
+\par \cf0\highlight0   277  vi /etc/hosts\cf1\highlight2 
+\par \cf0\highlight0   278  kubeadm init --pod-network-cidr=10.244.0.0/16\cf1\highlight2 
+\par \cf0\highlight0   279   mkdir -p $HOME/.kube\cf1\highlight2 
+\par \cf0\highlight0   280    sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config\cf1\highlight2 
+\par \cf0\highlight0   281    sudo chown $(id -u):$(id -g) $HOME/.kube/config\cf1\highlight2 
+\par \cf0\highlight0   282  kubectl get nodes\cf1\highlight2 
+\par \cf0\highlight0   283  systemctl status kubelet\cf1\highlight2 
+\par \cf0\highlight0   284  kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml\cf1\highlight2 
+\par \cf0\highlight0   285  kubectl get pods -A\cf1\highlight2 
+\par \cf0\highlight0   286  kubectl get nodes\cf1\highlight2 
+\par \cf0\highlight0   287  wget https://github.com/kubeedge/kubeedge/releases/download/v1.8.2/keadm-v1.8.2-linux-amd64.tar.gz\cf1\highlight2 
+\par \cf0\highlight0   288  yum install wget\cf1\highlight2 
+\par \cf0\highlight0   289  wget https://github.com/kubeedge/kubeedge/releases/download/v1.8.2/keadm-v1.8.2-linux-amd64.tar.gz\cf1\highlight2 
+\par \cf0\highlight0   290  tar -xvzf keadm-v1.8.2-linux-amd64.tar.gz\cf1\highlight2 
+\par \cf0\highlight0   291  ls\cf1\highlight2 
+\par \cf0\highlight0   292  keadm init --advertise-address=192.168.3.140\cf1\highlight2 
+\par \cf0\highlight0   293  ls\cf1\highlight2 
+\par \cf0\highlight0   294  cd keadm-v1.8.2-linux-amd64\cf1\highlight2 
+\par \cf0\highlight0   295  ls\cf1\highlight2 
+\par \cf0\highlight0   296  cd keadm/\cf1\highlight2 
+\par \cf0\highlight0   297  ls\cf1\highlight2 
+\par \cf0\highlight0   298  pwd\cf1\highlight2 
+\par \cf0\highlight0   299  echo $PATH\cf1\highlight2 
+\par \cf0\highlight0   300  cp /root/keadm-v1.8.2-linux-amd64/keadm /usr/local/sbin\cf1\highlight2 
+\par \cf0\highlight0   301  which kubeadm\cf1\highlight2 
+\par \cf0\highlight0   302  which keadm\cf1\highlight2 
+\par \cf0\highlight0   303  ls\cf1\highlight2 
+\par \cf0\highlight0   304  pwd\cf1\highlight2 
+\par \cf0\highlight0   305  cd /root/keadm-v1.8.2-linux-amd64/keadm\cf1\highlight2 
+\par \cf0\highlight0   306  echo $PATH\cf1\highlight2 
+\par \cf0\highlight0   307  which keadm\cf1\highlight2 
+\par \cf0\highlight0   308  cp keadm /usr/local/sbin\cf1\highlight2 
+\par \cf0\highlight0   309  which keadm\cf1\highlight2 
+\par \cf0\highlight0   310   keadm init --advertise-address=192.168.3.140\cf1\highlight2 
+\par \cf0\highlight0   311  keadm gettoken\cf1\highlight2 
+\par \cf0\highlight0   312  ls\cf1\highlight2 
+\par \cf0\highlight0   313  ps -ef | grep cloudcore\cf1\highlight2 
+\par \cf0\highlight0   314  which go\cf1\highlight2 
+\par \cf0\highlight0   315  kubectl get nodes\cf1\highlight2 
+\par \cf0\highlight0   316  kubectl get pods\cf1\highlight2 
+\par \cf0\highlight0   317  kubectl get pods -A\cf1\highlight2 
+\par \cf0\highlight0   318  kubectl get nodes\cf1\highlight2 
+\par \cf0\highlight0   319  kubectl get pods -A -o wide\cf1\highlight2 
+\par \cf0\highlight0   320  kubectl get nodes\cf1\highlight2 
+\par \cf0\highlight0   321  kubectl taint nodes --all node-role.kubernetes.io/master-\cf1\highlight2 
+\par \cf0\highlight0   322  kubectl get pods -A -o wide\cf1\highlight2 
+\par \cf0\highlight0   323  kubectl get pods -A\cf1\highlight2 
+\par \cf0\highlight0   324  kubectl get nodes\cf1\highlight2 
+\par \cf0\highlight0   325  kubectl vesrion\cf1\highlight2 
+\par \cf0\highlight0   326  kubectl version\cf1\highlight2 
+\par \cf0\highlight0   327  kubeadm version\cf1\highlight2 
+\par \cf0\highlight0   328  history\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]#\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# curl -sS https://webinstall.dev/k9s | bash\cf1\highlight2 
+\par 
+\par 
+\par \cf0\highlight0 Thanks for using webi to install 'k9s@stable' on 'Linux/x86_64'.\cf1\highlight2 
+\par \cf0\highlight0 Have a problem? Experience a bug? Please let us know:\cf1\highlight2 
+\par \cf0\highlight0         https://github.com/webinstall/packages/issues\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Downloading k9s from\cf1\highlight2 
+\par \cf0\highlight0 https://github.com/derailed/k9s/releases/download/v0.24.15/k9s_Linux_x86_64.tar.gz\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Saved as /root/Downloads/k9s_Linux_x86_64.tar.gz\cf1\highlight2 
+\par \cf0\highlight0 Extracting /root/Downloads/k9s_Linux_x86_64.tar.gz\cf1\highlight2 
+\par \cf0\highlight0 Installing to /root/.local/opt/k9s-v0.24.15/bin/k9s\cf1\highlight2 
+\par \cf0\highlight0 Installed 'k9s' v0.24.15 as /root/.local/bin/k9s\cf1\highlight2 
+\par 
+\par \cf0\highlight0 You need to update your PATH to use k9s:\cf1\highlight2 
+\par 
+\par \cf0\highlight0         export PATH="/root/.local/bin:$PATH"\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]#\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# export PATH="/root/.local/bin:$PATH"\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# ls\cf1\highlight2 
+\par \cf14\highlight0  \cf0                 \cf3 bin\cf0             components-0.5.1.yaml  haproxy.cfg               \cf16 keadm-v1.8.2-linux-amd64.tar.gz\cf0   portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 anaconda-ks.cfg  cloudcore.log  \cf14 Downloads\cf0               \cf14 keadm-v1.8.2-linux-amd64\cf0   \cf3 kubectl\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# cd /root\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# ls\cf1\highlight2 
+\par \cf14\highlight0  \cf0                 \cf3 bin\cf0             components-0.5.1.yaml  haproxy.cfg               \cf16 keadm-v1.8.2-linux-amd64.tar.gz\cf0   portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 anaconda-ks.cfg  cloudcore.log  \cf14 Downloads\cf0               \cf14 keadm-v1.8.2-linux-amd64\cf0   \cf3 kubectl\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# cd portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 -bash: cd: portainer.yaml: Not a directory\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# vi portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# kubectl apply -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 namespace/portainer unchanged\cf1\highlight2 
+\par \cf0\highlight0 serviceaccount/portainer-sa-clusteradmin unchanged\cf1\highlight2 
+\par \cf0\highlight0 persistentvolume/portainer created\cf1\highlight2 
+\par \cf0\highlight0 clusterrolebinding.rbac.authorization.k8s.io/portainer unchanged\cf1\highlight2 
+\par \cf0\highlight0 service/portainer unchanged\cf1\highlight2 
+\par \cf0\highlight0 deployment.apps/portainer unchanged\cf1\highlight2 
+\par \cf0\highlight0 The PersistentVolumeClaim "portainer" is invalid: spec: Forbidden: spec is immutable after creation except resources.requests for bound claims\cf1\highlight2 
+\par \cf0\highlight0   core.PersistentVolumeClaimSpec\{\cf1\highlight2 
+\par \cf0\highlight0         AccessModes: \{"ReadWriteOnce"\},\cf1\highlight2 
+\par \cf0\highlight0         Selector: &v1.LabelSelector\{\cf1\highlight2 
+\par \cf0\highlight0                 MatchLabels: map[string]string\{\cf1\highlight2 
+\par \cf0\highlight0 -                       "app":      "portainer",\cf1\highlight2 
+\par \cf0\highlight0 +                       "app":      "cb",\cf1\highlight2 
+\par \cf0\highlight0 +                       "env":      "prod",\cf1\highlight2 
+\par \cf0\highlight0 +                       "resource": "cb-certs",\cf1\highlight2 
+\par \cf0\highlight0                 \},\cf1\highlight2 
+\par \cf0\highlight0                 MatchExpressions: nil,\cf1\highlight2 
+\par \cf0\highlight0         \},\cf1\highlight2 
+\par \cf0\highlight0         Resources:  \{Requests: \{s"storage": \{i: \{...\}, s: "10Gi", Format: "BinarySI"\}\}\},\cf1\highlight2 
+\par \cf0\highlight0         VolumeName: "",\cf1\highlight2 
+\par \cf0\highlight0         ... // 3 identical fields\cf1\highlight2 
+\par \cf0\highlight0   \}\cf1\highlight2 
+\par 
+\par \cf0\highlight0 [root@node1 ~]# kubectl delete -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 namespace "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 serviceaccount "portainer-sa-clusteradmin" deleted\cf1\highlight2 
+\par \cf0\highlight0 persistentvolumeclaim "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 persistentvolume "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 clusterrolebinding.rbac.authorization.k8s.io "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 service "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 deployment.apps "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# kubectl apply -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 namespace/portainer created\cf1\highlight2 
+\par \cf0\highlight0 serviceaccount/portainer-sa-clusteradmin created\cf1\highlight2 
+\par \cf0\highlight0 persistentvolumeclaim/portainer created\cf1\highlight2 
+\par \cf0\highlight0 persistentvolume/portainer created\cf1\highlight2 
+\par \cf0\highlight0 clusterrolebinding.rbac.authorization.k8s.io/portainer created\cf1\highlight2 
+\par \cf0\highlight0 service/portainer created\cf1\highlight2 
+\par \cf0\highlight0 deployment.apps/portainer created\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# vi portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# kubectl apply -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 namespace/portainer unchanged\cf1\highlight2 
+\par \cf0\highlight0 serviceaccount/portainer-sa-clusteradmin unchanged\cf1\highlight2 
+\par \cf0\highlight0 persistentvolumeclaim/portainer configured\cf1\highlight2 
+\par \cf0\highlight0 persistentvolume/portainer configured\cf1\highlight2 
+\par \cf0\highlight0 clusterrolebinding.rbac.authorization.k8s.io/portainer unchanged\cf1\highlight2 
+\par \cf0\highlight0 service/portainer unchanged\cf1\highlight2 
+\par \cf0\highlight0 deployment.apps/portainer unchanged\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# kubectl delete -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 namespace "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 serviceaccount "portainer-sa-clusteradmin" deleted\cf1\highlight2 
+\par \cf0\highlight0 persistentvolumeclaim "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 persistentvolume "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 clusterrolebinding.rbac.authorization.k8s.io "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 service "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 deployment.apps "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# kubectl apply -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 namespace/portainer created\cf1\highlight2 
+\par \cf0\highlight0 serviceaccount/portainer-sa-clusteradmin created\cf1\highlight2 
+\par \cf0\highlight0 persistentvolumeclaim/portainer created\cf1\highlight2 
+\par \cf0\highlight0 persistentvolume/portainer created\cf1\highlight2 
+\par \cf0\highlight0 clusterrolebinding.rbac.authorization.k8s.io/portainer created\cf1\highlight2 
+\par \cf0\highlight0 service/portainer created\cf1\highlight2 
+\par \cf0\highlight0 deployment.apps/portainer created\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# vi portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# vi portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# vi portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# kubectl delete -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 namespace "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 serviceaccount "portainer-sa-clusteradmin" deleted\cf1\highlight2 
+\par \cf0\highlight0 persistentvolume "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 persistentvolumeclaim "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 clusterrolebinding.rbac.authorization.k8s.io "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 service "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 deployment.apps "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# kubectl apply -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 namespace/portainer created\cf1\highlight2 
+\par \cf0\highlight0 serviceaccount/portainer-sa-clusteradmin created\cf1\highlight2 
+\par \cf0\highlight0 persistentvolume/portainer created\cf1\highlight2 
+\par \cf0\highlight0 persistentvolumeclaim/portainer created\cf1\highlight2 
+\par \cf0\highlight0 clusterrolebinding.rbac.authorization.k8s.io/portainer created\cf1\highlight2 
+\par \cf0\highlight0 service/portainer created\cf1\highlight2 
+\par \cf0\highlight0 deployment.apps/portainer created\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# vi portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# kubectl delete -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 namespace "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 serviceaccount "portainer-sa-clusteradmin" deleted\cf1\highlight2 
+\par \cf0\highlight0 persistentvolume "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 persistentvolumeclaim "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 clusterrolebinding.rbac.authorization.k8s.io "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 service "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 deployment.apps "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 Error from server (NotFound): error when deleting "portainer.yaml": storageclasses.storage.k8s.io "manual" not found\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# kubectl apply -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 namespace/portainer created\cf1\highlight2 
+\par \cf0\highlight0 storageclass.storage.k8s.io/manual created\cf1\highlight2 
+\par \cf0\highlight0 serviceaccount/portainer-sa-clusteradmin created\cf1\highlight2 
+\par \cf0\highlight0 persistentvolume/portainer created\cf1\highlight2 
+\par \cf0\highlight0 persistentvolumeclaim/portainer created\cf1\highlight2 
+\par \cf0\highlight0 clusterrolebinding.rbac.authorization.k8s.io/portainer created\cf1\highlight2 
+\par \cf0\highlight0 service/portainer created\cf1\highlight2 
+\par \cf0\highlight0 deployment.apps/portainer created\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf6\highlight0  ____  __.________\cf1\highlight2 
+\par \cf6\highlight0 |    |/ _/   __   \\______\cf1\highlight2 
+\par \cf6\highlight0 |      < \\____    /  ___/\cf1\highlight2 
+\par \cf6\highlight0 |    |  \\   /    /\\___ \\\cf1\highlight2 
+\par \cf6\highlight0 |____|__ \\ /____//____  >\cf1\highlight2 
+\par \cf6\highlight0         \\/            \\/\cf1\highlight2 
+\par 
+\par \cf6\highlight0 Boom!! \cf17 runtime error: index out of range [0] with length 0.\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]#\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# vi portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# kubectl delete -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 namespace "portainer" deleted\cf1\highlight2 
+\par \cf0\highlight0 storageclass.storage.k8s.io "manual" deleted\cf1\highlight2 
+\par \cf0\highlight0 error: error parsing portainer.yaml: error converting YAML to JSON: yaml: line 5: mapping values are not allowed in this context\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# vi portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# kubectl delete -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 Error from server (NotFound): error when deleting "portainer.yaml": namespaces "portainer" not found\cf1\highlight2 
+\par \cf0\highlight0 Error from server (NotFound): error when deleting "portainer.yaml": storageclasses.storage.k8s.io "manual" not found\cf1\highlight2 
+\par \cf0\highlight0 error parsing portainer.yaml: error converting YAML to JSON: yaml: line 5: mapping values are not allowed in this context\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# vi portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# kubectl apply -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 namespace/portainer created\cf1\highlight2 
+\par \cf0\highlight0 storageclass.storage.k8s.io/manual created\cf1\highlight2 
+\par \cf0\highlight0 error: error parsing portainer.yaml: error converting YAML to JSON: yaml: line 5: mapping values are not allowed in this context\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# vi portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]#\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# ls\cf1\highlight2 
+\par \cf14\highlight0  \cf0                 \cf3 bin\cf0             components-0.5.1.yaml  haproxy.cfg               \cf16 keadm-v1.8.2-linux-amd64.tar.gz\cf0   portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 anaconda-ks.cfg  cloudcore.log  \cf14 Downloads\cf0               \cf14 keadm-v1.8.2-linux-amd64\cf0   \cf3 kubectl\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# rm -rf portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# vi portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# kubectl apply -f portainer.yaml\cf1\highlight2 
+\par \cf0\highlight0 namespace/portainer unchanged\cf1\highlight2 
+\par \cf0\highlight0 serviceaccount/portainer-sa-clusteradmin created\cf1\highlight2 
+\par \cf0\highlight0 clusterrolebinding.rbac.authorization.k8s.io/portainer unchanged\cf1\highlight2 
+\par \cf0\highlight0 service/portainer created\cf1\highlight2 
+\par \cf0\highlight0 deployment.apps/portainer created\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# k9s\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]#\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]#\cf1\highlight2 
+\par \cf0\highlight0 [root@node1 ~]# logout\cf1\highlight2 
+\par \cf0\highlight0 Connection to 192.168.3.140 closed.\cf1\highlight2 
+\par \cf0\highlight0 /bin/ssh.exe: line 121: /bin/busybox.exe: No such file or directory\cf1\highlight2 
+\par \cf0\highlight0                                                                                                                                                          \cf6 x\cf1\highlight2 
+\par 
+\par \highlight8  \f1 O\f0  18/10/2021 \cf9\highlight10\u9658?\cf1  \f2\'be\f0  14:30.55 \cf11\highlight12\u9658?\cf1  \f1 1\f0  /home/mobaxterm \cf13\highlight0\u9658?\cf1\highlight2 
+\par 
+\par \highlight8  \f1 O\f0  18/10/2021 \cf9\highlight10\u9658?\cf1  \f2\'be\f0  14:30.55 \cf11\highlight12\u9658?\cf1  \f1 1\f0  /home/mobaxterm \cf13\highlight0\u9658?\cf0  ssh root@192.168.3.149\cf1\highlight2 
+\par \cf0\highlight0 Last login: Mon Oct 18 11:53:19 2021 from gateway\cf1\highlight2 
+\par \cf0\highlight0 [root@localhost ~]#\cf1\highlight2 
+\par \cf0\highlight0 [root@localhost ~]# systemctl status edgecore\cf1\highlight2 
+\par \cf3\highlight0\u9679?\cf0  edgecore.service\cf1\highlight2 
+\par \cf0\highlight0    Loaded: loaded (/etc/systemd/system/edgecore.service; enabled; vendor preset: disabled)\cf1\highlight2 
+\par \cf0\highlight0    Active: \cf3 active (running)\cf0  since Mon 2021-10-18 11:40:37 IST; 2h 59min ago\cf1\highlight2 
+\par \cf0\highlight0  Main PID: 24244 (edgecore)\cf1\highlight2 
+\par \cf0\highlight0     Tasks: 23\cf1\highlight2 
+\par \cf0\highlight0    Memory: 50.5M\cf1\highlight2 
+\par \cf0\highlight0    CGroup: /system.slice/edgecore.service\cf1\highlight2 
+\par \cf0\highlight0            \u9492?\u9472?24244 /usr/local/bin/edgecore\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Oct 18 14:39:45 localhost.localdomain edgecore[24244]: I1018 14:39:45.162745   24244 record.go:24] Warning BackOff Back-off restarting failed container\cf1\highlight2 
+\par \cf0\highlight0 Oct 18 14:39:45 localhost.localdomain edgecore[24244]: E1018 14:39:45.162808   24244 edged.go:969] worker [3] handle pod addition item [kube-flannel-ds...\cf1\highlight2 
+\par \cf0\highlight0 Oct 18 14:39:45 localhost.localdomain edgecore[24244]: I1018 14:39:45.279027   24244 edged_volumes.go:54] Using volume plugin "kubernetes.io/emp...nel-cfg\cf1\highlight2 
+\par \cf0\highlight0 Oct 18 14:39:45 localhost.localdomain edgecore[24244]: I1018 14:39:45.279052   24244 edged_volumes.go:54] Using volume plugin "kubernetes.io/emp...s-9gk85\cf1\highlight2 
+\par \cf0\highlight0 Oct 18 14:39:46 localhost.localdomain edgecore[24244]: I1018 14:39:46.169476   24244 edged.go:950] worker [4] get pod addition item [kube-flanne...-ptpfh]\cf1\highlight2 
+\par \cf0\highlight0 Oct 18 14:39:46 localhost.localdomain edgecore[24244]: E1018 14:39:46.169534   24244 edged.go:953] consume pod addition backoff: Back-off consum...: [40s]\cf1\highlight2 
+\par \cf0\highlight0 Oct 18 14:39:46 localhost.localdomain edgecore[24244]: I1018 14:39:46.169560   24244 edged.go:950] worker [4] get pod addition item [kube-flanne...-ptpfh]\cf1\highlight2 
+\par \cf0\highlight0 Oct 18 14:39:46 localhost.localdomain edgecore[24244]: E1018 14:39:46.169569   24244 edged.go:953] consume pod addition backoff: Back-off consum...: [40s]\cf1\highlight2 
+\par \cf0\highlight0 Oct 18 14:39:46 localhost.localdomain edgecore[24244]: I1018 14:39:46.169592   24244 edged.go:955] worker [4] backoff pod addition item [kube-fl...o queue\cf1\highlight2 
+\par \cf0\highlight0 Oct 18 14:39:46 localhost.localdomain edgecore[24244]: I1018 14:39:46.169593   24244 edged.go:955] worker [4] backoff pod addition item [kube-fl...o queue\cf1\highlight2 
+\par \cf0\highlight0 Hint: Some lines were ellipsized, use -l to show in full.\cf1\highlight2 
+\par \cf0\highlight0 [root@localhost ~]#\cf1\highlight2 
+\par \cf0\highlight0 [root@localhost ~]# history\cf1\highlight2 
+\par \cf0\highlight0     1  systemctl status network\cf1\highlight2 
+\par \cf0\highlight0     2  systemctl disable network\cf1\highlight2 
+\par \cf0\highlight0     3  ping 8.8.8.8\cf1\highlight2 
+\par \cf0\highlight0     4  init 0\cf1\highlight2 
+\par \cf0\highlight0     5  df  -h\cf1\highlight2 
+\par \cf0\highlight0     6  swapoff -a\cf1\highlight2 
+\par \cf0\highlight0     7  df -h\cf1\highlight2 
+\par \cf0\highlight0     8  yum update\cf1\highlight2 
+\par \cf0\highlight0     9  yum install haproxy\cf1\highlight2 
+\par \cf0\highlight0    10  systemctl status network\cf1\highlight2 
+\par \cf0\highlight0    11  systenctl stop network\cf1\highlight2 
+\par \cf0\highlight0    12  systemctl stop network\cf1\highlight2 
+\par \cf0\highlight0    13  nmtui\cf1\highlight2 
+\par \cf0\highlight0    14  ping www.google.com\cf1\highlight2 
+\par \cf0\highlight0    15  ip addr\cf1\highlight2 
+\par \cf0\highlight0    16  systemctl status haproxy\cf1\highlight2 
+\par \cf0\highlight0    17  vi /etc/haproxy\cf1\highlight2 
+\par \cf0\highlight0    18  cd /etc/haproxy\cf1\highlight2 
+\par \cf0\highlight0    19  ls\cf1\highlight2 
+\par \cf0\highlight0    20  cp haproxy.cfg haproxy-bkp.cfg\cf1\highlight2 
+\par \cf0\highlight0    21  ls\cf1\highlight2 
+\par \cf0\highlight0    22  vi haproxy.cfg\cf1\highlight2 
+\par \cf0\highlight0    23  ls\cf1\highlight2 
+\par \cf0\highlight0    24  rm -rf \\\cf1\highlight2 
+\par \cf0\highlight0    25  ls\cf1\highlight2 
+\par \cf0\highlight0    26  rm -rf \\\cf1\highlight2 
+\par \cf0\highlight0    27  ls\cf1\highlight2 
+\par \cf0\highlight0    28  pwd\cf1\highlight2 
+\par \cf0\highlight0    29  ls\cf1\highlight2 
+\par \cf0\highlight0    30  vi haproxy.cfg\cf1\highlight2 
+\par \cf0\highlight0    31  ls\cf1\highlight2 
+\par \cf0\highlight0    32  cp haproxy.cfg /root\cf1\highlight2 
+\par \cf0\highlight0    33  ls\cf1\highlight2 
+\par \cf0\highlight0    34  rm -rf *\cf1\highlight2 
+\par \cf0\highlight0    35  ls\cf1\highlight2 
+\par \cf0\highlight0    36  cp /root/haproxy.cfg /etc/haproxy/\cf1\highlight2 
+\par \cf0\highlight0    37  ls\cf1\highlight2 
+\par \cf0\highlight0    38  ls -ltrh\cf1\highlight2 
+\par \cf0\highlight0    39  vi haproxy.cfg\cf1\highlight2 
+\par \cf0\highlight0    40  syistemctl restart haproxy\cf1\highlight2 
+\par \cf0\highlight0    41  systemctl restart haproxy\cf1\highlight2 
+\par \cf0\highlight0    42  systemctl status haproxy\cf1\highlight2 
+\par \cf0\highlight0    43  systemctl stop firewalld\cf1\highlight2 
+\par \cf0\highlight0    44  systemctl disable firewalld\cf1\highlight2 
+\par \cf0\highlight0    45  vi /etc/haproxy/\cf1\highlight2 
+\par \cf0\highlight0    46  cd /etc/haproxy/\cf1\highlight2 
+\par \cf0\highlight0    47  ls\cf1\highlight2 
+\par \cf0\highlight0    48  vi haproxy.cfg\cf1\highlight2 
+\par \cf0\highlight0    49  ip addr\cf1\highlight2 
+\par \cf0\highlight0    50  systemctl restart haproxy\cf1\highlight2 
+\par \cf0\highlight0    51  systemctl status haproxy\cf1\highlight2 
+\par \cf0\highlight0    52  systemctl status network\cf1\highlight2 
+\par \cf0\highlight0    53  systemctl start network\cf1\highlight2 
+\par \cf0\highlight0    54  systemctl status network\cf1\highlight2 
+\par \cf0\highlight0    55  systemctl enable network\cf1\highlight2 
+\par \cf0\highlight0    56  wget https://github.com/kubeedge/kubeedge/releases/download/v1.8.2/keadm-v1.8.2-linux-amd64.tar.gz\cf1\highlight2 
+\par \cf0\highlight0    57  yum install wget\cf1\highlight2 
+\par \cf0\highlight0    58  wget https://github.com/kubeedge/kubeedge/releases/download/v1.8.2/keadm-v1.8.2-linux-amd64.tar.gz\cf1\highlight2 
+\par \cf0\highlight0    59  tar -xvzf keadm-v1.8.2-linux-amd64.tar.gz\cf1\highlight2 
+\par \cf0\highlight0    60  cd /root/keadm-v1.8.2-linux-amd64/keadm\cf1\highlight2 
+\par \cf0\highlight0    61  cp keadm /usr/local/sbin\cf1\highlight2 
+\par \cf0\highlight0    62  which keadm\cf1\highlight2 
+\par \cf0\highlight0    63  keadm join --cloudcore-ipport=192.168.3.140:10000 --token=b35e668540ae1d4f868ecf2e4cb344ca0c002edc367702d34b7f9a26cc743aff.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MzQyOTY1MDd9.edcgiZYZVnO1Bdm5GeYCmPS4S_d_yJd_ws9MjF8UhWk\cf1\highlight2 
+\par \cf0\highlight0    64  docker info\cf1\highlight2 
+\par \cf0\highlight0    65  systemctl status docker\cf1\highlight2 
+\par \cf0\highlight0    66  sudo yum install -y yum-utils\cf1\highlight2 
+\par \cf0\highlight0    67   sudo yum-config-manager     --add-repo     https://download.docker.com/linux/centos/docker-ce.repo\cf1\highlight2 
+\par \cf0\highlight0    68  sudo yum install docker-ce docker-ce-cli containerd.io\cf1\highlight2 
+\par \cf0\highlight0    69  systemctl status docker\cf1\highlight2 
+\par \cf0\highlight0    70  systemctl starts docker\cf1\highlight2 
+\par \cf0\highlight0    71  systemctl start docker\cf1\highlight2 
+\par \cf0\highlight0    72  docker info\cf1\highlight2 
+\par \cf0\highlight0    73  journalctl -u edgecore.service -b\cf1\highlight2 
+\par \cf0\highlight0    74  systemctl status edgecore\cf1\highlight2 
+\par \cf0\highlight0    75  systemctl status edgecore -l\cf1\highlight2 
+\par \cf0\highlight0    76  docker ps\cf1\highlight2 
+\par \cf0\highlight0    77  systemctl status edgecore\cf1\highlight2 
+\par \cf0\highlight0    78  ls\cf1\highlight2 
+\par \cf0\highlight0    79  ls\cf1\highlight2 
+\par \cf0\highlight0    80  systemctl status edgecore\cf1\highlight2 
+\par \cf0\highlight0    81  vi /etc/kubeedge/config/edgecore.yaml\cf1\highlight2 
+\par \cf0\highlight0    82  systemctl restart edgecore.service\cf1\highlight2 
+\par \cf0\highlight0    83  systemctl status edgecore.service\cf1\highlight2 
+\par \cf0\highlight0    84  systemctl status edgecore\cf1\highlight2 
+\par \cf0\highlight0    85  history\cf1\highlight2 
+\par \cf0\highlight0 [root@localhost ~]#\cf1\highlight2 
+\par \cf0\highlight0 [root@localhost ~]#\cf1\highlight2 
+\par \pard\cf0\highlight0\f4 
+\par }
+ 

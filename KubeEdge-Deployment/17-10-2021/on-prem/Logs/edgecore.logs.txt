@@ -1,0 +1,10 @@
+Oct 18 14:51:18 localhost.localdomain edgecore[24244]: I1018 14:51:18.373202   24244 edgedmetricsconnection.go:114] EDGE_Metrics_CONNECTOR Message MessageID 668 write metrics data     "workingSetBytes": 40960,
+Oct 18 14:51:18 localhost.localdomain edgecore[24244]: I1018 14:51:18.373233   24244 edgedmetricsconnection.go:114] EDGE_Metrics_CONNECTOR Message MessageID 668 write metrics data     "rssBytes": 40960,
+Oct 18 14:51:18 localhost.localdomain edgecore[24244]: I1018 14:51:18.373264   24244 edgedmetricsconnection.go:114] EDGE_Metrics_CONNECTOR Message MessageID 668 write metrics data     "pageFaults": 0,
+Oct 18 14:51:18 localhost.localdomain edgecore[24244]: I1018 14:51:18.373313   24244 edgedmetricsconnection.go:114] EDGE_Metrics_CONNECTOR Message MessageID 668 write metrics data     "majorPageFaults": 0
+Oct 18 14:51:18 localhost.localdomain edgecore[24244]: I1018 14:51:18.373344   24244 edgedmetricsconnection.go:114] EDGE_Metrics_CONNECTOR Message MessageID 668 write metrics data    }
+Oct 18 14:51:18 localhost.localdomain edgecore[24244]: I1018 14:51:18.373404   24244 edgedmetricsconnection.go:114] EDGE_Metrics_CONNECTOR Message MessageID 668 write metrics data   }
+Oct 18 14:51:18 localhost.localdomain edgecore[24244]: I1018 14:51:18.373436   24244 edgedmetricsconnection.go:114] EDGE_Metrics_CONNECTOR Message MessageID 668 write metrics data  ]
+Oct 18 14:51:18 localhost.localdomain edgecore[24244]: I1018 14:51:18.373468   24244 edgedmetricsconnection.go:114] EDGE_Metrics_CONNECTOR Message MessageID 668 write metrics data }
+Oct 18 14:51:18 localhost.localdomain edgecore[24244]: I1018 14:51:18.373515   24244 edgedmetricsconnection.go:119] receive stop single, so stop metrics scan ...
+Oct 18 14:51:27 localhost.localdomain edgecore[24244]: I1018 14:51:27.296930   24244 edged_status.go:196] Sync VolumesInUse: []

@@ -2,4 +2,4 @@
 
 Deployment Infra | Deployments Counts | Success | Failures | Failures issue
 --- | --- | --- | --- | ---
-AWS | 1 | 1 | 1 | 0 | ---
+AWS | 1 | 1 | 0 | --- | ---

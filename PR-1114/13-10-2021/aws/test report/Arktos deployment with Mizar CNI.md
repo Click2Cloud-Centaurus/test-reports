@@ -51,7 +51,11 @@ CNIPLUGIN=mizar ./hack/arktos-up.sh
 
 ![](13-10images/img_8.png)
 
+<<<<<<< HEAD
 ### Pods were in running state from last 121 min.
+=======
+### Pods were in running state from last  121 min.
+>>>>>>> 2d60621d3975c9110f5604fa16862115868c4bc9
 ## No error occured.
 
 

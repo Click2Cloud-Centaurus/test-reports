@@ -1,0 +1,49 @@
+Name:           mysql-67ff5f6bf4-khsj4
+Namespace:      face
+Priority:       0
+Node:           <none>
+Labels:         app=mysql
+                pod-template-hash=67ff5f6bf4
+Annotations:    <none>
+Status:         Pending
+IP:             
+IPs:            <none>
+Controlled By:  ReplicaSet/mysql-67ff5f6bf4
+Containers:
+  mysql:
+    Image:       mysql:8.0
+    Ports:       3306/TCP, 33060/TCP
+    Host Ports:  3306/TCP, 33060/TCP
+    Environment:
+      MYSQL_ROOT_PASSWORD:  <set to the key 'mysql_password' in secret 'kube-face-secret'>  Optional: false
+      MYSQL_DATABASE:       kube
+    Mounts:
+      /docker-entrypoint-initdb.d/database_setup.sql from bootstrap-script (rw,path="database_setup.sql")
+      /var/lib/mysql from mysql-persistent-storage (rw)
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-cwtcf (ro)
+Conditions:
+  Type           Status
+  PodScheduled   False 
+Volumes:
+  mysql-persistent-storage:
+    Type:       PersistentVolumeClaim (a reference to a PersistentVolumeClaim in the same namespace)
+    ClaimName:  mysql-pv-claim
+    ReadOnly:   false
+  bootstrap-script:
+    Type:      ConfigMap (a volume populated by a ConfigMap)
+    Name:      db-bootstrap
+    Optional:  false
+  kube-api-access-cwtcf:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type     Reason            Age                 From               Message
+  ----     ------            ----                ----               -------
+  Warning  FailedScheduling  58s (x19 over 12m)  default-scheduler  0/1 nodes are available: 1 pod has unbound immediate PersistentVolumeClaims.

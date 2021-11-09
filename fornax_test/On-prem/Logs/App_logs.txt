@@ -1,0 +1,73 @@
+Name:         face-recog-698dc6b88f-b8str
+Namespace:    face
+Priority:     0
+Node:         node-b/192.168.1.102
+Start Time:   Tue, 09 Nov 2021 06:51:53 +0000
+Labels:       app=face-recog
+              pod-template-hash=698dc6b88f
+Annotations:  <none>
+Status:       Running
+IP:           10.244.0.134
+IPs:
+  IP:           10.244.0.134
+Controlled By:  ReplicaSet/face-recog-698dc6b88f
+Containers:
+  face-recog:
+    Container ID:   docker://52b3075a8cb5af337a7311bbfa2137542a14292dab7ea319f61500e16642bba2
+    Image:          skarlso/kube-face-recog:1.0.0
+    Image ID:       docker-pullable://skarlso/kube-face-recog@sha256:419888935c3a440f7c970aafa2a9865736b86914a8832651e142ea87d0f75837
+    Port:           50051/TCP
+    Host Port:      50051/TCP
+    State:          Waiting
+      Reason:       CrashLoopBackOff
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    132
+      Started:      Tue, 09 Nov 2021 06:57:36 +0000
+      Finished:     Tue, 09 Nov 2021 06:57:37 +0000
+    Ready:          False
+    Restart Count:  4
+    Environment:
+      KNOWN_PEOPLE:  /known_people
+    Mounts:
+      /known_people from known-people-storage (rw)
+      /unknown_people from unknown-people-storage (rw)
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-srdxr (ro)
+Conditions:
+  Type              Status
+  Initialized       True 
+  Ready             False 
+  ContainersReady   False 
+  PodScheduled      True 
+Volumes:
+  known-people-storage:
+    Type:       PersistentVolumeClaim (a reference to a PersistentVolumeClaim in the same namespace)
+    ClaimName:  face-recognition-pvc-known
+    ReadOnly:   false
+  unknown-people-storage:
+    Type:       PersistentVolumeClaim (a reference to a PersistentVolumeClaim in the same namespace)
+    ClaimName:  face-recognition-pvc-unknown
+    ReadOnly:   false
+  kube-api-access-srdxr:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type     Reason     Age                    From               Message
+  ----     ------     ----                   ----               -------
+  Normal   Scheduled  7m17s                  default-scheduler  Successfully assigned face/face-recog-698dc6b88f-b8str to node-b
+  Normal   Pulled     3m32s                  kubelet            Successfully pulled image "skarlso/kube-face-recog:1.0.0" in 3m40.93084815s
+  Normal   Pulled     3m15s                  kubelet            Successfully pulled image "skarlso/kube-face-recog:1.0.0" in 8.345520589s
+  Normal   Pulled     2m57s                  kubelet            Successfully pulled image "skarlso/kube-face-recog:1.0.0" in 2.901287141s
+  Normal   Pulled     2m22s                  kubelet            Successfully pulled image "skarlso/kube-face-recog:1.0.0" in 2.856045728s
+  Normal   Started    2m21s (x4 over 3m26s)  kubelet            Started container face-recog
+  Warning  BackOff    113s (x7 over 3m12s)   kubelet            Back-off restarting failed container
+  Normal   Pulling    98s (x5 over 7m13s)    kubelet            Pulling image "skarlso/kube-face-recog:1.0.0"
+  Normal   Created    95s (x5 over 3m27s)    kubelet            Created container face-recog
+  Normal   Pulled     95s                    kubelet            Successfully pulled image "skarlso/kube-face-recog:1.0.0" in 2.793845224s

@@ -34,8 +34,6 @@ git clone https://github.com/Click2Cloud-Centaurus/arktos.git ~/go/src/k8s.io/ar
 
 cd ~/go/src/k8s.io/arktos
 
-git checkout cni-mizar
-
 sudo bash ./hack/setup-dev-node.sh
 ```
 ### Output: 
